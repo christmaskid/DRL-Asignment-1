@@ -1,18 +1,18 @@
-# Remember to adjust your student ID in meta.xml
 import numpy as np
 import pickle
 import random
-import gym
+
+try:
+    with open("q_table_250310.pkl", "rb") as f:
+        q_table = pickle.load(f)
+except FileNotFoundError:
+    print("Fail to load q_table.pkl. Use empty q_table instead.")
+    q_table = {}
 
 def get_action(obs):
-    
-    # TODO: Train your own agent
-    # HINT: If you're using a Q-table, consider designing a custom key based on `obs` to store useful information.
-    # NOTE: Keep in mind that your Q-table may not cover all possible states in the testing environment.
-    #       To prevent crashes, implement a fallback strategy for missing keys. 
-    #       Otherwise, even if your agent performs well in training, it may fail during testing.
-
-
-    return random.choice([0, 1, 2, 3, 4, 5]) # Choose a random action
-    # You can submit this random agent to evaluate the performance of a purely random strategy.
-
+    if obs in q_table:
+        return np.argmax(q_table[obs])
+    else:
+        # 0: left, 1: right, 2: forward, 3: pickup, 4: dropoff, 5: toggle, 6: done (unused)
+        # print("Random")
+        return random.choice([0, 1, 2, 3, 4, 5])  # Fallback for unseen states
