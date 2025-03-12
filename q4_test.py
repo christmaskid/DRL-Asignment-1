@@ -41,7 +41,7 @@ def run_learned_value(env, max_steps=100, gif_path="taxiv3_q_learning.gif"):
     while not done:
         action = get_action(obs)
         obs, reward, done, _, _ = env.step(action)
-        # print('obs=',obs, "reward=", reward)
+        print('obs=',obs, "reward=", reward)
         total_reward += reward
         taxi_row, taxi_col, _,_,_,_,_,_,_,_,obstacle_north, obstacle_south, obstacle_east, obstacle_west, passenger_look,destination_look = obs
         env.render_env((taxi_row, taxi_col), action=action, step=step_count, fuel=env.current_fuel)
