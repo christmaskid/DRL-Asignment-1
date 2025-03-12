@@ -2,7 +2,6 @@ import gym
 import gym_minigrid
 import os
 import matplotlib.pyplot as plt
-import imageio
 import numpy as np
 from IPython.display import Image
 from complex_custom_taxi_env import ComplexTaxiEnv
