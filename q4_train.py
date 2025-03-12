@@ -14,51 +14,12 @@ from tqdm import tqdm
 """
 
 import math
-
-def get_state(obs):
-    taxi_pos = obs[:2]
-    stations = obs[2:10]
-    obstacles = obs[10:14]
-    passenger_look = obs[-2]
-    destination_look = obs[-1]
-
-    station_directions = []
-    idx_dist = []
-    for i in range(0, len(stations), 2):
-        station = stations[i:i+2]
-        rel_station = [station[0]-taxi_pos[0], station[1]-taxi_pos[1]]
-    #   if rel_station == [0, 0]:
-    #     station_direction = [0, 0]
-    #   elif rel_station[0] == 0:
-    #     station_direction = [0, 1] if rel_station[1] > 0 else [0, -1]
-    #   elif rel_station[1] == 0:
-    #     station_direction = [1, 0] if rel_station[0] > 0 else [-1, 0]
-    #   else:
-    #     gcd = math.gcd(rel_station[0], rel_station[1])
-    #     # dist = math.sqrt(rel_station[0]**2 + rel_station[1]**2)
-    #     # station_direction = [rel_station[0]*1/dist, rel_station[1]*1/dist]
-    #     station_direction = [rel_station[0]//gcd, rel_station[1]//gcd]
-        def get_dir(x):
-            if x == 0:
-                return 0
-            return x//abs(x)
-        station_direction = [get_dir(rel_station[0]), get_dir(rel_station[1])]
-        station_directions += station_direction
-
-    return (*obstacles, *station_directions, passenger_look, destination_look)
-
-"""#### Tabular Q-learning"""
+from student_agent import get_state
 
 
 def tabular_q_learning(env, episodes=5000, alpha=0.1, gamma=0.99,
-            epsilon_start=1.0, epsilon_end=0.1, decay_rate=0.999,
+            epsilon_start=1.0, epsilon_end=0.1, decay_rate=0.99,
             results_save_path="q_table.pkl"):
-    """
-    ✅ Implementing Tabular Q-Learning with Epsilon Decay
-    - Uses a **Q-table** to store action values for each state.
-    - Updates Q-values using the **Bellman equation**.
-    - Implements **ε-greedy exploration** for action selection.
-    """
     q_table = dict()
 
     rewards_per_episode = []

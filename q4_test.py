@@ -17,11 +17,9 @@ except FileNotFoundError:
     q_table = {}
 
 def get_action(obs):
-    state = list(get_state(obs))
-    state[-1] = 1 if state[-1] == True else 0
-    state = tuple(state)
-    print("State", state)
+    state = get_state(obs)
     if state in q_table:
+        print(state, q_table[state])
         return np.argmax(q_table[state])
     else:
         # 0: left, 1: right, 2: forward, 3: pickup, 4: dropoff, 5: toggle, 6: done (unused)
@@ -46,10 +44,10 @@ def run_learned_value(env, max_steps=100, gif_path="taxiv3_q_learning.gif"):
         taxi_row, taxi_col, _,_,_,_,_,_,_,_,obstacle_north, obstacle_south, obstacle_east, obstacle_west, passenger_look,destination_look = obs
         env.render_env((taxi_row, taxi_col), action=action, step=step_count, fuel=env.current_fuel)
 
-        # print()
+        print()
         step_count += 1
-        # if step_count == 10:
-        #   break
+        if step_count == 10:
+          break
 
     print(f"Agent Finished in {step_count} steps, Score: {total_reward}")
 
