@@ -40,13 +40,10 @@ def get_state(obs):
     return (*obstacles, *station_directions, passenger_look, destination_look)
 
 def get_action(obs):
-    state = list(get_state(obs))
-    state[-1] = 1 if state[-1] == True else 0
-    state = tuple(state)
-    print("State", state)
+    state = get_state(obs)
     if state in q_table:
         return np.argmax(q_table[state])
     else:
         # 0: left, 1: right, 2: forward, 3: pickup, 4: dropoff, 5: toggle, 6: done (unused)
-        print("Random")
+        # print("Random")
         return random.choice([0, 1, 2, 3, 4, 5])  # Fallback for unseen states
