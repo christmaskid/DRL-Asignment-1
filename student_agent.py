@@ -4,7 +4,6 @@
 import numpy as np
 import pickle
 import random
-from q4_train import get_state
 
 try:
     with open("q_table.pkl", "rb") as f:
