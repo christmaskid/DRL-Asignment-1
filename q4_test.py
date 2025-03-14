@@ -4,27 +4,7 @@
 import numpy as np
 import pickle
 import random
-from q4_train import get_state
-
-try:
-    with open("q_table.pkl", "rb") as f:
-        q_table = pickle.load(f)
-        print("Load.", len(q_table.keys()))
-        for key in list(q_table.keys())[:100]:
-          print(key)
-except FileNotFoundError:
-    print("Fail to load q_table.pkl. Use empty q_table instead.")
-    q_table = {}
-
-def get_action(obs):
-    state = get_state(obs)
-    if state in q_table:
-        print(state, q_table[state])
-        return np.argmax(q_table[state])
-    else:
-        # 0: left, 1: right, 2: forward, 3: pickup, 4: dropoff, 5: toggle, 6: done (unused)
-        print("Random")
-        return random.choice([0, 1, 2, 3, 4, 5])  # Fallback for unseen states
+from student_agent import my_get_state, get_action
 
 def run_learned_value(env, max_steps=100, gif_path="taxiv3_q_learning.gif"):
     total_reward = 0
@@ -38,16 +18,17 @@ def run_learned_value(env, max_steps=100, gif_path="taxiv3_q_learning.gif"):
     step_count = 0
     while not done:
         action = get_action(obs)
-        obs, reward, done, _, _ = env.step(action)
+        print("action=", action)
+        obs, reward, done, _ = env.step(action)
         print('obs=',obs, "reward=", reward)
         total_reward += reward
         taxi_row, taxi_col, _,_,_,_,_,_,_,_,obstacle_north, obstacle_south, obstacle_east, obstacle_west, passenger_look,destination_look = obs
         env.render_env((taxi_row, taxi_col), action=action, step=step_count, fuel=env.current_fuel)
 
-        print()
+        # print()
         step_count += 1
-        if step_count == 10:
-          break
+        # if step_count == 20:
+        #   break
 
     print(f"Agent Finished in {step_count} steps, Score: {total_reward}")
 
@@ -55,3 +36,6 @@ def run_learned_value(env, max_steps=100, gif_path="taxiv3_q_learning.gif"):
 if __name__ == "__main__":
     from complex_custom_taxi_env import ComplexTaxiEnv
     run_learned_value(ComplexTaxiEnv())
+    
+    # from simple_custom_taxi_env import SimpleTaxiEnv
+    # run_learned_value(SimpleTaxiEnv(fuel_limit=500))

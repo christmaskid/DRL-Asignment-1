@@ -97,8 +97,6 @@ class SimpleTaxiEnv():
         if self.current_fuel <= 0:
             return self.get_state(), reward -10, True, {}
 
-        
-
         return self.get_state(), reward, False, {}
 
     def get_state(self):
@@ -134,24 +132,21 @@ class SimpleTaxiEnv():
 
         grid = [['.'] * self.grid_size for _ in range(self.grid_size)]
         
-        '''
-        # Place passenger
-        py, px = passenger_pos
-        if 0 <= px < self.grid_size and 0 <= py < self.grid_size:
-            grid[py][px] = 'P'
-        '''
-        
-        
         grid[0][0]='R'
         grid[0][4]='G'
         grid[4][0]='Y'
         grid[4][4]='B'
-        '''
+        
+        # Place passenger
+        py, px = self.passenger_loc
+        if 0 <= px < self.grid_size and 0 <= py < self.grid_size:
+            grid[py][px] = 'P'
+        
         # Place destination
-        dy, dx = destination_pos
+        dy, dx = self.destination
         if 0 <= dx < self.grid_size and 0 <= dy < self.grid_size:
             grid[dy][dx] = 'D'
-        '''
+        
         # Place taxi
         ty, tx = taxi_pos
         if 0 <= tx < self.grid_size and 0 <= ty < self.grid_size:
@@ -160,8 +155,9 @@ class SimpleTaxiEnv():
         # Print step info
         print(f"\nStep: {step}")
         print(f"Taxi Position: ({tx}, {ty})")
-        #print(f"Passenger Position: ({px}, {py}) {'(In Taxi)' if (px, py) == (tx, ty) else ''}")
-        #print(f"Destination: ({dx}, {dy})")
+        print(f"Passenger Position: ({px}, {py}) {'(In Taxi)' \
+                if (px, py) == (tx, ty) and self.passenger_picked_up else ''}")
+        print(f"Destination: ({dx}, {dy})")
         print(f"Fuel Left: {fuel}")
         print(f"Last Action: {self.get_action_name(action)}\n")
 
