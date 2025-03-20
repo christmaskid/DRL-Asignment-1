@@ -155,8 +155,7 @@ class SimpleTaxiEnv():
         # Print step info
         print(f"\nStep: {step}")
         print(f"Taxi Position: ({tx}, {ty})")
-        print(f"Passenger Position: ({px}, {py}) {'(In Taxi)' \
-                if (px, py) == (tx, ty) and self.passenger_picked_up else ''}")
+        print(f"Passenger Position: ({px}, {py}) {'(In Taxi)' if (px, py) == (tx, ty) and self.passenger_picked_up else ''}")
         print(f"Destination: ({dx}, {dy})")
         print(f"Fuel Left: {fuel}")
         print(f"Last Action: {self.get_action_name(action)}\n")

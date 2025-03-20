@@ -42,6 +42,7 @@ class ComplexTaxiEnv():
                 y = random.randint(0, self.grid_size-1)
                 found = True
                 for j in range(i):
+                    # Stations are guaranteed to be not adjacent
                     if (x, y) == self.stations[j] \
                             or (x-1, y) == self.stations[j] or (x+1, y) == self.stations[j] \
                             or (x, y-1) == self.stations[j] or (x, y+1) == self.stations[j]:
@@ -69,14 +70,47 @@ class ComplexTaxiEnv():
         
         possible_destinations = [s for s in self.stations if s != self.passenger_loc]
         self.destination = random.choice(possible_destinations)
-
+        
         available_obstacles_pos = [
             (x, y) for x in range(self.grid_size) for y in range(self.grid_size)
             if (x, y) not in self.stations and (x, y) not in self.obstacles \
                 and (x, y) != self.taxi_pos and (x, y) != self.passenger_loc and (x, y) != self.destination
         ]
-        self.obstacles = set(random.sample(available_obstacles_pos, \
-                min(len(available_obstacles_pos), self.num_obstacles)))
+
+        def try_obstacles(max_tries=100):
+
+            def DFS(loc, gridMap, count):
+                gridMap[loc] = 1
+                for nxt_loc in [
+                    (loc[0]-1, loc[1]), (loc[0]+1, loc[1]),
+                    (loc[0], loc[1]-1), (loc[0], loc[1]+1)
+                ]:
+                    if nxt_loc[0]>=0 and nxt_loc[0]<=self.grid_size-1 \
+                        and nxt_loc[1]>=0 and nxt_loc[1]<=self.grid_size-1 \
+                        and gridMap[nxt_loc] == 0:
+                            gridMap[nxt_loc] = 1
+                            count = DFS(nxt_loc, gridMap, count+1)
+                return count
+            
+            def isLegalMapBFS(cand_obstacles):
+                gridMap = np.zeros((self.grid_size, self.grid_size))
+                for obstacle in cand_obstacles:
+                    gridMap[obstacle] = 1
+                empty_positions = np.where(gridMap==0)
+                emptySpaces = [(x,y) for x,y in zip(empty_positions[0], empty_positions[1])]
+                count = DFS(emptySpaces[0], gridMap, 1)
+                return (count == (self.grid_size)**2 - len(cand_obstacles))
+
+            for _ in range(max_tries):
+                cand_obstacles = set(random.sample(available_obstacles_pos, \
+                    min(len(available_obstacles_pos), self.num_obstacles)))
+                # print(cand_obstacles)
+                if isLegalMapBFS(cand_obstacles):
+                    return cand_obstacles
+                return set()
+
+        self.obstacles = try_obstacles()
+        # print("obstacles", self.obstacles)
         
         
         return self.get_state(), {}
@@ -178,6 +212,11 @@ class ComplexTaxiEnv():
         dy, dx = self.destination
         if 0 <= dx < self.grid_size and 0 <= dy < self.grid_size:
             grid[dy][dx] = 'D'
+
+        # Place obstacles
+        for obstacle in self.obstacles:
+            oy, ox = obstacle
+            grid[oy][ox] = 'X'
         
         # Place taxi
         ty, tx = taxi_pos
@@ -187,8 +226,7 @@ class ComplexTaxiEnv():
         # Print step info
         print(f"\nStep: {step}")
         print(f"Taxi Position: ({tx}, {ty})")
-        print(f"Passenger Position: ({px}, {py}) {'(In Taxi)' \
-                if (px, py) == (tx, ty) and self.passenger_picked_up else ''}")
+        print(f"Passenger Position: ({px}, {py}) {'(In Taxi)' if (px, py) == (tx, ty) and self.passenger_picked_up else ''}")
         print(f"Destination: ({dx}, {dy})")
         print(f"Fuel Left: {fuel}")
         print(f"Last Action: {self.get_action_name(action)}\n")

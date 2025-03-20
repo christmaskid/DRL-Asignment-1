@@ -4,7 +4,8 @@
 import numpy as np
 import pickle
 import random
-from student_agent import my_get_state, get_action
+from student_agent_tabular_new2 import my_get_state, get_action
+# from student_agent_dqn_new2 import my_get_state, get_action
 
 def run_learned_value(env, max_steps=100, gif_path="taxiv3_q_learning.gif"):
     total_reward = 0
@@ -35,7 +36,7 @@ def run_learned_value(env, max_steps=100, gif_path="taxiv3_q_learning.gif"):
 
 if __name__ == "__main__":
     from complex_custom_taxi_env import ComplexTaxiEnv
-    run_learned_value(ComplexTaxiEnv())
+    run_learned_value(ComplexTaxiEnv(grid_size=10, fuel_limit=5000))
     
     # from simple_custom_taxi_env import SimpleTaxiEnv
     # run_learned_value(SimpleTaxiEnv(fuel_limit=500))

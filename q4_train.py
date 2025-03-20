@@ -61,9 +61,9 @@ def tabular_q_learning(env, episodes=5000, alpha=0.1, gamma=0.99,
 
                 if next_dist == 0:
                     if action == 4: # pickup
-                        shaped_reward += 100
-                else:
-                    shaped_reward += (dist - next_dist)*10
+                        shaped_reward += 10
+                # else:
+                #     shaped_reward += (dist - next_dist)*10
                 
             elif not done: # secondary goal: find the destination and drop off
                 dist = get_dist(old_env_info[0], old_env_info[2])
@@ -72,10 +72,10 @@ def tabular_q_learning(env, episodes=5000, alpha=0.1, gamma=0.99,
                 if next_dist == 0:
                     if action == 5: # drop off
                         shaped_reward += 100
-                else:
-                    shaped_reward += (dist - next_dist)*10
+                # else:
+                #     shaped_reward += (dist - next_dist)*10
             
-            # reward += shaped_reward
+            reward += shaped_reward
             total_reward += reward
             
             # Bellman equation
@@ -108,7 +108,7 @@ if __name__ == "__main__":
     from complex_custom_taxi_env import ComplexTaxiEnv
 
     q_table, rewards = tabular_q_learning(
-        ComplexTaxiEnv(grid_size=5, max_num_obstacles=5, fuel_limit=5000),
+        ComplexTaxiEnv(grid_size=10, max_num_obstacles=10, fuel_limit=5000),
         # SimpleTaxiEnv(fuel_limit=500), 
         episodes=50000, decay_rate=0.9999, #alpha=0.2
     )
