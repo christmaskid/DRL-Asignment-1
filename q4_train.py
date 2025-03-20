@@ -13,7 +13,7 @@ from tqdm import tqdm
 """
 
 import math
-from student_agent import my_get_state
+from student_agent_dqn import my_get_state
 
 
 def tabular_q_learning(env, episodes=5000, alpha=0.1, gamma=0.99,
