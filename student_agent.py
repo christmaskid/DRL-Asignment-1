@@ -4,7 +4,7 @@ import random
 import math
 
 try:
-    with open("q_table_new4.pkl", "rb") as f:
+    with open("q_table_new2.pkl", "rb") as f:
         q_table = pickle.load(f)
         print("Load.", len(q_table.keys()))
         # for key in list(q_table.keys())[:100]:
