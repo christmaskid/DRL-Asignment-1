@@ -115,7 +115,6 @@ def get_action(obs):
     if state in q_table:
         # print(q_table[state])
         action = np.argmax(q_table[state])
-        # print(f"{action}({state[4:6]},{state_memory.target_station_idx})", end=" ")
     else:
         # 0: left, 1: right, 2: forward, 3: pickup, 4: dropoff, 5: toggle, 6: done (unused)
         # print("Random")
@@ -128,7 +127,5 @@ def get_action(obs):
                 action = 4
             elif state[-2] and state[-1]:
                 action = 5
-        # print(f"{action}(r)", end=" ")
-    print(action, end=" ")
     
     return action
