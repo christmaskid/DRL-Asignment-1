@@ -1,304 +1,1004 @@
 /root/.pyenv/versions/3.8.0/lib/python3.8/site-packages/gym/envs/registration.py:307: DeprecationWarning: The package name gym_minigrid has been deprecated in favor of minigrid. Please uninstall gym_minigrid and install minigrid with `pip install minigrid`. Future releases will be maintained under the new package name minigrid.
   fn()
-Load. 4293
-  0%|          | 0/30000 [00:00<?, ?it/s]Episode 100/30000, Avg Reward: -1655.6150, Epsilon: 0.606
-  0%|          | 100/30000 [00:00<00:32, 916.18it/s]Episode 200/30000, Avg Reward: -1179.6030, Epsilon: 0.367
-  1%|          | 200/30000 [00:00<00:32, 910.88it/s]Episode 300/30000, Avg Reward: -878.0150, Epsilon: 0.222
-  1%|          | 300/30000 [00:00<00:33, 891.86it/s]Episode 400/30000, Avg Reward: -753.7120, Epsilon: 0.135
-  1%|▏         | 400/30000 [00:00<00:32, 906.16it/s]Episode 500/30000, Avg Reward: -546.4170, Epsilon: 0.100
-  2%|▏         | 500/30000 [00:00<00:31, 935.46it/s]Episode 600/30000, Avg Reward: -506.3320, Epsilon: 0.100
-  2%|▏         | 600/30000 [00:00<00:31, 943.59it/s]Episode 700/30000, Avg Reward: -326.0730, Epsilon: 0.100
-  2%|▏         | 708/30000 [00:00<00:29, 985.68it/s]Episode 800/30000, Avg Reward: -297.6490, Epsilon: 0.100
-  3%|▎         | 821/30000 [00:00<00:28, 1029.86it/s]Episode 900/30000, Avg Reward: -238.5680, Epsilon: 0.100
-  3%|▎         | 939/30000 [00:00<00:27, 1075.50it/s]Episode 1000/30000, Avg Reward: -261.5660, Epsilon: 0.100
-  4%|▎         | 1065/30000 [00:01<00:25, 1130.75it/s]Episode 1100/30000, Avg Reward: -207.2820, Epsilon: 0.100
-  4%|▍         | 1189/30000 [00:01<00:24, 1161.50it/s]Episode 1200/30000, Avg Reward: -177.0490, Epsilon: 0.100
-Episode 1300/30000, Avg Reward: -153.1180, Epsilon: 0.100
-  4%|▍         | 1306/30000 [00:01<00:25, 1128.28it/s]Episode 1400/30000, Avg Reward: -159.8830, Epsilon: 0.100
-  5%|▍         | 1420/30000 [00:01<00:25, 1105.91it/s]Episode 1500/30000, Avg Reward: -107.6870, Epsilon: 0.100
-  5%|▌         | 1534/30000 [00:01<00:25, 1115.04it/s]Episode 1600/30000, Avg Reward: -74.6250, Epsilon: 0.100
-  5%|▌         | 1646/30000 [00:01<00:25, 1102.83it/s]Episode 1700/30000, Avg Reward: -128.9970, Epsilon: 0.100
-  6%|▌         | 1786/30000 [00:01<00:23, 1189.18it/s]Episode 1800/30000, Avg Reward: -67.3410, Epsilon: 0.100
-Episode 1900/30000, Avg Reward: -20.1630, Epsilon: 0.100
-  6%|▋         | 1906/30000 [00:01<00:24, 1165.28it/s]Episode 2000/30000, Avg Reward: -83.9050, Epsilon: 0.100
-  7%|▋         | 2028/30000 [00:01<00:23, 1177.47it/s]Episode 2100/30000, Avg Reward: -66.8770, Epsilon: 0.100
-  7%|▋         | 2162/30000 [00:01<00:22, 1225.09it/s]Episode 2200/30000, Avg Reward: -23.3740, Epsilon: 0.100
-  8%|▊         | 2292/30000 [00:02<00:22, 1245.12it/s]Episode 2300/30000, Avg Reward: -106.7090, Epsilon: 0.100
-Episode 2400/30000, Avg Reward: -129.9160, Epsilon: 0.100
-  8%|▊         | 2417/30000 [00:02<00:24, 1128.84it/s]Episode 2500/30000, Avg Reward: -95.7890, Epsilon: 0.100
-  8%|▊         | 2533/30000 [00:02<00:24, 1126.38it/s]Episode 2600/30000, Avg Reward: -60.5840, Epsilon: 0.100
-  9%|▉         | 2663/30000 [00:02<00:23, 1173.57it/s]Episode 2700/30000, Avg Reward: -44.3920, Epsilon: 0.100
-  9%|▉         | 2791/30000 [00:02<00:22, 1203.86it/s]Episode 2800/30000, Avg Reward: -47.8820, Epsilon: 0.100
-Episode 2900/30000, Avg Reward: -18.9380, Epsilon: 0.100
- 10%|▉         | 2913/30000 [00:02<00:23, 1156.99it/s]Episode 3000/30000, Avg Reward: -10.5210, Epsilon: 0.100
- 10%|█         | 3050/30000 [00:02<00:22, 1217.14it/s]Episode 3100/30000, Avg Reward: -45.8710, Epsilon: 0.100
- 11%|█         | 3178/30000 [00:02<00:21, 1233.42it/s]Episode 3200/30000, Avg Reward: -52.2570, Epsilon: 0.100
-Episode 3300/30000, Avg Reward: -23.6810, Epsilon: 0.100
- 11%|█         | 3303/30000 [00:02<00:22, 1180.27it/s]Episode 3400/30000, Avg Reward: -15.6220, Epsilon: 0.100
- 11%|█▏        | 3440/30000 [00:03<00:21, 1234.10it/s]Episode 3500/30000, Avg Reward: -8.0680, Epsilon: 0.100
- 12%|█▏        | 3584/30000 [00:03<00:20, 1290.64it/s]Episode 3600/30000, Avg Reward: -31.5050, Epsilon: 0.100
-Episode 3700/30000, Avg Reward: -49.2550, Epsilon: 0.100
- 12%|█▏        | 3714/30000 [00:03<00:21, 1197.05it/s]Episode 3800/30000, Avg Reward: -58.2830, Epsilon: 0.100
- 13%|█▎        | 3836/30000 [00:03<00:21, 1202.16it/s]Episode 3900/30000, Avg Reward: -8.8070, Epsilon: 0.100
- 13%|█▎        | 3965/30000 [00:03<00:21, 1226.06it/s]Episode 4000/30000, Avg Reward: -17.3500, Epsilon: 0.100
- 14%|█▎        | 4093/30000 [00:03<00:20, 1239.83it/s]Episode 4100/30000, Avg Reward: -29.4790, Epsilon: 0.100
-Episode 4200/30000, Avg Reward: 19.2740, Epsilon: 0.100
- 14%|█▍        | 4218/30000 [00:03<00:21, 1191.96it/s]Episode 4300/30000, Avg Reward: 19.7880, Epsilon: 0.100
- 15%|█▍        | 4361/30000 [00:03<00:20, 1258.84it/s]Episode 4400/30000, Avg Reward: -41.2040, Epsilon: 0.100
- 15%|█▍        | 4494/30000 [00:03<00:19, 1279.14it/s]Episode 4500/30000, Avg Reward: -8.6290, Epsilon: 0.100
-Episode 4600/30000, Avg Reward: -7.4110, Epsilon: 0.100
- 15%|█▌        | 4623/30000 [00:04<00:20, 1230.43it/s]Episode 4700/30000, Avg Reward: -13.7490, Epsilon: 0.100
- 16%|█▌        | 4763/30000 [00:04<00:19, 1278.35it/s]Episode 4800/30000, Avg Reward: 13.6160, Epsilon: 0.100
- 16%|█▋        | 4894/30000 [00:04<00:19, 1286.91it/s]Episode 4900/30000, Avg Reward: 7.6080, Epsilon: 0.100
-Episode 5000/30000, Avg Reward: 7.2700, Epsilon: 0.100
- 17%|█▋        | 5024/30000 [00:04<00:20, 1235.45it/s]Episode 5100/30000, Avg Reward: -41.5720, Epsilon: 0.100
- 17%|█▋        | 5166/30000 [00:04<00:19, 1286.56it/s]Episode 5200/30000, Avg Reward: -4.7100, Epsilon: 0.100
- 18%|█▊        | 5298/30000 [00:04<00:19, 1295.87it/s]Episode 5300/30000, Avg Reward: 15.7660, Epsilon: 0.100
-Episode 5400/30000, Avg Reward: -37.3750, Epsilon: 0.100
- 18%|█▊        | 5429/30000 [00:04<00:21, 1133.34it/s]Episode 5500/30000, Avg Reward: 16.4820, Epsilon: 0.100
- 19%|█▊        | 5560/30000 [00:04<00:20, 1179.53it/s]Episode 5600/30000, Avg Reward: -16.6230, Epsilon: 0.100
-Episode 5700/30000, Avg Reward: 16.6440, Epsilon: 0.100
- 19%|█▉        | 5700/30000 [00:04<00:20, 1162.54it/s]Episode 5800/30000, Avg Reward: 28.2920, Epsilon: 0.100
- 19%|█▉        | 5846/30000 [00:05<00:19, 1241.06it/s]Episode 5900/30000, Avg Reward: 20.9850, Epsilon: 0.100
- 20%|█▉        | 5987/30000 [00:05<00:18, 1287.66it/s]Episode 6000/30000, Avg Reward: 11.4960, Epsilon: 0.100
-Episode 6100/30000, Avg Reward: -8.5910, Epsilon: 0.100
- 20%|██        | 6118/30000 [00:05<00:20, 1172.47it/s]Episode 6200/30000, Avg Reward: -4.1560, Epsilon: 0.100
- 21%|██        | 6250/30000 [00:05<00:19, 1210.08it/s]Episode 6300/30000, Avg Reward: 6.9440, Epsilon: 0.100
- 21%|██▏       | 6386/30000 [00:05<00:18, 1251.17it/s]Episode 6400/30000, Avg Reward: -35.2290, Epsilon: 0.100
-Episode 6500/30000, Avg Reward: -12.1140, Epsilon: 0.100
- 22%|██▏       | 6514/30000 [00:05<00:20, 1167.40it/s]Episode 6600/30000, Avg Reward: 5.9610, Epsilon: 0.100
- 22%|██▏       | 6638/30000 [00:05<00:19, 1186.92it/s]Episode 6700/30000, Avg Reward: -33.8160, Epsilon: 0.100
- 23%|██▎       | 6759/30000 [00:05<00:19, 1191.29it/s]Episode 6800/30000, Avg Reward: -15.0890, Epsilon: 0.100
- 23%|██▎       | 6884/30000 [00:05<00:19, 1207.96it/s]Episode 6900/30000, Avg Reward: 14.4090, Epsilon: 0.100
-Episode 7000/30000, Avg Reward: -14.9430, Epsilon: 0.100
- 23%|██▎       | 7006/30000 [00:05<00:20, 1125.69it/s]Episode 7100/30000, Avg Reward: -14.0260, Epsilon: 0.100
- 24%|██▍       | 7135/30000 [00:06<00:19, 1168.72it/s]Episode 7200/30000, Avg Reward: 15.9540, Epsilon: 0.100
- 24%|██▍       | 7264/30000 [00:06<00:18, 1201.43it/s]Episode 7300/30000, Avg Reward: -30.6130, Epsilon: 0.100
- 25%|██▍       | 7393/30000 [00:06<00:18, 1226.10it/s]Episode 7400/30000, Avg Reward: 44.2830, Epsilon: 0.100
-Episode 7500/30000, Avg Reward: 8.5440, Epsilon: 0.100
- 25%|██▌       | 7517/30000 [00:06<00:19, 1159.94it/s]Episode 7600/30000, Avg Reward: 14.5500, Epsilon: 0.100
- 25%|██▌       | 7645/30000 [00:06<00:18, 1191.73it/s]Episode 7700/30000, Avg Reward: -46.5320, Epsilon: 0.100
- 26%|██▌       | 7781/30000 [00:06<00:17, 1237.76it/s]Episode 7800/30000, Avg Reward: 5.3450, Epsilon: 0.100
-Episode 7900/30000, Avg Reward: -2.2440, Epsilon: 0.100
- 26%|██▋       | 7906/30000 [00:06<00:18, 1166.30it/s]Episode 8000/30000, Avg Reward: -2.1730, Epsilon: 0.100
- 27%|██▋       | 8039/30000 [00:06<00:18, 1210.68it/s]Episode 8100/30000, Avg Reward: -41.4330, Epsilon: 0.100
- 27%|██▋       | 8167/30000 [00:06<00:17, 1230.23it/s]Episode 8200/30000, Avg Reward: -7.8960, Epsilon: 0.100
-Episode 8300/30000, Avg Reward: 3.2320, Epsilon: 0.100
- 28%|██▊       | 8300/30000 [00:07<00:18, 1184.22it/s]Episode 8400/30000, Avg Reward: 2.4500, Epsilon: 0.100
- 28%|██▊       | 8429/30000 [00:07<00:17, 1213.71it/s]Episode 8500/30000, Avg Reward: -6.1540, Epsilon: 0.100
- 29%|██▊       | 8552/30000 [00:07<00:17, 1217.83it/s]Episode 8600/30000, Avg Reward: -26.8570, Epsilon: 0.100
- 29%|██▉       | 8675/30000 [00:07<00:17, 1196.53it/s]Episode 8700/30000, Avg Reward: 2.4480, Epsilon: 0.100
-Episode 8800/30000, Avg Reward: -1.0200, Epsilon: 0.100
- 29%|██▉       | 8800/30000 [00:07<00:18, 1142.67it/s]Episode 8900/30000, Avg Reward: 34.6240, Epsilon: 0.100
- 30%|██▉       | 8938/30000 [00:07<00:17, 1208.39it/s]Episode 9000/30000, Avg Reward: 4.3550, Epsilon: 0.100
- 30%|███       | 9070/30000 [00:07<00:16, 1239.64it/s]Episode 9100/30000, Avg Reward: 15.7430, Epsilon: 0.100
-Episode 9200/30000, Avg Reward: -11.5820, Epsilon: 0.100
- 31%|███       | 9200/30000 [00:07<00:17, 1177.56it/s]Episode 9300/30000, Avg Reward: -29.2130, Epsilon: 0.100
- 31%|███       | 9326/30000 [00:07<00:17, 1199.48it/s]Episode 9400/30000, Avg Reward: -36.2470, Epsilon: 0.100
- 32%|███▏      | 9454/30000 [00:08<00:16, 1217.27it/s]Episode 9500/30000, Avg Reward: 25.9150, Epsilon: 0.100
- 32%|███▏      | 9585/30000 [00:08<00:16, 1242.26it/s]Episode 9600/30000, Avg Reward: 10.3940, Epsilon: 0.100
-Episode 9700/30000, Avg Reward: -1.9310, Epsilon: 0.100
- 32%|███▏      | 9710/30000 [00:08<00:17, 1175.44it/s]Episode 9800/30000, Avg Reward: -31.2510, Epsilon: 0.100
- 33%|███▎      | 9829/30000 [00:08<00:17, 1158.96it/s]Episode 9900/30000, Avg Reward: -2.1760, Epsilon: 0.100
- 33%|███▎      | 9966/30000 [00:08<00:16, 1218.37it/s]Episode 10000/30000, Avg Reward: -32.8720, Epsilon: 0.100
-Episode 10100/30000, Avg Reward: -0.1590, Epsilon: 0.100
- 34%|███▎      | 10100/30000 [00:08<00:16, 1179.43it/s]Episode 10200/30000, Avg Reward: 39.1270, Epsilon: 0.100
- 34%|███▍      | 10233/30000 [00:08<00:16, 1219.94it/s]Episode 10300/30000, Avg Reward: -16.0280, Epsilon: 0.100
- 35%|███▍      | 10374/30000 [00:08<00:15, 1273.71it/s]Episode 10400/30000, Avg Reward: 20.5780, Epsilon: 0.100
-Episode 10500/30000, Avg Reward: 21.5270, Epsilon: 0.100
- 35%|███▌      | 10503/30000 [00:08<00:16, 1182.31it/s]Episode 10600/30000, Avg Reward: 13.6660, Epsilon: 0.100
- 35%|███▌      | 10634/30000 [00:08<00:15, 1216.64it/s]Episode 10700/30000, Avg Reward: 11.5550, Epsilon: 0.100
- 36%|███▌      | 10766/30000 [00:09<00:15, 1244.11it/s]Episode 10800/30000, Avg Reward: 22.4350, Epsilon: 0.100
-Episode 10900/30000, Avg Reward: 17.7930, Epsilon: 0.100
- 36%|███▋      | 10900/30000 [00:09<00:16, 1181.34it/s]Episode 11000/30000, Avg Reward: 22.3170, Epsilon: 0.100
- 37%|███▋      | 11039/30000 [00:09<00:15, 1236.71it/s]Episode 11100/30000, Avg Reward: 17.0320, Epsilon: 0.100
- 37%|███▋      | 11175/30000 [00:09<00:14, 1271.22it/s]Episode 11200/30000, Avg Reward: -47.1940, Epsilon: 0.100
-Episode 11300/30000, Avg Reward: -2.6200, Epsilon: 0.100
- 38%|███▊      | 11304/30000 [00:09<00:15, 1185.42it/s]Episode 11400/30000, Avg Reward: 0.6610, Epsilon: 0.100
- 38%|███▊      | 11443/30000 [00:09<00:14, 1240.67it/s]Episode 11500/30000, Avg Reward: 16.1540, Epsilon: 0.100
- 39%|███▊      | 11577/30000 [00:09<00:14, 1267.26it/s]Episode 11600/30000, Avg Reward: -27.8750, Epsilon: 0.100
-Episode 11700/30000, Avg Reward: 24.3360, Epsilon: 0.100
- 39%|███▉      | 11706/30000 [00:09<00:15, 1208.72it/s]Episode 11800/30000, Avg Reward: 27.0740, Epsilon: 0.100
- 39%|███▉      | 11829/30000 [00:09<00:14, 1214.28it/s]Episode 11900/30000, Avg Reward: 14.8720, Epsilon: 0.100
- 40%|███▉      | 11954/30000 [00:10<00:14, 1224.43it/s]Episode 12000/30000, Avg Reward: -31.3460, Epsilon: 0.100
- 40%|████      | 12090/30000 [00:10<00:14, 1263.07it/s]Episode 12100/30000, Avg Reward: 2.4600, Epsilon: 0.100
-Episode 12200/30000, Avg Reward: -18.0160, Epsilon: 0.100
- 41%|████      | 12217/30000 [00:10<00:15, 1144.78it/s]Episode 12300/30000, Avg Reward: 19.7820, Epsilon: 0.100
- 41%|████      | 12363/30000 [00:10<00:14, 1230.03it/s]Episode 12400/30000, Avg Reward: 20.4180, Epsilon: 0.100
- 42%|████▏     | 12498/30000 [00:10<00:13, 1262.06it/s]Episode 12500/30000, Avg Reward: -34.1730, Epsilon: 0.100
-Episode 12600/30000, Avg Reward: -5.9410, Epsilon: 0.100
- 42%|████▏     | 12627/30000 [00:10<00:15, 1116.63it/s]Episode 12700/30000, Avg Reward: -25.3570, Epsilon: 0.100
- 43%|████▎     | 12757/30000 [00:10<00:14, 1164.49it/s]Episode 12800/30000, Avg Reward: 17.9690, Epsilon: 0.100
- 43%|████▎     | 12893/30000 [00:10<00:14, 1216.59it/s]Episode 12900/30000, Avg Reward: 6.7040, Epsilon: 0.100
-Episode 13000/30000, Avg Reward: 20.7830, Epsilon: 0.100
- 43%|████▎     | 13018/30000 [00:10<00:14, 1137.92it/s]Episode 13100/30000, Avg Reward: -1.8560, Epsilon: 0.100
- 44%|████▍     | 13160/30000 [00:11<00:13, 1212.15it/s]Episode 13200/30000, Avg Reward: 20.2820, Epsilon: 0.100
- 44%|████▍     | 13297/30000 [00:11<00:13, 1256.06it/s]Episode 13300/30000, Avg Reward: -4.7620, Epsilon: 0.100
-Episode 13400/30000, Avg Reward: -9.0170, Epsilon: 0.100
- 45%|████▍     | 13425/30000 [00:11<00:13, 1196.54it/s]Episode 13500/30000, Avg Reward: 4.8920, Epsilon: 0.100
- 45%|████▌     | 13579/30000 [00:11<00:12, 1290.70it/s]Episode 13600/30000, Avg Reward: 26.3920, Epsilon: 0.100
-Episode 13700/30000, Avg Reward: 11.7280, Epsilon: 0.100
- 46%|████▌     | 13711/30000 [00:11<00:13, 1231.01it/s]Episode 13800/30000, Avg Reward: -15.7060, Epsilon: 0.100
- 46%|████▌     | 13843/30000 [00:11<00:12, 1255.40it/s]Episode 13900/30000, Avg Reward: -15.7190, Epsilon: 0.100
- 47%|████▋     | 13976/30000 [00:11<00:12, 1275.13it/s]Episode 14000/30000, Avg Reward: -22.6400, Epsilon: 0.100
-Episode 14100/30000, Avg Reward: 19.6480, Epsilon: 0.100
- 47%|████▋     | 14105/30000 [00:11<00:13, 1178.20it/s]Episode 14200/30000, Avg Reward: 31.2690, Epsilon: 0.100
- 47%|████▋     | 14242/30000 [00:11<00:12, 1228.45it/s]Episode 14300/30000, Avg Reward: 33.5220, Epsilon: 0.100
- 48%|████▊     | 14388/30000 [00:12<00:12, 1293.56it/s]Episode 14400/30000, Avg Reward: 2.3050, Epsilon: 0.100
-Episode 14500/30000, Avg Reward: 41.6130, Epsilon: 0.100
- 48%|████▊     | 14520/30000 [00:12<00:12, 1225.31it/s]Episode 14600/30000, Avg Reward: 22.0570, Epsilon: 0.100
- 49%|████▉     | 14655/30000 [00:12<00:12, 1258.76it/s]Episode 14700/30000, Avg Reward: -6.8110, Epsilon: 0.100
- 49%|████▉     | 14791/30000 [00:12<00:11, 1286.45it/s]Episode 14800/30000, Avg Reward: 36.4070, Epsilon: 0.100
-Episode 14900/30000, Avg Reward: -8.0220, Epsilon: 0.100
- 50%|████▉     | 14921/30000 [00:12<00:13, 1134.48it/s]Episode 15000/30000, Avg Reward: -24.0510, Epsilon: 0.100
- 50%|█████     | 15057/30000 [00:12<00:12, 1194.40it/s]Episode 15100/30000, Avg Reward: 31.4350, Epsilon: 0.100
- 51%|█████     | 15189/30000 [00:12<00:12, 1228.90it/s]Episode 15200/30000, Avg Reward: -19.2590, Epsilon: 0.100
-Episode 15300/30000, Avg Reward: 25.6120, Epsilon: 0.100
- 51%|█████     | 15315/30000 [00:12<00:12, 1151.76it/s]Episode 15400/30000, Avg Reward: 4.7620, Epsilon: 0.100
- 51%|█████▏    | 15446/30000 [00:12<00:12, 1193.33it/s]Episode 15500/30000, Avg Reward: 18.2960, Epsilon: 0.100
- 52%|█████▏    | 15590/30000 [00:13<00:11, 1258.48it/s]Episode 15600/30000, Avg Reward: -7.9930, Epsilon: 0.100
-Episode 15700/30000, Avg Reward: -26.0030, Epsilon: 0.100
- 52%|█████▏    | 15718/30000 [00:13<00:11, 1195.02it/s]Episode 15800/30000, Avg Reward: 4.3440, Epsilon: 0.100
- 53%|█████▎    | 15855/30000 [00:13<00:11, 1243.39it/s]Episode 15900/30000, Avg Reward: 28.6820, Epsilon: 0.100
- 53%|█████▎    | 15997/30000 [00:13<00:10, 1291.89it/s]Episode 16000/30000, Avg Reward: 26.4520, Epsilon: 0.100
-Episode 16100/30000, Avg Reward: -41.6020, Epsilon: 0.100
- 54%|█████▍    | 16128/30000 [00:13<00:11, 1194.77it/s]Episode 16200/30000, Avg Reward: -3.7160, Epsilon: 0.100
- 54%|█████▍    | 16257/30000 [00:13<00:11, 1220.61it/s]Episode 16300/30000, Avg Reward: -45.3800, Epsilon: 0.100
- 55%|█████▍    | 16392/30000 [00:13<00:10, 1256.37it/s]Episode 16400/30000, Avg Reward: 17.9210, Epsilon: 0.100
-Episode 16500/30000, Avg Reward: 2.5900, Epsilon: 0.100
- 55%|█████▌    | 16520/30000 [00:13<00:11, 1189.01it/s]Episode 16600/30000, Avg Reward: 30.1590, Epsilon: 0.100
- 56%|█████▌    | 16658/30000 [00:13<00:10, 1240.66it/s]Episode 16700/30000, Avg Reward: 0.4680, Epsilon: 0.100
- 56%|█████▌    | 16784/30000 [00:14<00:10, 1204.13it/s]Episode 16800/30000, Avg Reward: -9.6320, Epsilon: 0.100
-Episode 16900/30000, Avg Reward: -26.9550, Epsilon: 0.100
- 56%|█████▋    | 16906/30000 [00:14<00:11, 1122.82it/s]Episode 17000/30000, Avg Reward: 42.0670, Epsilon: 0.100
- 57%|█████▋    | 17041/30000 [00:14<00:10, 1184.65it/s]Episode 17100/30000, Avg Reward: -40.7350, Epsilon: 0.100
- 57%|█████▋    | 17174/30000 [00:14<00:10, 1225.14it/s]Episode 17200/30000, Avg Reward: -16.8650, Epsilon: 0.100
- 58%|█████▊    | 17299/30000 [00:14<00:10, 1227.17it/s]Episode 17300/30000, Avg Reward: -18.8310, Epsilon: 0.100
-Episode 17400/30000, Avg Reward: 19.5980, Epsilon: 0.100
- 58%|█████▊    | 17423/30000 [00:14<00:10, 1165.72it/s]Episode 17500/30000, Avg Reward: -0.0540, Epsilon: 0.100
- 58%|█████▊    | 17547/30000 [00:14<00:10, 1186.24it/s]Episode 17600/30000, Avg Reward: 15.0270, Epsilon: 0.100
- 59%|█████▉    | 17674/30000 [00:14<00:10, 1209.44it/s]Episode 17700/30000, Avg Reward: 13.5840, Epsilon: 0.100
-Episode 17800/30000, Avg Reward: 30.7090, Epsilon: 0.100
- 59%|█████▉    | 17800/30000 [00:14<00:10, 1132.06it/s]Episode 17900/30000, Avg Reward: 43.2970, Epsilon: 0.100
- 60%|█████▉    | 17942/30000 [00:15<00:09, 1210.11it/s]Episode 18000/30000, Avg Reward: 5.6840, Epsilon: 0.100
- 60%|██████    | 18080/30000 [00:15<00:09, 1258.12it/s]Episode 18100/30000, Avg Reward: 15.1170, Epsilon: 0.100
-Episode 18200/30000, Avg Reward: 26.4270, Epsilon: 0.100
- 61%|██████    | 18208/30000 [00:15<00:09, 1202.30it/s]Episode 18300/30000, Avg Reward: 17.7990, Epsilon: 0.100
- 61%|██████    | 18345/30000 [00:15<00:09, 1247.98it/s]Episode 18400/30000, Avg Reward: -6.3240, Epsilon: 0.100
- 62%|██████▏   | 18479/30000 [00:15<00:09, 1273.93it/s]Episode 18500/30000, Avg Reward: 26.6110, Epsilon: 0.100
-Episode 18600/30000, Avg Reward: 24.7370, Epsilon: 0.100
- 62%|██████▏   | 18608/30000 [00:15<00:09, 1198.63it/s]Episode 18700/30000, Avg Reward: 31.5640, Epsilon: 0.100
- 62%|██████▏   | 18737/30000 [00:15<00:09, 1224.07it/s]Episode 18800/30000, Avg Reward: -23.9370, Epsilon: 0.100
- 63%|██████▎   | 18861/30000 [00:15<00:09, 1220.61it/s]Episode 18900/30000, Avg Reward: 34.6150, Epsilon: 0.100
- 63%|██████▎   | 18995/30000 [00:15<00:08, 1252.88it/s]Episode 19000/30000, Avg Reward: 0.0320, Epsilon: 0.100
-Episode 19100/30000, Avg Reward: -10.5460, Epsilon: 0.100
- 64%|██████▎   | 19121/30000 [00:15<00:09, 1169.86it/s]Episode 19200/30000, Avg Reward: -27.9280, Epsilon: 0.100
- 64%|██████▍   | 19247/30000 [00:16<00:09, 1193.39it/s]Episode 19300/30000, Avg Reward: 8.0710, Epsilon: 0.100
- 65%|██████▍   | 19381/30000 [00:16<00:08, 1233.80it/s]Episode 19400/30000, Avg Reward: 41.4100, Epsilon: 0.100
-Episode 19500/30000, Avg Reward: 0.7710, Epsilon: 0.100
- 65%|██████▌   | 19506/30000 [00:16<00:09, 1159.22it/s]Episode 19600/30000, Avg Reward: -24.5000, Epsilon: 0.100
- 65%|██████▌   | 19643/30000 [00:16<00:08, 1217.81it/s]Episode 19700/30000, Avg Reward: 35.7270, Epsilon: 0.100
- 66%|██████▌   | 19769/30000 [00:16<00:08, 1229.08it/s]Episode 19800/30000, Avg Reward: -11.8270, Epsilon: 0.100
- 66%|██████▋   | 19897/30000 [00:16<00:08, 1243.20it/s]Episode 19900/30000, Avg Reward: 26.2440, Epsilon: 0.100
-Episode 20000/30000, Avg Reward: -7.9830, Epsilon: 0.100
- 67%|██████▋   | 20023/30000 [00:16<00:08, 1139.04it/s]Episode 20100/30000, Avg Reward: 23.1990, Epsilon: 0.100
- 67%|██████▋   | 20154/30000 [00:16<00:08, 1186.16it/s]Episode 20200/30000, Avg Reward: 6.0410, Epsilon: 0.100
- 68%|██████▊   | 20275/30000 [00:16<00:08, 1123.78it/s]Episode 20300/30000, Avg Reward: 27.4720, Epsilon: 0.100
- 68%|██████▊   | 20397/30000 [00:17<00:08, 1148.01it/s]Episode 20400/30000, Avg Reward: 3.0560, Epsilon: 0.100
-Episode 20500/30000, Avg Reward: 31.7260, Epsilon: 0.100
- 68%|██████▊   | 20514/30000 [00:17<00:08, 1107.71it/s]Episode 20600/30000, Avg Reward: -19.7920, Epsilon: 0.100
- 69%|██████▉   | 20643/30000 [00:17<00:08, 1157.74it/s]Episode 20700/30000, Avg Reward: 9.2570, Epsilon: 0.100
- 69%|██████▉   | 20778/30000 [00:17<00:07, 1210.59it/s]Episode 20800/30000, Avg Reward: -8.2460, Epsilon: 0.100
-Episode 20900/30000, Avg Reward: 1.7320, Epsilon: 0.100
- 70%|██████▉   | 20901/30000 [00:17<00:08, 1115.81it/s]Episode 21000/30000, Avg Reward: 14.9700, Epsilon: 0.100
- 70%|███████   | 21038/30000 [00:17<00:07, 1184.65it/s]Episode 21100/30000, Avg Reward: -7.0040, Epsilon: 0.100
- 71%|███████   | 21159/30000 [00:17<00:07, 1178.32it/s]Episode 21200/30000, Avg Reward: 3.0780, Epsilon: 0.100
- 71%|███████   | 21287/30000 [00:17<00:07, 1206.24it/s]Episode 21300/30000, Avg Reward: 15.4600, Epsilon: 0.100
-Episode 21400/30000, Avg Reward: 17.6080, Epsilon: 0.100
- 71%|███████▏  | 21409/30000 [00:17<00:07, 1116.33it/s]Episode 21500/30000, Avg Reward: -43.5190, Epsilon: 0.100
- 72%|███████▏  | 21526/30000 [00:18<00:07, 1128.41it/s]Episode 21600/30000, Avg Reward: -7.2190, Epsilon: 0.100
- 72%|███████▏  | 21667/30000 [00:18<00:06, 1206.30it/s]Episode 21700/30000, Avg Reward: 24.0110, Epsilon: 0.100
-Episode 21800/30000, Avg Reward: 13.3320, Epsilon: 0.100
- 73%|███████▎  | 21800/30000 [00:18<00:07, 1156.39it/s]Episode 21900/30000, Avg Reward: -0.5260, Epsilon: 0.100
- 73%|███████▎  | 21922/30000 [00:18<00:06, 1172.94it/s]Episode 22000/30000, Avg Reward: 17.6100, Epsilon: 0.100
- 74%|███████▎  | 22051/30000 [00:18<00:06, 1205.34it/s]Episode 22100/30000, Avg Reward: -11.2100, Epsilon: 0.100
- 74%|███████▍  | 22183/30000 [00:18<00:06, 1238.07it/s]Episode 22200/30000, Avg Reward: 7.5520, Epsilon: 0.100
-Episode 22300/30000, Avg Reward: 12.8970, Epsilon: 0.100
- 74%|███████▍  | 22308/30000 [00:18<00:06, 1113.20it/s]Episode 22400/30000, Avg Reward: -19.2550, Epsilon: 0.100
- 75%|███████▍  | 22431/30000 [00:18<00:06, 1144.49it/s]Episode 22500/30000, Avg Reward: -15.0580, Epsilon: 0.100
- 75%|███████▌  | 22560/30000 [00:18<00:06, 1184.59it/s]Episode 22600/30000, Avg Reward: 5.9210, Epsilon: 0.100
- 76%|███████▌  | 22696/30000 [00:19<00:05, 1233.02it/s]Episode 22700/30000, Avg Reward: 17.1340, Epsilon: 0.100
-Episode 22800/30000, Avg Reward: 40.8740, Epsilon: 0.100
- 76%|███████▌  | 22821/30000 [00:19<00:06, 1115.16it/s]Episode 22900/30000, Avg Reward: -0.2550, Epsilon: 0.100
- 77%|███████▋  | 22959/30000 [00:19<00:05, 1186.95it/s]Episode 23000/30000, Avg Reward: 22.8180, Epsilon: 0.100
- 77%|███████▋  | 23095/30000 [00:19<00:05, 1235.14it/s]Episode 23100/30000, Avg Reward: 6.2840, Epsilon: 0.100
-Episode 23200/30000, Avg Reward: 36.2240, Epsilon: 0.100
- 77%|███████▋  | 23221/30000 [00:19<00:05, 1173.31it/s]Episode 23300/30000, Avg Reward: 22.5930, Epsilon: 0.100
- 78%|███████▊  | 23345/30000 [00:19<00:05, 1191.09it/s]Episode 23400/30000, Avg Reward: -39.5550, Epsilon: 0.100
- 78%|███████▊  | 23467/30000 [00:19<00:05, 1198.34it/s]Episode 23500/30000, Avg Reward: -20.5780, Epsilon: 0.100
-Episode 23600/30000, Avg Reward: 16.3040, Epsilon: 0.100
- 79%|███████▊  | 23600/30000 [00:19<00:05, 1162.83it/s]Episode 23700/30000, Avg Reward: 41.6720, Epsilon: 0.100
- 79%|███████▉  | 23721/30000 [00:19<00:05, 1175.23it/s]Episode 23800/30000, Avg Reward: -8.5400, Epsilon: 0.100
- 80%|███████▉  | 23855/30000 [00:19<00:05, 1220.59it/s]Episode 23900/30000, Avg Reward: 12.9520, Epsilon: 0.100
- 80%|███████▉  | 23981/30000 [00:20<00:04, 1229.74it/s]Episode 24000/30000, Avg Reward: -2.3160, Epsilon: 0.100
-Episode 24100/30000, Avg Reward: 4.7370, Epsilon: 0.100
- 80%|████████  | 24105/30000 [00:20<00:05, 1155.15it/s]Episode 24200/30000, Avg Reward: -1.3260, Epsilon: 0.100
- 81%|████████  | 24235/30000 [00:20<00:04, 1192.95it/s]Episode 24300/30000, Avg Reward: 14.4480, Epsilon: 0.100
- 81%|████████  | 24372/30000 [00:20<00:04, 1243.06it/s]Episode 24400/30000, Avg Reward: 30.1220, Epsilon: 0.100
-Episode 24500/30000, Avg Reward: -22.4320, Epsilon: 0.100
- 82%|████████▏ | 24500/30000 [00:20<00:04, 1160.09it/s]Episode 24600/30000, Avg Reward: 14.9830, Epsilon: 0.100
- 82%|████████▏ | 24622/30000 [00:20<00:04, 1175.81it/s]Episode 24700/30000, Avg Reward: 19.6550, Epsilon: 0.100
- 82%|████████▏ | 24743/30000 [00:20<00:04, 1185.03it/s]Episode 24800/30000, Avg Reward: -6.4410, Epsilon: 0.100
- 83%|████████▎ | 24877/30000 [00:20<00:04, 1228.97it/s]Episode 24900/30000, Avg Reward: 33.5160, Epsilon: 0.100
-Episode 25000/30000, Avg Reward: 17.2380, Epsilon: 0.100
- 83%|████████▎ | 25001/30000 [00:20<00:04, 1162.23it/s]Episode 25100/30000, Avg Reward: -31.1020, Epsilon: 0.100
- 84%|████████▎ | 25120/30000 [00:21<00:04, 1170.00it/s]Episode 25200/30000, Avg Reward: 15.9530, Epsilon: 0.100
- 84%|████████▍ | 25248/30000 [00:21<00:03, 1200.94it/s]Episode 25300/30000, Avg Reward: -24.5970, Epsilon: 0.100
- 85%|████████▍ | 25369/30000 [00:21<00:03, 1187.72it/s]Episode 25400/30000, Avg Reward: -30.0880, Epsilon: 0.100
-Episode 25500/30000, Avg Reward: 27.5870, Epsilon: 0.100
- 85%|████████▌ | 25500/30000 [00:21<00:04, 1119.68it/s]Episode 25600/30000, Avg Reward: 6.1410, Epsilon: 0.100
- 85%|████████▌ | 25630/30000 [00:21<00:03, 1167.04it/s]Episode 25700/30000, Avg Reward: -17.7940, Epsilon: 0.100
- 86%|████████▌ | 25763/30000 [00:21<00:03, 1211.85it/s]Episode 25800/30000, Avg Reward: 26.9020, Epsilon: 0.100
- 86%|████████▋ | 25897/30000 [00:21<00:03, 1247.18it/s]Episode 25900/30000, Avg Reward: 11.3390, Epsilon: 0.100
-Episode 26000/30000, Avg Reward: -3.3110, Epsilon: 0.100
- 87%|████████▋ | 26023/30000 [00:21<00:03, 1140.75it/s]Episode 26100/30000, Avg Reward: 40.1660, Epsilon: 0.100
- 87%|████████▋ | 26162/30000 [00:21<00:03, 1208.57it/s]Episode 26200/30000, Avg Reward: 7.5970, Epsilon: 0.100
- 88%|████████▊ | 26286/30000 [00:22<00:03, 1195.55it/s]Episode 26300/30000, Avg Reward: 15.6080, Epsilon: 0.100
-Episode 26400/30000, Avg Reward: 0.7920, Epsilon: 0.100
- 88%|████████▊ | 26408/30000 [00:22<00:03, 1111.46it/s]Episode 26500/30000, Avg Reward: -27.0010, Epsilon: 0.100
- 88%|████████▊ | 26538/30000 [00:22<00:02, 1162.11it/s]Episode 26600/30000, Avg Reward: -9.9530, Epsilon: 0.100
- 89%|████████▉ | 26667/30000 [00:22<00:02, 1194.62it/s]Episode 26700/30000, Avg Reward: -6.4050, Epsilon: 0.100
- 89%|████████▉ | 26789/30000 [00:23<00:09, 352.46it/s] Episode 26800/30000, Avg Reward: -7.9660, Epsilon: 0.100
-Episode 26900/30000, Avg Reward: -9.3510, Epsilon: 0.100
- 90%|████████▉ | 26900/30000 [00:23<00:07, 423.42it/s]Episode 27000/30000, Avg Reward: -38.1940, Epsilon: 0.100
- 90%|█████████ | 27000/30000 [00:24<00:16, 182.28it/s]Episode 27100/30000, Avg Reward: -4.6000, Epsilon: 0.100
- 90%|█████████ | 27135/30000 [00:24<00:11, 256.36it/s]Episode 27200/30000, Avg Reward: -13.2190, Epsilon: 0.100
- 91%|█████████ | 27265/30000 [00:25<00:07, 343.04it/s]Episode 27300/30000, Avg Reward: 4.1570, Epsilon: 0.100
-Episode 27400/30000, Avg Reward: 24.6040, Epsilon: 0.100
- 91%|█████████▏| 27400/30000 [00:25<00:05, 438.36it/s]Episode 27500/30000, Avg Reward: 1.3570, Epsilon: 0.100
- 92%|█████████▏| 27529/30000 [00:25<00:04, 547.40it/s]Episode 27600/30000, Avg Reward: 18.0420, Epsilon: 0.100
- 92%|█████████▏| 27667/30000 [00:25<00:03, 676.26it/s]Episode 27700/30000, Avg Reward: 34.0740, Epsilon: 0.100
-Episode 27800/30000, Avg Reward: 2.5050, Epsilon: 0.100
- 93%|█████████▎| 27800/30000 [00:25<00:02, 756.03it/s]Episode 27900/30000, Avg Reward: 45.5100, Epsilon: 0.100
- 93%|█████████▎| 27921/30000 [00:25<00:02, 845.65it/s]Episode 28000/30000, Avg Reward: 21.6280, Epsilon: 0.100
- 94%|█████████▎| 28051/30000 [00:25<00:02, 945.33it/s]Episode 28100/30000, Avg Reward: -36.3540, Epsilon: 0.100
- 94%|█████████▍| 28187/30000 [00:25<00:01, 1044.12it/s]Episode 28200/30000, Avg Reward: 12.2530, Epsilon: 0.100
-Episode 28300/30000, Avg Reward: 34.2110, Epsilon: 0.100
- 94%|█████████▍| 28312/30000 [00:25<00:01, 1033.13it/s]Episode 28400/30000, Avg Reward: 4.4150, Epsilon: 0.100
- 95%|█████████▍| 28445/30000 [00:26<00:01, 1108.79it/s]Episode 28500/30000, Avg Reward: 4.3670, Epsilon: 0.100
- 95%|█████████▌| 28569/30000 [00:26<00:01, 1141.99it/s]Episode 28600/30000, Avg Reward: 25.9160, Epsilon: 0.100
- 96%|█████████▌| 28698/30000 [00:26<00:01, 1182.12it/s]Episode 28700/30000, Avg Reward: 19.1410, Epsilon: 0.100
-Episode 28800/30000, Avg Reward: -42.7880, Epsilon: 0.100
- 96%|█████████▌| 28823/30000 [00:26<00:01, 1109.62it/s]Episode 28900/30000, Avg Reward: 27.2720, Epsilon: 0.100
- 97%|█████████▋| 28953/30000 [00:26<00:00, 1160.06it/s]Episode 29000/30000, Avg Reward: -15.8560, Epsilon: 0.100
- 97%|█████████▋| 29081/30000 [00:26<00:00, 1192.65it/s]Episode 29100/30000, Avg Reward: -27.1320, Epsilon: 0.100
-Episode 29200/30000, Avg Reward: -9.2650, Epsilon: 0.100
- 97%|█████████▋| 29204/30000 [00:26<00:00, 1101.47it/s]Episode 29300/30000, Avg Reward: 10.9520, Epsilon: 0.100
- 98%|█████████▊| 29337/30000 [00:26<00:00, 1162.75it/s]Episode 29400/30000, Avg Reward: -10.9730, Epsilon: 0.100
- 98%|█████████▊| 29460/30000 [00:26<00:00, 1181.27it/s]Episode 29500/30000, Avg Reward: 7.2450, Epsilon: 0.100
- 99%|█████████▊| 29588/30000 [00:27<00:00, 1209.11it/s]Episode 29600/30000, Avg Reward: 33.8670, Epsilon: 0.100
-Episode 29700/30000, Avg Reward: 18.6630, Epsilon: 0.100
- 99%|█████████▉| 29711/30000 [00:27<00:00, 1154.18it/s]Episode 29800/30000, Avg Reward: 6.2070, Epsilon: 0.100
- 99%|█████████▉| 29829/30000 [00:27<00:00, 1161.14it/s]Episode 29900/30000, Avg Reward: 19.8250, Epsilon: 0.100
-100%|█████████▉| 29968/30000 [00:27<00:00, 1226.12it/s]Episode 30000/30000, Avg Reward: 23.2160, Epsilon: 0.100
-100%|██████████| 30000/30000 [00:27<00:00, 1095.05it/s]
+Load. 202517
+  0%|          | 0/100000 [00:00<?, ?it/s]  0%|          | 96/100000 [00:00<01:44, 955.95it/s]Episode 100/100000, Avg Reward: -1953.5530, Epsilon: 0.905
+  0%|          | 192/100000 [00:00<02:13, 746.81it/s]Episode 200/100000, Avg Reward: -1715.4340, Epsilon: 0.819
+  0%|          | 278/100000 [00:00<02:06, 790.72it/s]Episode 300/100000, Avg Reward: -1572.6150, Epsilon: 0.741
+  0%|          | 362/100000 [00:00<02:03, 805.86it/s]Episode 400/100000, Avg Reward: -1500.7150, Epsilon: 0.670
+  0%|          | 453/100000 [00:00<01:58, 839.99it/s]Episode 500/100000, Avg Reward: -1394.3550, Epsilon: 0.606
+  1%|          | 543/100000 [00:00<01:55, 859.17it/s]Episode 600/100000, Avg Reward: -1242.6640, Epsilon: 0.549
+  1%|          | 630/100000 [00:00<01:56, 856.52it/s]Episode 700/100000, Avg Reward: -1125.0370, Epsilon: 0.496
+  1%|          | 722/100000 [00:00<01:53, 875.17it/s]Episode 800/100000, Avg Reward: -999.2540, Epsilon: 0.449
+  1%|          | 817/100000 [00:00<01:50, 896.18it/s]Episode 900/100000, Avg Reward: -939.9380, Epsilon: 0.406
+  1%|          | 911/100000 [00:01<01:49, 906.36it/s]Episode 1000/100000, Avg Reward: -857.2630, Epsilon: 0.368
+  1%|          | 1007/100000 [00:01<01:47, 920.12it/s]Episode 1100/100000, Avg Reward: -764.6380, Epsilon: 0.333
+  1%|          | 1102/100000 [00:01<01:46, 928.19it/s]Episode 1200/100000, Avg Reward: -655.9580, Epsilon: 0.301
+  1%|          | 1204/100000 [00:01<01:43, 954.57it/s]Episode 1300/100000, Avg Reward: -615.9190, Epsilon: 0.272
+  1%|▏         | 1302/100000 [00:01<01:42, 959.90it/s]Episode 1400/100000, Avg Reward: -520.6200, Epsilon: 0.246
+  1%|▏         | 1406/100000 [00:01<01:40, 983.11it/s]Episode 1500/100000, Avg Reward: -389.9030, Epsilon: 0.223
+  2%|▏         | 1512/100000 [00:01<01:37, 1006.06it/s]Episode 1600/100000, Avg Reward: -341.3040, Epsilon: 0.202
+  2%|▏         | 1633/100000 [00:01<01:32, 1066.01it/s]Episode 1700/100000, Avg Reward: -252.9950, Epsilon: 0.183
+  2%|▏         | 1752/100000 [00:01<01:29, 1101.59it/s]Episode 1800/100000, Avg Reward: -228.6400, Epsilon: 0.165
+  2%|▏         | 1880/100000 [00:01<01:25, 1154.26it/s]Episode 1900/100000, Avg Reward: -191.6180, Epsilon: 0.149
+Episode 2000/100000, Avg Reward: -151.4500, Epsilon: 0.135
+  2%|▏         | 2000/100000 [00:02<01:25, 1149.23it/s]Episode 2100/100000, Avg Reward: -101.0150, Epsilon: 0.122
+  2%|▏         | 2115/100000 [00:02<01:28, 1106.61it/s]Episode 2200/100000, Avg Reward: -57.7870, Epsilon: 0.111
+  2%|▏         | 2255/100000 [00:02<01:22, 1191.26it/s]Episode 2300/100000, Avg Reward: -24.3330, Epsilon: 0.100
+  2%|▏         | 2399/100000 [00:02<01:17, 1261.97it/s]Episode 2400/100000, Avg Reward: -91.1390, Epsilon: 0.100
+Episode 2500/100000, Avg Reward: -50.7940, Epsilon: 0.100
+  3%|▎         | 2532/100000 [00:02<01:16, 1279.49it/s]Episode 2600/100000, Avg Reward: -21.2940, Epsilon: 0.100
+  3%|▎         | 2689/100000 [00:02<01:11, 1362.74it/s]Episode 2700/100000, Avg Reward: -5.8200, Epsilon: 0.100
+Episode 2800/100000, Avg Reward: -29.6420, Epsilon: 0.100
+  3%|▎         | 2826/100000 [00:02<01:12, 1344.69it/s]Episode 2900/100000, Avg Reward: -36.6560, Epsilon: 0.100
+  3%|▎         | 2976/100000 [00:02<01:09, 1389.46it/s]Episode 3000/100000, Avg Reward: -29.0150, Epsilon: 0.100
+Episode 3100/100000, Avg Reward: 24.8520, Epsilon: 0.100
+  3%|▎         | 3116/100000 [00:02<01:11, 1349.12it/s]Episode 3200/100000, Avg Reward: -22.0740, Epsilon: 0.100
+  3%|▎         | 3266/100000 [00:02<01:09, 1391.14it/s]Episode 3300/100000, Avg Reward: 4.4490, Epsilon: 0.100
+Episode 3400/100000, Avg Reward: -2.3730, Epsilon: 0.100
+  3%|▎         | 3406/100000 [00:03<01:10, 1375.02it/s]Episode 3500/100000, Avg Reward: -23.4820, Epsilon: 0.100
+  4%|▎         | 3567/100000 [00:03<01:06, 1441.94it/s]Episode 3600/100000, Avg Reward: 6.4510, Epsilon: 0.100
+Episode 3700/100000, Avg Reward: -35.3810, Epsilon: 0.100
+  4%|▎         | 3712/100000 [00:03<01:09, 1375.87it/s]Episode 3800/100000, Avg Reward: -40.9430, Epsilon: 0.100
+  4%|▍         | 3859/100000 [00:03<01:08, 1402.00it/s]Episode 3900/100000, Avg Reward: 9.0470, Epsilon: 0.100
+Episode 4000/100000, Avg Reward: -14.5000, Epsilon: 0.100
+  4%|▍         | 4000/100000 [00:03<01:10, 1358.07it/s]Episode 4100/100000, Avg Reward: -41.4720, Epsilon: 0.100
+  4%|▍         | 4148/100000 [00:03<01:08, 1390.88it/s]Episode 4200/100000, Avg Reward: 30.2020, Epsilon: 0.100
+  4%|▍         | 4291/100000 [00:03<01:08, 1399.19it/s]Episode 4300/100000, Avg Reward: -33.0760, Epsilon: 0.100
+Episode 4400/100000, Avg Reward: -25.1170, Epsilon: 0.100
+  4%|▍         | 4432/100000 [00:03<01:10, 1360.91it/s]Episode 4500/100000, Avg Reward: -2.4650, Epsilon: 0.100
+  5%|▍         | 4580/100000 [00:03<01:08, 1394.54it/s]Episode 4600/100000, Avg Reward: 10.6440, Epsilon: 0.100
+Episode 4700/100000, Avg Reward: 14.3400, Epsilon: 0.100
+  5%|▍         | 4720/100000 [00:04<01:09, 1378.98it/s]Episode 4800/100000, Avg Reward: 8.0060, Epsilon: 0.100
+  5%|▍         | 4866/100000 [00:04<01:07, 1400.15it/s]Episode 4900/100000, Avg Reward: 1.2260, Epsilon: 0.100
+Episode 5000/100000, Avg Reward: 14.1740, Epsilon: 0.100
+  5%|▌         | 5007/100000 [00:04<01:10, 1355.92it/s]Episode 5100/100000, Avg Reward: 25.8960, Epsilon: 0.100
+  5%|▌         | 5153/100000 [00:04<01:08, 1383.37it/s]Episode 5200/100000, Avg Reward: 40.1310, Epsilon: 0.100
+Episode 5300/100000, Avg Reward: 46.8190, Epsilon: 0.100
+  5%|▌         | 5300/100000 [00:04<01:10, 1351.05it/s]Episode 5400/100000, Avg Reward: 19.1660, Epsilon: 0.100
+  5%|▌         | 5458/100000 [00:04<01:06, 1416.00it/s]Episode 5500/100000, Avg Reward: 33.2400, Epsilon: 0.100
+Episode 5600/100000, Avg Reward: 11.9630, Epsilon: 0.100
+  6%|▌         | 5601/100000 [00:04<01:07, 1394.21it/s]Episode 5700/100000, Avg Reward: -76.6980, Epsilon: 0.100
+  6%|▌         | 5741/100000 [00:04<01:07, 1386.87it/s]Episode 5800/100000, Avg Reward: 6.2250, Epsilon: 0.100
+  6%|▌         | 5896/100000 [00:04<01:05, 1433.63it/s]Episode 5900/100000, Avg Reward: 18.1190, Epsilon: 0.100
+Episode 6000/100000, Avg Reward: 2.0740, Epsilon: 0.100
+  6%|▌         | 6040/100000 [00:05<01:14, 1268.60it/s]Episode 6100/100000, Avg Reward: 54.8810, Epsilon: 0.100
+Episode 6200/100000, Avg Reward: 22.8640, Epsilon: 0.100
+  6%|▌         | 6200/100000 [00:05<01:11, 1310.08it/s]Episode 6300/100000, Avg Reward: 4.3200, Epsilon: 0.100
+  6%|▋         | 6348/100000 [00:05<01:09, 1356.10it/s]Episode 6400/100000, Avg Reward: 50.6120, Epsilon: 0.100
+Episode 6500/100000, Avg Reward: 3.7760, Epsilon: 0.100
+  6%|▋         | 6500/100000 [00:05<01:08, 1370.62it/s]Episode 6600/100000, Avg Reward: -23.3740, Epsilon: 0.100
+  7%|▋         | 6648/100000 [00:05<01:06, 1399.77it/s]Episode 6700/100000, Avg Reward: -23.9600, Epsilon: 0.100
+  7%|▋         | 6798/100000 [00:05<01:05, 1427.99it/s]Episode 6800/100000, Avg Reward: 10.7730, Epsilon: 0.100
+Episode 6900/100000, Avg Reward: 26.9880, Epsilon: 0.100
+  7%|▋         | 6942/100000 [00:05<01:06, 1404.38it/s]Episode 7000/100000, Avg Reward: -11.8640, Epsilon: 0.100
+Episode 7100/100000, Avg Reward: -11.9650, Epsilon: 0.100
+  7%|▋         | 7100/100000 [00:05<01:06, 1405.49it/s]Episode 7200/100000, Avg Reward: 30.7620, Epsilon: 0.100
+  7%|▋         | 7257/100000 [00:05<01:03, 1451.48it/s]Episode 7300/100000, Avg Reward: 10.8620, Epsilon: 0.100
+Episode 7400/100000, Avg Reward: 18.6760, Epsilon: 0.100
+  7%|▋         | 7403/100000 [00:05<01:05, 1420.83it/s]Episode 7500/100000, Avg Reward: 43.4710, Epsilon: 0.100
+  8%|▊         | 7560/100000 [00:06<01:03, 1462.75it/s]Episode 7600/100000, Avg Reward: 10.7600, Epsilon: 0.100
+Episode 7700/100000, Avg Reward: 34.3280, Epsilon: 0.100
+  8%|▊         | 7707/100000 [00:06<01:05, 1413.50it/s]Episode 7800/100000, Avg Reward: -7.4020, Epsilon: 0.100
+  8%|▊         | 7853/100000 [00:06<01:04, 1425.60it/s]Episode 7900/100000, Avg Reward: 14.4480, Epsilon: 0.100
+  8%|▊         | 7997/100000 [00:06<01:04, 1429.02it/s]Episode 8000/100000, Avg Reward: 9.7780, Epsilon: 0.100
+Episode 8100/100000, Avg Reward: 23.1240, Epsilon: 0.100
+  8%|▊         | 8141/100000 [00:06<01:06, 1387.46it/s]Episode 8200/100000, Avg Reward: 28.4470, Epsilon: 0.100
+  8%|▊         | 8289/100000 [00:06<01:04, 1412.44it/s]Episode 8300/100000, Avg Reward: 10.0980, Epsilon: 0.100
+Episode 8400/100000, Avg Reward: 29.4160, Epsilon: 0.100
+  8%|▊         | 8431/100000 [00:06<01:06, 1375.53it/s]Episode 8500/100000, Avg Reward: 25.5250, Epsilon: 0.100
+  9%|▊         | 8583/100000 [00:06<01:04, 1416.02it/s]Episode 8600/100000, Avg Reward: -0.0660, Epsilon: 0.100
+Episode 8700/100000, Avg Reward: 7.2790, Epsilon: 0.100
+  9%|▊         | 8726/100000 [00:06<01:10, 1303.58it/s]Episode 8800/100000, Avg Reward: 7.2060, Epsilon: 0.100
+  9%|▉         | 8878/100000 [00:07<01:06, 1362.37it/s]Episode 8900/100000, Avg Reward: -25.9090, Epsilon: 0.100
+Episode 9000/100000, Avg Reward: -3.3070, Epsilon: 0.100
+  9%|▉         | 9017/100000 [00:07<01:08, 1328.49it/s]Episode 9100/100000, Avg Reward: 16.8130, Epsilon: 0.100
+  9%|▉         | 9167/100000 [00:07<01:05, 1376.42it/s]Episode 9200/100000, Avg Reward: 1.6720, Epsilon: 0.100
+Episode 9300/100000, Avg Reward: 45.5810, Epsilon: 0.100
+  9%|▉         | 9306/100000 [00:07<01:06, 1360.57it/s]Episode 9400/100000, Avg Reward: -1.9820, Epsilon: 0.100
+  9%|▉         | 9460/100000 [00:07<01:04, 1410.61it/s]Episode 9500/100000, Avg Reward: -3.0430, Epsilon: 0.100
+Episode 9600/100000, Avg Reward: 6.6120, Epsilon: 0.100
+ 10%|▉         | 9602/100000 [00:07<01:08, 1328.43it/s]Episode 9700/100000, Avg Reward: 16.7290, Epsilon: 0.100
+ 10%|▉         | 9741/100000 [00:07<01:07, 1345.47it/s]Episode 9800/100000, Avg Reward: -22.2800, Epsilon: 0.100
+ 10%|▉         | 9892/100000 [00:07<01:04, 1389.24it/s]Episode 9900/100000, Avg Reward: 5.3150, Epsilon: 0.100
+Episode 10000/100000, Avg Reward: 25.7280, Epsilon: 0.100
+ 10%|█         | 10032/100000 [00:07<01:04, 1388.99it/s]Episode 10100/100000, Avg Reward: 4.9230, Epsilon: 0.100
+ 10%|█         | 10188/100000 [00:07<01:02, 1438.19it/s]Episode 10200/100000, Avg Reward: 4.4000, Epsilon: 0.100
+Episode 10300/100000, Avg Reward: 16.0400, Epsilon: 0.100
+ 10%|█         | 10333/100000 [00:08<01:04, 1379.52it/s]Episode 10400/100000, Avg Reward: -37.3600, Epsilon: 0.100
+ 10%|█         | 10482/100000 [00:08<01:03, 1410.62it/s]Episode 10500/100000, Avg Reward: 47.1210, Epsilon: 0.100
+Episode 10600/100000, Avg Reward: -12.8480, Epsilon: 0.100
+ 11%|█         | 10624/100000 [00:08<01:04, 1379.77it/s]Episode 10700/100000, Avg Reward: 3.5840, Epsilon: 0.100
+ 11%|█         | 10771/100000 [00:08<01:03, 1403.25it/s]Episode 10800/100000, Avg Reward: 18.0100, Epsilon: 0.100
+Episode 10900/100000, Avg Reward: 3.6820, Epsilon: 0.100
+ 11%|█         | 10912/100000 [00:08<01:05, 1369.72it/s]Episode 11000/100000, Avg Reward: -26.9260, Epsilon: 0.100
+ 11%|█         | 11050/100000 [00:08<01:04, 1370.27it/s]Episode 11100/100000, Avg Reward: 10.3330, Epsilon: 0.100
+Episode 11200/100000, Avg Reward: 39.0720, Epsilon: 0.100
+ 11%|█         | 11200/100000 [00:08<01:04, 1366.98it/s]Episode 11300/100000, Avg Reward: -1.0730, Epsilon: 0.100
+ 11%|█▏        | 11350/100000 [00:08<01:03, 1402.97it/s]Episode 11400/100000, Avg Reward: -0.9910, Epsilon: 0.100
+ 11%|█▏        | 11496/100000 [00:08<01:02, 1418.93it/s]Episode 11500/100000, Avg Reward: 5.1200, Epsilon: 0.100
+Episode 11600/100000, Avg Reward: 13.1840, Epsilon: 0.100
+ 12%|█▏        | 11639/100000 [00:09<01:04, 1371.35it/s]Episode 11700/100000, Avg Reward: 38.6320, Epsilon: 0.100
+ 12%|█▏        | 11777/100000 [00:09<01:04, 1365.74it/s]Episode 11800/100000, Avg Reward: 17.1980, Epsilon: 0.100
+Episode 11900/100000, Avg Reward: 0.3990, Epsilon: 0.100
+ 12%|█▏        | 11914/100000 [00:09<01:05, 1337.42it/s]Episode 12000/100000, Avg Reward: -34.2320, Epsilon: 0.100
+ 12%|█▏        | 12066/100000 [00:09<01:03, 1388.65it/s]Episode 12100/100000, Avg Reward: 27.1460, Epsilon: 0.100
+Episode 12200/100000, Avg Reward: -15.8310, Epsilon: 0.100
+ 12%|█▏        | 12206/100000 [00:09<01:04, 1351.96it/s]Episode 12300/100000, Avg Reward: 11.2210, Epsilon: 0.100
+ 12%|█▏        | 12349/100000 [00:09<01:03, 1373.52it/s]Episode 12400/100000, Avg Reward: 3.5730, Epsilon: 0.100
+ 12%|█▏        | 12488/100000 [00:09<01:03, 1377.34it/s]Episode 12500/100000, Avg Reward: 24.8800, Epsilon: 0.100
+Episode 12600/100000, Avg Reward: 22.6830, Epsilon: 0.100
+ 13%|█▎        | 12627/100000 [00:09<01:04, 1346.31it/s]Episode 12700/100000, Avg Reward: 32.3450, Epsilon: 0.100
+ 13%|█▎        | 12767/100000 [00:09<01:04, 1361.22it/s]Episode 12800/100000, Avg Reward: -6.5570, Epsilon: 0.100
+Episode 12900/100000, Avg Reward: 30.6590, Epsilon: 0.100
+ 13%|█▎        | 12904/100000 [00:09<01:05, 1325.39it/s]Episode 13000/100000, Avg Reward: 19.0770, Epsilon: 0.100
+ 13%|█▎        | 13055/100000 [00:10<01:03, 1378.09it/s]Episode 13100/100000, Avg Reward: 12.5900, Epsilon: 0.100
+Episode 13200/100000, Avg Reward: -2.0580, Epsilon: 0.100
+ 13%|█▎        | 13200/100000 [00:10<01:03, 1363.28it/s]Episode 13300/100000, Avg Reward: 24.7440, Epsilon: 0.100
+ 13%|█▎        | 13359/100000 [00:10<01:00, 1428.65it/s]Episode 13400/100000, Avg Reward: 30.8980, Epsilon: 0.100
+Episode 13500/100000, Avg Reward: 27.2570, Epsilon: 0.100
+ 14%|█▎        | 13503/100000 [00:10<01:01, 1407.04it/s]Episode 13600/100000, Avg Reward: -10.5680, Epsilon: 0.100
+ 14%|█▎        | 13652/100000 [00:10<01:00, 1428.15it/s]Episode 13700/100000, Avg Reward: -26.2930, Epsilon: 0.100
+Episode 13800/100000, Avg Reward: 23.8040, Epsilon: 0.100
+ 14%|█▍        | 13800/100000 [00:10<01:01, 1405.55it/s]Episode 13900/100000, Avg Reward: -16.3590, Epsilon: 0.100
+ 14%|█▍        | 13942/100000 [00:10<01:01, 1408.42it/s]Episode 14000/100000, Avg Reward: 3.8340, Epsilon: 0.100
+ 14%|█▍        | 14087/100000 [00:10<01:00, 1419.45it/s]Episode 14100/100000, Avg Reward: -9.5800, Epsilon: 0.100
+Episode 14200/100000, Avg Reward: 21.1390, Epsilon: 0.100
+ 14%|█▍        | 14230/100000 [00:10<01:01, 1384.85it/s]Episode 14300/100000, Avg Reward: 19.2100, Epsilon: 0.100
+ 14%|█▍        | 14380/100000 [00:11<01:00, 1417.26it/s]Episode 14400/100000, Avg Reward: 13.9100, Epsilon: 0.100
+Episode 14500/100000, Avg Reward: -19.1980, Epsilon: 0.100
+ 15%|█▍        | 14523/100000 [00:11<01:02, 1368.05it/s]Episode 14600/100000, Avg Reward: 51.7130, Epsilon: 0.100
+ 15%|█▍        | 14678/100000 [00:11<01:00, 1417.64it/s]Episode 14700/100000, Avg Reward: -26.2130, Epsilon: 0.100
+Episode 14800/100000, Avg Reward: -4.0630, Epsilon: 0.100
+ 15%|█▍        | 14821/100000 [00:11<01:02, 1368.08it/s]Episode 14900/100000, Avg Reward: 9.1460, Epsilon: 0.100
+ 15%|█▍        | 14979/100000 [00:11<00:59, 1427.86it/s]Episode 15000/100000, Avg Reward: 11.8880, Epsilon: 0.100
+Episode 15100/100000, Avg Reward: -3.2080, Epsilon: 0.100
+ 15%|█▌        | 15123/100000 [00:11<01:01, 1380.48it/s]Episode 15200/100000, Avg Reward: -31.5670, Epsilon: 0.100
+ 15%|█▌        | 15272/100000 [00:11<01:00, 1409.35it/s]Episode 15300/100000, Avg Reward: 11.9220, Epsilon: 0.100
+Episode 15400/100000, Avg Reward: -33.4730, Epsilon: 0.100
+ 15%|█▌        | 15414/100000 [00:11<01:02, 1362.29it/s]Episode 15500/100000, Avg Reward: 13.4930, Epsilon: 0.100
+ 16%|█▌        | 15570/100000 [00:11<00:59, 1415.84it/s]Episode 15600/100000, Avg Reward: 31.0500, Epsilon: 0.100
+Episode 15700/100000, Avg Reward: 58.3500, Epsilon: 0.100
+ 16%|█▌        | 15713/100000 [00:11<01:00, 1403.95it/s]Episode 15800/100000, Avg Reward: 6.6280, Epsilon: 0.100
+ 16%|█▌        | 15861/100000 [00:12<00:59, 1425.44it/s]Episode 15900/100000, Avg Reward: 4.8400, Epsilon: 0.100
+Episode 16000/100000, Avg Reward: -9.2900, Epsilon: 0.100
+ 16%|█▌        | 16004/100000 [00:12<01:01, 1370.65it/s]Episode 16100/100000, Avg Reward: 3.5220, Epsilon: 0.100
+ 16%|█▌        | 16157/100000 [00:12<00:59, 1414.38it/s]Episode 16200/100000, Avg Reward: 24.2620, Epsilon: 0.100
+Episode 16300/100000, Avg Reward: -26.9670, Epsilon: 0.100
+ 16%|█▋        | 16300/100000 [00:12<01:06, 1266.36it/s]Episode 16400/100000, Avg Reward: -42.6400, Epsilon: 0.100
+ 16%|█▋        | 16445/100000 [00:12<01:03, 1314.70it/s]Episode 16500/100000, Avg Reward: 50.9720, Epsilon: 0.100
+Episode 16600/100000, Avg Reward: 2.3960, Epsilon: 0.100
+ 17%|█▋        | 16600/100000 [00:12<01:02, 1340.08it/s]Episode 16700/100000, Avg Reward: 1.2020, Epsilon: 0.100
+ 17%|█▋        | 16739/100000 [00:12<01:01, 1352.94it/s]Episode 16800/100000, Avg Reward: 3.4470, Epsilon: 0.100
+ 17%|█▋        | 16885/100000 [00:12<01:00, 1382.57it/s]Episode 16900/100000, Avg Reward: -37.1190, Epsilon: 0.100
+Episode 17000/100000, Avg Reward: 6.7270, Epsilon: 0.100
+ 17%|█▋        | 17025/100000 [00:12<01:01, 1349.63it/s]Episode 17100/100000, Avg Reward: 14.7070, Epsilon: 0.100
+ 17%|█▋        | 17176/100000 [00:13<00:59, 1393.83it/s]Episode 17200/100000, Avg Reward: 38.7540, Epsilon: 0.100
+Episode 17300/100000, Avg Reward: 41.9010, Epsilon: 0.100
+ 17%|█▋        | 17317/100000 [00:13<00:59, 1379.71it/s]Episode 17400/100000, Avg Reward: 11.3240, Epsilon: 0.100
+ 17%|█▋        | 17461/100000 [00:13<00:59, 1395.68it/s]Episode 17500/100000, Avg Reward: -7.6880, Epsilon: 0.100
+Episode 17600/100000, Avg Reward: 35.6890, Epsilon: 0.100
+ 18%|█▊        | 17602/100000 [00:13<01:01, 1347.58it/s]Episode 17700/100000, Avg Reward: 17.7310, Epsilon: 0.100
+ 18%|█▊        | 17738/100000 [00:13<01:02, 1311.39it/s]Episode 17800/100000, Avg Reward: 52.5000, Epsilon: 0.100
+ 18%|█▊        | 17889/100000 [00:13<01:00, 1366.99it/s]Episode 17900/100000, Avg Reward: 34.7470, Epsilon: 0.100
+Episode 18000/100000, Avg Reward: -3.7940, Epsilon: 0.100
+ 18%|█▊        | 18027/100000 [00:13<01:00, 1346.00it/s]Episode 18100/100000, Avg Reward: 22.9500, Epsilon: 0.100
+ 18%|█▊        | 18173/100000 [00:13<00:59, 1377.95it/s]Episode 18200/100000, Avg Reward: 21.0030, Epsilon: 0.100
+Episode 18300/100000, Avg Reward: 3.0770, Epsilon: 0.100
+ 18%|█▊        | 18312/100000 [00:13<01:00, 1353.11it/s]Episode 18400/100000, Avg Reward: -5.9430, Epsilon: 0.100
+ 18%|█▊        | 18461/100000 [00:13<00:58, 1392.69it/s]Episode 18500/100000, Avg Reward: 3.8800, Epsilon: 0.100
+Episode 18600/100000, Avg Reward: -5.1170, Epsilon: 0.100
+ 19%|█▊        | 18601/100000 [00:14<00:59, 1363.55it/s]Episode 18700/100000, Avg Reward: 14.4170, Epsilon: 0.100
+ 19%|█▉        | 18755/100000 [00:14<00:57, 1413.59it/s]Episode 18800/100000, Avg Reward: -67.8030, Epsilon: 0.100
+Episode 18900/100000, Avg Reward: -1.1650, Epsilon: 0.100
+ 19%|█▉        | 18900/100000 [00:14<00:59, 1368.11it/s]Episode 19000/100000, Avg Reward: -1.2040, Epsilon: 0.100
+ 19%|█▉        | 19046/100000 [00:14<00:58, 1393.56it/s]Episode 19100/100000, Avg Reward: -27.5180, Epsilon: 0.100
+ 19%|█▉        | 19186/100000 [00:14<00:58, 1388.32it/s]Episode 19200/100000, Avg Reward: -18.3930, Epsilon: 0.100
+Episode 19300/100000, Avg Reward: -19.9790, Epsilon: 0.100
+ 19%|█▉        | 19326/100000 [00:14<01:00, 1341.95it/s]Episode 19400/100000, Avg Reward: -23.3870, Epsilon: 0.100
+ 19%|█▉        | 19461/100000 [00:14<01:00, 1327.56it/s]Episode 19500/100000, Avg Reward: 4.6610, Epsilon: 0.100
+Episode 19600/100000, Avg Reward: 27.6620, Epsilon: 0.100
+ 20%|█▉        | 19600/100000 [00:14<01:01, 1316.39it/s]Episode 19700/100000, Avg Reward: -32.9690, Epsilon: 0.100
+ 20%|█▉        | 19741/100000 [00:14<00:59, 1342.38it/s]Episode 19800/100000, Avg Reward: 21.3490, Epsilon: 0.100
+ 20%|█▉        | 19891/100000 [00:15<00:57, 1388.00it/s]Episode 19900/100000, Avg Reward: 2.1190, Epsilon: 0.100
+Episode 20000/100000, Avg Reward: 23.3150, Epsilon: 0.100
+ 20%|██        | 20031/100000 [00:15<00:58, 1356.41it/s]Episode 20100/100000, Avg Reward: -6.5370, Epsilon: 0.100
+ 20%|██        | 20174/100000 [00:15<00:57, 1377.31it/s]Episode 20200/100000, Avg Reward: -8.7930, Epsilon: 0.100
+Episode 20300/100000, Avg Reward: -13.2770, Epsilon: 0.100
+ 20%|██        | 20313/100000 [00:15<00:59, 1344.47it/s]Episode 20400/100000, Avg Reward: 17.9580, Epsilon: 0.100
+ 20%|██        | 20458/100000 [00:15<00:57, 1371.81it/s]Episode 20500/100000, Avg Reward: -21.2290, Epsilon: 0.100
+Episode 20600/100000, Avg Reward: 31.3570, Epsilon: 0.100
+ 21%|██        | 20600/100000 [00:15<00:58, 1356.16it/s]Episode 20700/100000, Avg Reward: 17.2030, Epsilon: 0.100
+ 21%|██        | 20753/100000 [00:15<00:56, 1405.34it/s]Episode 20800/100000, Avg Reward: -12.6070, Epsilon: 0.100
+Episode 20900/100000, Avg Reward: 27.4340, Epsilon: 0.100
+ 21%|██        | 20900/100000 [00:15<00:57, 1381.07it/s]Episode 21000/100000, Avg Reward: 1.0410, Epsilon: 0.100
+ 21%|██        | 21044/100000 [00:15<00:56, 1395.59it/s]Episode 21100/100000, Avg Reward: -25.4520, Epsilon: 0.100
+ 21%|██        | 21195/100000 [00:15<00:55, 1428.53it/s]Episode 21200/100000, Avg Reward: -11.6330, Epsilon: 0.100
+Episode 21300/100000, Avg Reward: -0.6840, Epsilon: 0.100
+ 21%|██▏       | 21339/100000 [00:16<00:56, 1382.09it/s]Episode 21400/100000, Avg Reward: 11.7050, Epsilon: 0.100
+ 21%|██▏       | 21494/100000 [00:16<00:54, 1430.19it/s]Episode 21500/100000, Avg Reward: 11.0670, Epsilon: 0.100
+Episode 21600/100000, Avg Reward: 1.8880, Epsilon: 0.100
+ 22%|██▏       | 21638/100000 [00:16<00:57, 1361.50it/s]Episode 21700/100000, Avg Reward: 23.3680, Epsilon: 0.100
+ 22%|██▏       | 21785/100000 [00:16<00:56, 1391.81it/s]Episode 21800/100000, Avg Reward: 39.4440, Epsilon: 0.100
+Episode 21900/100000, Avg Reward: 12.9550, Epsilon: 0.100
+ 22%|██▏       | 21926/100000 [00:16<00:57, 1362.04it/s]Episode 22000/100000, Avg Reward: 10.9720, Epsilon: 0.100
+ 22%|██▏       | 22080/100000 [00:16<00:55, 1413.01it/s]Episode 22100/100000, Avg Reward: 20.2430, Epsilon: 0.100
+Episode 22200/100000, Avg Reward: 6.1230, Epsilon: 0.100
+ 22%|██▏       | 22222/100000 [00:16<00:55, 1397.12it/s]Episode 22300/100000, Avg Reward: 16.4210, Epsilon: 0.100
+ 22%|██▏       | 22365/100000 [00:16<00:55, 1405.54it/s]Episode 22400/100000, Avg Reward: 7.5790, Epsilon: 0.100
+Episode 22500/100000, Avg Reward: 33.0420, Epsilon: 0.100
+ 23%|██▎       | 22506/100000 [00:16<00:57, 1344.08it/s]Episode 22600/100000, Avg Reward: 25.9520, Epsilon: 0.100
+ 23%|██▎       | 22646/100000 [00:17<00:56, 1360.03it/s]Episode 22700/100000, Avg Reward: -9.0260, Epsilon: 0.100
+ 23%|██▎       | 22785/100000 [00:17<00:56, 1367.92it/s]Episode 22800/100000, Avg Reward: -21.1770, Epsilon: 0.100
+Episode 22900/100000, Avg Reward: -12.0900, Epsilon: 0.100
+ 23%|██▎       | 22923/100000 [00:17<00:58, 1322.48it/s]Episode 23000/100000, Avg Reward: 19.7240, Epsilon: 0.100
+ 23%|██▎       | 23083/100000 [00:17<00:54, 1399.02it/s]Episode 23100/100000, Avg Reward: 20.5870, Epsilon: 0.100
+Episode 23200/100000, Avg Reward: 50.8360, Epsilon: 0.100
+ 23%|██▎       | 23224/100000 [00:17<00:55, 1391.67it/s]Episode 23300/100000, Avg Reward: 19.7000, Epsilon: 0.100
+ 23%|██▎       | 23364/100000 [00:17<00:55, 1386.04it/s]Episode 23400/100000, Avg Reward: 11.4690, Epsilon: 0.100
+Episode 23500/100000, Avg Reward: 31.8480, Epsilon: 0.100
+ 24%|██▎       | 23503/100000 [00:17<00:55, 1381.81it/s]Episode 23600/100000, Avg Reward: -31.2700, Epsilon: 0.100
+ 24%|██▎       | 23646/100000 [00:17<00:54, 1395.24it/s]Episode 23700/100000, Avg Reward: -44.3480, Epsilon: 0.100
+ 24%|██▍       | 23787/100000 [00:17<00:54, 1398.15it/s]Episode 23800/100000, Avg Reward: 16.4030, Epsilon: 0.100
+Episode 23900/100000, Avg Reward: 20.0360, Epsilon: 0.100
+ 24%|██▍       | 23927/100000 [00:17<00:55, 1374.04it/s]Episode 24000/100000, Avg Reward: 0.1010, Epsilon: 0.100
+ 24%|██▍       | 24075/100000 [00:18<00:54, 1403.63it/s]Episode 24100/100000, Avg Reward: -15.3600, Epsilon: 0.100
+Episode 24200/100000, Avg Reward: -33.3290, Epsilon: 0.100
+ 24%|██▍       | 24216/100000 [00:18<00:57, 1327.79it/s]Episode 24300/100000, Avg Reward: -2.4570, Epsilon: 0.100
+ 24%|██▍       | 24363/100000 [00:18<00:55, 1366.58it/s]Episode 24400/100000, Avg Reward: 0.1800, Epsilon: 0.100
+Episode 24500/100000, Avg Reward: 57.1210, Epsilon: 0.100
+ 25%|██▍       | 24502/100000 [00:18<00:55, 1372.57it/s]Episode 24600/100000, Avg Reward: 15.1430, Epsilon: 0.100
+ 25%|██▍       | 24652/100000 [00:18<00:53, 1408.99it/s]Episode 24700/100000, Avg Reward: 13.8970, Epsilon: 0.100
+ 25%|██▍       | 24794/100000 [00:18<00:53, 1408.59it/s]Episode 24800/100000, Avg Reward: 0.1920, Epsilon: 0.100
+Episode 24900/100000, Avg Reward: 41.6250, Epsilon: 0.100
+ 25%|██▍       | 24936/100000 [00:18<00:55, 1361.60it/s]Episode 25000/100000, Avg Reward: 3.4730, Epsilon: 0.100
+ 25%|██▌       | 25088/100000 [00:18<00:53, 1404.57it/s]Episode 25100/100000, Avg Reward: -9.8320, Epsilon: 0.100
+Episode 25200/100000, Avg Reward: -14.7820, Epsilon: 0.100
+ 25%|██▌       | 25229/100000 [00:18<00:55, 1353.39it/s]Episode 25300/100000, Avg Reward: 9.7380, Epsilon: 0.100
+ 25%|██▌       | 25366/100000 [00:19<00:55, 1347.86it/s]Episode 25400/100000, Avg Reward: 19.0740, Epsilon: 0.100
+Episode 25500/100000, Avg Reward: 15.1450, Epsilon: 0.100
+ 26%|██▌       | 25502/100000 [00:19<00:57, 1302.73it/s]Episode 25600/100000, Avg Reward: -12.0190, Epsilon: 0.100
+ 26%|██▌       | 25649/100000 [00:19<00:55, 1350.23it/s]Episode 25700/100000, Avg Reward: -19.5430, Epsilon: 0.100
+ 26%|██▌       | 25787/100000 [00:19<00:54, 1357.74it/s]Episode 25800/100000, Avg Reward: -14.7390, Epsilon: 0.100
+Episode 25900/100000, Avg Reward: -15.1940, Epsilon: 0.100
+ 26%|██▌       | 25924/100000 [00:19<01:05, 1134.48it/s]Episode 26000/100000, Avg Reward: -15.1460, Epsilon: 0.100
+ 26%|██▌       | 26064/100000 [00:19<01:01, 1202.04it/s]Episode 26100/100000, Avg Reward: -16.5960, Epsilon: 0.100
+ 26%|██▌       | 26199/100000 [00:19<00:59, 1241.80it/s]Episode 26200/100000, Avg Reward: 25.2750, Epsilon: 0.100
+Episode 26300/100000, Avg Reward: -8.9750, Epsilon: 0.100
+ 26%|██▋       | 26328/100000 [00:19<01:01, 1193.18it/s]Episode 26400/100000, Avg Reward: 14.7370, Epsilon: 0.100
+ 26%|██▋       | 26460/100000 [00:19<01:00, 1225.29it/s]Episode 26500/100000, Avg Reward: -50.4520, Epsilon: 0.100
+ 27%|██▋       | 26588/100000 [00:20<00:59, 1238.68it/s]Episode 26600/100000, Avg Reward: -18.8310, Epsilon: 0.100
+Episode 26700/100000, Avg Reward: -39.2190, Epsilon: 0.100
+ 27%|██▋       | 26714/100000 [00:20<01:01, 1194.37it/s]Episode 26800/100000, Avg Reward: 3.7130, Epsilon: 0.100
+ 27%|██▋       | 26844/100000 [00:20<00:59, 1222.05it/s]Episode 26900/100000, Avg Reward: -2.3310, Epsilon: 0.100
+ 27%|██▋       | 26993/100000 [00:20<00:56, 1297.33it/s]Episode 27000/100000, Avg Reward: -18.3780, Epsilon: 0.100
+Episode 27100/100000, Avg Reward: -9.5290, Epsilon: 0.100
+ 27%|██▋       | 27124/100000 [00:20<00:58, 1248.08it/s]Episode 27200/100000, Avg Reward: -13.2000, Epsilon: 0.100
+ 27%|██▋       | 27258/100000 [00:20<00:57, 1272.05it/s]Episode 27300/100000, Avg Reward: 15.9290, Epsilon: 0.100
+Episode 27400/100000, Avg Reward: 24.4860, Epsilon: 0.100
+ 27%|██▋       | 27400/100000 [00:20<00:58, 1249.80it/s]Episode 27500/100000, Avg Reward: -10.1520, Epsilon: 0.100
+ 28%|██▊       | 27534/100000 [00:20<00:57, 1270.21it/s]Episode 27600/100000, Avg Reward: 5.6910, Epsilon: 0.100
+ 28%|██▊       | 27674/100000 [00:20<00:55, 1305.83it/s]Episode 27700/100000, Avg Reward: 16.2860, Epsilon: 0.100
+Episode 27800/100000, Avg Reward: -13.3040, Epsilon: 0.100
+ 28%|██▊       | 27806/100000 [00:20<00:56, 1268.33it/s]Episode 27900/100000, Avg Reward: -24.5270, Epsilon: 0.100
+ 28%|██▊       | 27940/100000 [00:21<00:55, 1287.99it/s]Episode 28000/100000, Avg Reward: 3.1500, Epsilon: 0.100
+ 28%|██▊       | 28084/100000 [00:21<00:54, 1331.59it/s]Episode 28100/100000, Avg Reward: 2.5950, Epsilon: 0.100
+Episode 28200/100000, Avg Reward: -49.8570, Epsilon: 0.100
+ 28%|██▊       | 28218/100000 [00:21<00:56, 1279.77it/s]Episode 28300/100000, Avg Reward: 0.2490, Epsilon: 0.100
+ 28%|██▊       | 28347/100000 [00:21<00:56, 1266.10it/s]Episode 28400/100000, Avg Reward: 4.7050, Epsilon: 0.100
+ 28%|██▊       | 28499/100000 [00:21<00:53, 1336.73it/s]Episode 28500/100000, Avg Reward: 34.3450, Epsilon: 0.100
+Episode 28600/100000, Avg Reward: 7.7460, Epsilon: 0.100
+ 29%|██▊       | 28634/100000 [00:21<00:58, 1218.10it/s]Episode 28700/100000, Avg Reward: -5.2180, Epsilon: 0.100
+ 29%|██▉       | 28759/100000 [00:21<00:58, 1209.95it/s]Episode 28800/100000, Avg Reward: 5.8230, Epsilon: 0.100
+ 29%|██▉       | 28886/100000 [00:21<00:58, 1224.18it/s]Episode 28900/100000, Avg Reward: -31.8300, Epsilon: 0.100
+Episode 29000/100000, Avg Reward: -0.6740, Epsilon: 0.100
+ 29%|██▉       | 29010/100000 [00:21<01:01, 1146.31it/s]Episode 29100/100000, Avg Reward: -43.1980, Epsilon: 0.100
+ 29%|██▉       | 29127/100000 [00:22<01:01, 1147.57it/s]Episode 29200/100000, Avg Reward: 25.8190, Epsilon: 0.100
+ 29%|██▉       | 29243/100000 [00:22<01:03, 1118.38it/s]Episode 29300/100000, Avg Reward: -3.6650, Epsilon: 0.100
+ 29%|██▉       | 29366/100000 [00:22<01:01, 1148.49it/s]Episode 29400/100000, Avg Reward: 29.1810, Epsilon: 0.100
+Episode 29500/100000, Avg Reward: 9.4730, Epsilon: 0.100
+ 30%|██▉       | 29500/100000 [00:22<01:02, 1124.58it/s]Episode 29600/100000, Avg Reward: -5.7170, Epsilon: 0.100
+ 30%|██▉       | 29633/100000 [00:22<00:59, 1180.50it/s]Episode 29700/100000, Avg Reward: 3.0330, Epsilon: 0.100
+ 30%|██▉       | 29760/100000 [00:22<00:58, 1203.48it/s]Episode 29800/100000, Avg Reward: -25.4300, Epsilon: 0.100
+ 30%|██▉       | 29899/100000 [00:22<00:55, 1255.18it/s]Episode 29900/100000, Avg Reward: 16.4400, Epsilon: 0.100
+Episode 30000/100000, Avg Reward: 5.8390, Epsilon: 0.100
+ 30%|███       | 30026/100000 [00:22<00:59, 1169.25it/s]Episode 30100/100000, Avg Reward: -9.3150, Epsilon: 0.100
+ 30%|███       | 30167/100000 [00:22<00:56, 1233.77it/s]Episode 30200/100000, Avg Reward: -1.5630, Epsilon: 0.100
+Episode 30300/100000, Avg Reward: 27.6160, Epsilon: 0.100
+ 30%|███       | 30300/100000 [00:23<00:58, 1198.12it/s]Episode 30400/100000, Avg Reward: 31.8610, Epsilon: 0.100
+ 30%|███       | 30428/100000 [00:23<00:57, 1220.25it/s]Episode 30500/100000, Avg Reward: 1.4690, Epsilon: 0.100
+ 31%|███       | 30552/100000 [00:23<00:57, 1216.42it/s]Episode 30600/100000, Avg Reward: -5.2850, Epsilon: 0.100
+ 31%|███       | 30675/100000 [00:23<00:57, 1210.38it/s]Episode 30700/100000, Avg Reward: 15.9330, Epsilon: 0.100
+Episode 30800/100000, Avg Reward: 4.6520, Epsilon: 0.100
+ 31%|███       | 30800/100000 [00:23<01:01, 1130.10it/s]Episode 30900/100000, Avg Reward: -47.4500, Epsilon: 0.100
+ 31%|███       | 30915/100000 [00:23<01:01, 1118.35it/s]Episode 31000/100000, Avg Reward: 15.2390, Epsilon: 0.100
+ 31%|███       | 31044/100000 [00:23<00:59, 1165.80it/s]Episode 31100/100000, Avg Reward: -21.1680, Epsilon: 0.100
+ 31%|███       | 31188/100000 [00:23<00:55, 1241.91it/s]Episode 31200/100000, Avg Reward: 6.2940, Epsilon: 0.100
+Episode 31300/100000, Avg Reward: -11.4180, Epsilon: 0.100
+ 31%|███▏      | 31314/100000 [00:23<01:01, 1119.15it/s]Episode 31400/100000, Avg Reward: -8.7660, Epsilon: 0.100
+ 31%|███▏      | 31429/100000 [00:24<01:00, 1124.86it/s]Episode 31500/100000, Avg Reward: -37.4120, Epsilon: 0.100
+ 32%|███▏      | 31549/100000 [00:24<00:59, 1143.75it/s]Episode 31600/100000, Avg Reward: 4.1680, Epsilon: 0.100
+ 32%|███▏      | 31685/100000 [00:24<00:56, 1204.17it/s]Episode 31700/100000, Avg Reward: 14.0130, Epsilon: 0.100
+Episode 31800/100000, Avg Reward: -11.8110, Epsilon: 0.100
+ 32%|███▏      | 31807/100000 [00:24<01:00, 1136.26it/s]Episode 31900/100000, Avg Reward: 23.2170, Epsilon: 0.100
+ 32%|███▏      | 31928/100000 [00:24<00:58, 1156.44it/s]Episode 32000/100000, Avg Reward: -31.9160, Epsilon: 0.100
+ 32%|███▏      | 32064/100000 [00:24<00:55, 1213.35it/s]Episode 32100/100000, Avg Reward: 32.9140, Epsilon: 0.100
+Episode 32200/100000, Avg Reward: 22.2420, Epsilon: 0.100
+ 32%|███▏      | 32200/100000 [00:24<00:57, 1180.97it/s]Episode 32300/100000, Avg Reward: -3.5960, Epsilon: 0.100
+ 32%|███▏      | 32334/100000 [00:24<00:55, 1224.24it/s]Episode 32400/100000, Avg Reward: -30.2170, Epsilon: 0.100
+ 32%|███▏      | 32458/100000 [00:24<00:55, 1222.17it/s]Episode 32500/100000, Avg Reward: -12.3130, Epsilon: 0.100
+Episode 32600/100000, Avg Reward: 70.6970, Epsilon: 0.100
+ 33%|███▎      | 32600/100000 [00:25<00:56, 1183.61it/s]Episode 32700/100000, Avg Reward: 19.6790, Epsilon: 0.100
+ 33%|███▎      | 32738/100000 [00:25<00:54, 1236.46it/s]Episode 32800/100000, Avg Reward: -42.7730, Epsilon: 0.100
+ 33%|███▎      | 32863/100000 [00:25<00:54, 1233.56it/s]Episode 32900/100000, Avg Reward: 8.8360, Epsilon: 0.100
+ 33%|███▎      | 32991/100000 [00:25<00:53, 1245.95it/s]Episode 33000/100000, Avg Reward: 46.1250, Epsilon: 0.100
+Episode 33100/100000, Avg Reward: -7.2380, Epsilon: 0.100
+ 33%|███▎      | 33117/100000 [00:25<00:58, 1148.65it/s]Episode 33200/100000, Avg Reward: 14.4950, Epsilon: 0.100
+ 33%|███▎      | 33250/100000 [00:25<00:55, 1198.41it/s]Episode 33300/100000, Avg Reward: 48.6020, Epsilon: 0.100
+ 33%|███▎      | 33375/100000 [00:25<00:55, 1211.26it/s]Episode 33400/100000, Avg Reward: 11.6680, Epsilon: 0.100
+ 33%|███▎      | 33498/100000 [00:25<00:54, 1212.61it/s]Episode 33500/100000, Avg Reward: 7.1880, Epsilon: 0.100
+Episode 33600/100000, Avg Reward: 6.9440, Epsilon: 0.100
+ 34%|███▎      | 33621/100000 [00:25<00:57, 1144.75it/s]Episode 33700/100000, Avg Reward: 3.0200, Epsilon: 0.100
+ 34%|███▍      | 33755/100000 [00:25<00:55, 1199.18it/s]Episode 33800/100000, Avg Reward: -29.7980, Epsilon: 0.100
+ 34%|███▍      | 33884/100000 [00:26<00:54, 1223.30it/s]Episode 33900/100000, Avg Reward: -5.3390, Epsilon: 0.100
+Episode 34000/100000, Avg Reward: 36.8800, Epsilon: 0.100
+ 34%|███▍      | 34008/100000 [00:26<00:55, 1188.11it/s]Episode 34100/100000, Avg Reward: -20.4920, Epsilon: 0.100
+ 34%|███▍      | 34132/100000 [00:26<00:54, 1202.13it/s]Episode 34200/100000, Avg Reward: -23.0050, Epsilon: 0.100
+ 34%|███▍      | 34255/100000 [00:26<00:54, 1208.52it/s]Episode 34300/100000, Avg Reward: 11.5270, Epsilon: 0.100
+ 34%|███▍      | 34383/100000 [00:26<00:53, 1228.44it/s]Episode 34400/100000, Avg Reward: -57.9220, Epsilon: 0.100
+Episode 34500/100000, Avg Reward: 60.0760, Epsilon: 0.100
+ 35%|███▍      | 34507/100000 [00:26<00:54, 1194.14it/s]Episode 34600/100000, Avg Reward: 10.6040, Epsilon: 0.100
+ 35%|███▍      | 34633/100000 [00:26<00:53, 1211.73it/s]Episode 34700/100000, Avg Reward: 15.0640, Epsilon: 0.100
+ 35%|███▍      | 34767/100000 [00:26<00:52, 1248.85it/s]Episode 34800/100000, Avg Reward: 23.2570, Epsilon: 0.100
+Episode 34900/100000, Avg Reward: 7.1460, Epsilon: 0.100
+ 35%|███▍      | 34900/100000 [00:26<00:52, 1228.80it/s]Episode 35000/100000, Avg Reward: -4.2780, Epsilon: 0.100
+ 35%|███▌      | 35032/100000 [00:27<00:51, 1255.07it/s]Episode 35100/100000, Avg Reward: -26.5110, Epsilon: 0.100
+ 35%|███▌      | 35166/100000 [00:27<00:50, 1279.23it/s]Episode 35200/100000, Avg Reward: 19.1270, Epsilon: 0.100
+Episode 35300/100000, Avg Reward: -1.3370, Epsilon: 0.100
+ 35%|███▌      | 35300/100000 [00:27<00:53, 1217.40it/s]Episode 35400/100000, Avg Reward: 18.8650, Epsilon: 0.100
+ 35%|███▌      | 35432/100000 [00:27<00:51, 1245.92it/s]Episode 35500/100000, Avg Reward: -1.4190, Epsilon: 0.100
+ 36%|███▌      | 35558/100000 [00:27<00:52, 1236.82it/s]Episode 35600/100000, Avg Reward: -21.2020, Epsilon: 0.100
+ 36%|███▌      | 35693/100000 [00:27<00:50, 1268.17it/s]Episode 35700/100000, Avg Reward: -2.6930, Epsilon: 0.100
+Episode 35800/100000, Avg Reward: 22.0360, Epsilon: 0.100
+ 36%|███▌      | 35821/100000 [00:27<01:00, 1063.05it/s]Episode 35900/100000, Avg Reward: 25.3450, Epsilon: 0.100
+ 36%|███▌      | 35968/100000 [00:27<00:54, 1168.17it/s]Episode 36000/100000, Avg Reward: 25.6670, Epsilon: 0.100
+Episode 36100/100000, Avg Reward: 1.8910, Epsilon: 0.100
+ 36%|███▌      | 36100/100000 [00:27<00:53, 1195.59it/s]Episode 36200/100000, Avg Reward: -49.1200, Epsilon: 0.100
+ 36%|███▌      | 36238/100000 [00:28<00:51, 1245.39it/s]Episode 36300/100000, Avg Reward: -36.6690, Epsilon: 0.100
+ 36%|███▋      | 36369/100000 [00:28<00:50, 1262.51it/s]Episode 36400/100000, Avg Reward: 23.1290, Epsilon: 0.100
+Episode 36500/100000, Avg Reward: -20.7720, Epsilon: 0.100
+ 36%|███▋      | 36500/100000 [00:28<00:51, 1242.31it/s]Episode 36600/100000, Avg Reward: -5.1020, Epsilon: 0.100
+ 37%|███▋      | 36648/100000 [00:28<00:48, 1307.43it/s]Episode 36700/100000, Avg Reward: 33.4900, Epsilon: 0.100
+ 37%|███▋      | 36782/100000 [00:28<00:48, 1313.61it/s]Episode 36800/100000, Avg Reward: -3.0080, Epsilon: 0.100
+Episode 36900/100000, Avg Reward: -5.7730, Epsilon: 0.100
+ 37%|███▋      | 36915/100000 [00:28<00:49, 1277.78it/s]Episode 37000/100000, Avg Reward: -25.5380, Epsilon: 0.100
+Episode 37100/100000, Avg Reward: -34.7320, Epsilon: 0.100
+Episode 37200/100000, Avg Reward: -9.4160, Epsilon: 0.100
+ 37%|███▋      | 37222/100000 [00:28<00:35, 1791.11it/s]Episode 37300/100000, Avg Reward: 13.8720, Epsilon: 0.100
+Episode 37400/100000, Avg Reward: -17.4290, Epsilon: 0.100
+ 37%|███▋      | 37404/100000 [00:28<00:38, 1635.66it/s]Episode 37500/100000, Avg Reward: 26.9610, Epsilon: 0.100
+ 38%|███▊      | 37572/100000 [00:28<00:38, 1607.87it/s]Episode 37600/100000, Avg Reward: -11.0510, Epsilon: 0.100
+Episode 37700/100000, Avg Reward: -6.4510, Epsilon: 0.100
+ 38%|███▊      | 37736/100000 [00:28<00:41, 1517.82it/s]Episode 37800/100000, Avg Reward: 26.7790, Epsilon: 0.100
+ 38%|███▊      | 37891/100000 [00:29<00:41, 1499.13it/s]Episode 37900/100000, Avg Reward: -10.0470, Epsilon: 0.100
+Episode 38000/100000, Avg Reward: 18.7830, Epsilon: 0.100
+ 38%|███▊      | 38043/100000 [00:29<00:44, 1387.81it/s]Episode 38100/100000, Avg Reward: 5.6390, Epsilon: 0.100
+ 38%|███▊      | 38185/100000 [00:29<00:44, 1378.23it/s]Episode 38200/100000, Avg Reward: 16.3590, Epsilon: 0.100
+Episode 38300/100000, Avg Reward: 12.7200, Epsilon: 0.100
+ 38%|███▊      | 38325/100000 [00:29<00:47, 1310.28it/s]Episode 38400/100000, Avg Reward: -24.6340, Epsilon: 0.100
+ 38%|███▊      | 38458/100000 [00:29<00:48, 1260.46it/s]Episode 38500/100000, Avg Reward: 12.2270, Epsilon: 0.100
+ 39%|███▊      | 38588/100000 [00:29<00:48, 1267.54it/s]Episode 38600/100000, Avg Reward: -9.0350, Epsilon: 0.100
+Episode 38700/100000, Avg Reward: 30.3100, Epsilon: 0.100
+ 39%|███▊      | 38716/100000 [00:29<00:49, 1240.69it/s]Episode 38800/100000, Avg Reward: -5.3150, Epsilon: 0.100
+ 39%|███▉      | 38856/100000 [00:29<00:47, 1284.71it/s]Episode 38900/100000, Avg Reward: 15.6250, Epsilon: 0.100
+Episode 39000/100000, Avg Reward: 26.7820, Epsilon: 0.100
+ 39%|███▉      | 39000/100000 [00:29<00:47, 1277.83it/s]Episode 39100/100000, Avg Reward: 22.7960, Epsilon: 0.100
+ 39%|███▉      | 39144/100000 [00:30<00:46, 1322.07it/s]Episode 39200/100000, Avg Reward: 35.8050, Epsilon: 0.100
+ 39%|███▉      | 39291/100000 [00:30<00:44, 1361.41it/s]Episode 39300/100000, Avg Reward: -2.3650, Epsilon: 0.100
+Episode 39400/100000, Avg Reward: 40.8850, Epsilon: 0.100
+ 39%|███▉      | 39428/100000 [00:30<00:46, 1312.13it/s]Episode 39500/100000, Avg Reward: -24.4210, Epsilon: 0.100
+ 40%|███▉      | 39566/100000 [00:30<00:45, 1328.53it/s]Episode 39600/100000, Avg Reward: -0.2520, Epsilon: 0.100
+Episode 39700/100000, Avg Reward: -5.9150, Epsilon: 0.100
+ 40%|███▉      | 39700/100000 [00:30<00:46, 1287.88it/s]Episode 39800/100000, Avg Reward: 62.8460, Epsilon: 0.100
+ 40%|███▉      | 39856/100000 [00:30<00:44, 1365.40it/s]Episode 39900/100000, Avg Reward: 14.4930, Epsilon: 0.100
+ 40%|███▉      | 39998/100000 [00:30<00:43, 1379.57it/s]Episode 40000/100000, Avg Reward: 4.8250, Epsilon: 0.100
+Episode 40100/100000, Avg Reward: 24.6640, Epsilon: 0.100
+ 40%|████      | 40137/100000 [00:30<00:45, 1328.52it/s]Episode 40200/100000, Avg Reward: -61.7610, Epsilon: 0.100
+ 40%|████      | 40273/100000 [00:30<00:44, 1333.51it/s]Episode 40300/100000, Avg Reward: 15.0510, Epsilon: 0.100
+Episode 40400/100000, Avg Reward: -8.0630, Epsilon: 0.100
+ 40%|████      | 40407/100000 [00:31<00:45, 1309.98it/s]Episode 40500/100000, Avg Reward: 8.2900, Epsilon: 0.100
+ 41%|████      | 40555/100000 [00:31<00:43, 1358.03it/s]Episode 40600/100000, Avg Reward: -12.7010, Epsilon: 0.100
+ 41%|████      | 40699/100000 [00:31<00:42, 1380.92it/s]Episode 40700/100000, Avg Reward: -8.7370, Epsilon: 0.100
+Episode 40800/100000, Avg Reward: -4.5170, Epsilon: 0.100
+ 41%|████      | 40838/100000 [00:31<00:45, 1310.27it/s]Episode 40900/100000, Avg Reward: -27.0870, Epsilon: 0.100
+ 41%|████      | 40970/100000 [00:31<00:45, 1311.62it/s]Episode 41000/100000, Avg Reward: 15.2260, Epsilon: 0.100
+Episode 41100/100000, Avg Reward: 32.6310, Epsilon: 0.100
+ 41%|████      | 41102/100000 [00:31<00:45, 1285.44it/s]Episode 41200/100000, Avg Reward: 21.1760, Epsilon: 0.100
+ 41%|████▏     | 41257/100000 [00:31<00:43, 1360.37it/s]Episode 41300/100000, Avg Reward: 14.8390, Epsilon: 0.100
+Episode 41400/100000, Avg Reward: 28.4900, Epsilon: 0.100
+ 41%|████▏     | 41400/100000 [00:31<00:43, 1343.69it/s]Episode 41500/100000, Avg Reward: -22.2530, Epsilon: 0.100
+ 42%|████▏     | 41535/100000 [00:31<00:43, 1336.67it/s]Episode 41600/100000, Avg Reward: -23.7830, Epsilon: 0.100
+ 42%|████▏     | 41674/100000 [00:31<00:43, 1350.28it/s]Episode 41700/100000, Avg Reward: -14.6240, Epsilon: 0.100
+Episode 41800/100000, Avg Reward: 6.9230, Epsilon: 0.100
+ 42%|████▏     | 41810/100000 [00:32<00:44, 1303.81it/s]Episode 41900/100000, Avg Reward: -30.5420, Epsilon: 0.100
+ 42%|████▏     | 41951/100000 [00:32<00:43, 1331.70it/s]Episode 42000/100000, Avg Reward: 12.6810, Epsilon: 0.100
+ 42%|████▏     | 42088/100000 [00:32<00:43, 1341.43it/s]Episode 42100/100000, Avg Reward: -13.8220, Epsilon: 0.100
+Episode 42200/100000, Avg Reward: -27.3650, Epsilon: 0.100
+ 42%|████▏     | 42223/100000 [00:32<00:45, 1258.35it/s]Episode 42300/100000, Avg Reward: 3.5310, Epsilon: 0.100
+ 42%|████▏     | 42363/100000 [00:32<00:44, 1297.90it/s]Episode 42400/100000, Avg Reward: 0.7190, Epsilon: 0.100
+Episode 42500/100000, Avg Reward: 0.9720, Epsilon: 0.100
+ 42%|████▎     | 42500/100000 [00:32<00:44, 1286.19it/s]Episode 42600/100000, Avg Reward: -10.5600, Epsilon: 0.100
+ 43%|████▎     | 42635/100000 [00:32<00:44, 1301.28it/s]Episode 42700/100000, Avg Reward: 2.9690, Epsilon: 0.100
+ 43%|████▎     | 42780/100000 [00:32<00:42, 1344.08it/s]Episode 42800/100000, Avg Reward: 30.9320, Epsilon: 0.100
+Episode 42900/100000, Avg Reward: 45.7410, Epsilon: 0.100
+ 43%|████▎     | 42915/100000 [00:32<00:44, 1294.56it/s]Episode 43000/100000, Avg Reward: 8.2720, Epsilon: 0.100
+ 43%|████▎     | 43059/100000 [00:33<00:42, 1336.19it/s]Episode 43100/100000, Avg Reward: -15.0620, Epsilon: 0.100
+Episode 43200/100000, Avg Reward: -22.7090, Epsilon: 0.100
+ 43%|████▎     | 43200/100000 [00:33<00:43, 1301.77it/s]Episode 43300/100000, Avg Reward: 26.4740, Epsilon: 0.100
+ 43%|████▎     | 43353/100000 [00:33<00:41, 1366.56it/s]Episode 43400/100000, Avg Reward: 23.2150, Epsilon: 0.100
+ 43%|████▎     | 43491/100000 [00:33<00:41, 1365.43it/s]Episode 43500/100000, Avg Reward: -14.9220, Epsilon: 0.100
+Episode 43600/100000, Avg Reward: 42.9510, Epsilon: 0.100
+ 44%|████▎     | 43629/100000 [00:33<00:43, 1286.48it/s]Episode 43700/100000, Avg Reward: 11.7980, Epsilon: 0.100
+ 44%|████▍     | 43759/100000 [00:33<00:44, 1263.95it/s]Episode 43800/100000, Avg Reward: 15.0520, Epsilon: 0.100
+ 44%|████▍     | 43895/100000 [00:33<00:43, 1289.89it/s]Episode 43900/100000, Avg Reward: 36.2080, Epsilon: 0.100
+Episode 44000/100000, Avg Reward: 31.8170, Epsilon: 0.100
+ 44%|████▍     | 44025/100000 [00:33<00:44, 1244.37it/s]Episode 44100/100000, Avg Reward: 12.9870, Epsilon: 0.100
+ 44%|████▍     | 44153/100000 [00:33<00:44, 1251.19it/s]Episode 44200/100000, Avg Reward: -0.6060, Epsilon: 0.100
+ 44%|████▍     | 44280/100000 [00:34<00:44, 1253.90it/s]Episode 44300/100000, Avg Reward: 5.9660, Epsilon: 0.100
+Episode 44400/100000, Avg Reward: -21.1530, Epsilon: 0.100
+ 44%|████▍     | 44406/100000 [00:34<00:46, 1194.38it/s]Episode 44500/100000, Avg Reward: 18.5330, Epsilon: 0.100
+ 45%|████▍     | 44552/100000 [00:34<00:43, 1266.32it/s]Episode 44600/100000, Avg Reward: 18.4920, Epsilon: 0.100
+ 45%|████▍     | 44697/100000 [00:34<00:42, 1316.66it/s]Episode 44700/100000, Avg Reward: 20.7950, Epsilon: 0.100
+Episode 44800/100000, Avg Reward: -64.4150, Epsilon: 0.100
+ 45%|████▍     | 44830/100000 [00:34<00:43, 1271.46it/s]Episode 44900/100000, Avg Reward: 14.7290, Epsilon: 0.100
+ 45%|████▍     | 44960/100000 [00:34<00:43, 1278.82it/s]Episode 45000/100000, Avg Reward: 6.1100, Epsilon: 0.100
+Episode 45100/100000, Avg Reward: 15.3250, Epsilon: 0.100
+ 45%|████▌     | 45100/100000 [00:34<00:43, 1276.24it/s]Episode 45200/100000, Avg Reward: 35.8970, Epsilon: 0.100
+ 45%|████▌     | 45256/100000 [00:34<00:40, 1357.03it/s]Episode 45300/100000, Avg Reward: 38.5950, Epsilon: 0.100
+Episode 45400/100000, Avg Reward: -5.5340, Epsilon: 0.100
+ 45%|████▌     | 45400/100000 [00:34<00:40, 1336.72it/s]Episode 45500/100000, Avg Reward: 0.5220, Epsilon: 0.100
+ 46%|████▌     | 45553/100000 [00:34<00:39, 1390.76it/s]Episode 45600/100000, Avg Reward: 3.2570, Epsilon: 0.100
+Episode 45700/100000, Avg Reward: 16.7880, Epsilon: 0.100
+ 46%|████▌     | 45700/100000 [00:35<00:40, 1352.70it/s]Episode 45800/100000, Avg Reward: 30.7230, Epsilon: 0.100
+ 46%|████▌     | 45847/100000 [00:35<00:39, 1385.26it/s]Episode 45900/100000, Avg Reward: -21.6340, Epsilon: 0.100
+ 46%|████▌     | 45987/100000 [00:35<00:38, 1385.11it/s]Episode 46000/100000, Avg Reward: 8.1550, Epsilon: 0.100
+Episode 46100/100000, Avg Reward: -4.3520, Epsilon: 0.100
+ 46%|████▌     | 46126/100000 [00:35<00:40, 1317.40it/s]Episode 46200/100000, Avg Reward: 49.0770, Epsilon: 0.100
+ 46%|████▋     | 46280/100000 [00:35<00:38, 1379.12it/s]Episode 46300/100000, Avg Reward: 30.6000, Epsilon: 0.100
+Episode 46400/100000, Avg Reward: -23.2300, Epsilon: 0.100
+ 46%|████▋     | 46419/100000 [00:35<00:41, 1305.48it/s]Episode 46500/100000, Avg Reward: 42.0160, Epsilon: 0.100
+ 47%|████▋     | 46562/100000 [00:35<00:39, 1339.53it/s]Episode 46600/100000, Avg Reward: -0.9200, Epsilon: 0.100
+Episode 46700/100000, Avg Reward: 1.3960, Epsilon: 0.100
+ 47%|████▋     | 46700/100000 [00:35<00:40, 1314.52it/s]Episode 46800/100000, Avg Reward: 23.9190, Epsilon: 0.100
+ 47%|████▋     | 46846/100000 [00:35<00:39, 1354.90it/s]Episode 46900/100000, Avg Reward: -7.8560, Epsilon: 0.100
+ 47%|████▋     | 46988/100000 [00:36<00:38, 1373.50it/s]Episode 47000/100000, Avg Reward: 5.3980, Epsilon: 0.100
+Episode 47100/100000, Avg Reward: -1.5010, Epsilon: 0.100
+ 47%|████▋     | 47126/100000 [00:36<00:40, 1318.32it/s]Episode 47200/100000, Avg Reward: -3.7620, Epsilon: 0.100
+ 47%|████▋     | 47271/100000 [00:36<00:38, 1354.83it/s]Episode 47300/100000, Avg Reward: -19.7600, Epsilon: 0.100
+Episode 47400/100000, Avg Reward: -2.9970, Epsilon: 0.100
+ 47%|████▋     | 47408/100000 [00:36<00:40, 1314.02it/s]Episode 47500/100000, Avg Reward: 8.5470, Epsilon: 0.100
+ 48%|████▊     | 47556/100000 [00:36<00:38, 1358.97it/s]Episode 47600/100000, Avg Reward: 29.3130, Epsilon: 0.100
+ 48%|████▊     | 47696/100000 [00:36<00:38, 1370.33it/s]Episode 47700/100000, Avg Reward: 1.7040, Epsilon: 0.100
+Episode 47800/100000, Avg Reward: -18.0930, Epsilon: 0.100
+ 48%|████▊     | 47834/100000 [00:36<00:40, 1302.13it/s]Episode 47900/100000, Avg Reward: -6.1340, Epsilon: 0.100
+ 48%|████▊     | 47966/100000 [00:36<00:40, 1300.56it/s]Episode 48000/100000, Avg Reward: -11.7100, Epsilon: 0.100
+Episode 48100/100000, Avg Reward: -4.1110, Epsilon: 0.100
+ 48%|████▊     | 48100/100000 [00:36<00:40, 1269.01it/s]Episode 48200/100000, Avg Reward: 5.1060, Epsilon: 0.100
+ 48%|████▊     | 48251/100000 [00:36<00:38, 1336.98it/s]Episode 48300/100000, Avg Reward: 22.3530, Epsilon: 0.100
+ 48%|████▊     | 48386/100000 [00:37<00:40, 1289.55it/s]Episode 48400/100000, Avg Reward: 5.7090, Epsilon: 0.100
+Episode 48500/100000, Avg Reward: 1.3030, Epsilon: 0.100
+ 49%|████▊     | 48516/100000 [00:37<00:41, 1242.33it/s]Episode 48600/100000, Avg Reward: 4.5340, Epsilon: 0.100
+ 49%|████▊     | 48657/100000 [00:37<00:39, 1288.30it/s]Episode 48700/100000, Avg Reward: -0.2750, Epsilon: 0.100
+ 49%|████▉     | 48793/100000 [00:37<00:39, 1307.52it/s]Episode 48800/100000, Avg Reward: 16.5320, Epsilon: 0.100
+Episode 48900/100000, Avg Reward: -3.7220, Epsilon: 0.100
+ 49%|████▉     | 48925/100000 [00:37<00:41, 1231.75it/s]Episode 49000/100000, Avg Reward: 5.0780, Epsilon: 0.100
+ 49%|████▉     | 49050/100000 [00:37<00:42, 1211.46it/s]Episode 49100/100000, Avg Reward: 19.3030, Epsilon: 0.100
+ 49%|████▉     | 49172/100000 [00:37<00:41, 1212.14it/s]Episode 49200/100000, Avg Reward: -11.2380, Epsilon: 0.100
+Episode 49300/100000, Avg Reward: 1.3530, Epsilon: 0.100
+ 49%|████▉     | 49300/100000 [00:37<00:42, 1193.53it/s]Episode 49400/100000, Avg Reward: 0.7180, Epsilon: 0.100
+ 49%|████▉     | 49434/100000 [00:37<00:40, 1234.77it/s]Episode 49500/100000, Avg Reward: -31.9920, Epsilon: 0.100
+ 50%|████▉     | 49578/100000 [00:38<00:38, 1293.10it/s]Episode 49600/100000, Avg Reward: 4.1940, Epsilon: 0.100
+Episode 49700/100000, Avg Reward: 8.8970, Epsilon: 0.100
+ 50%|████▉     | 49708/100000 [00:38<00:39, 1262.72it/s]Episode 49800/100000, Avg Reward: 0.2680, Epsilon: 0.100
+ 50%|████▉     | 49853/100000 [00:38<00:38, 1314.50it/s]Episode 49900/100000, Avg Reward: -40.9850, Epsilon: 0.100
+ 50%|████▉     | 49985/100000 [00:38<00:42, 1182.03it/s]Episode 50000/100000, Avg Reward: -16.8450, Epsilon: 0.100
+Episode 50100/100000, Avg Reward: -5.1730, Epsilon: 0.100
+ 50%|█████     | 50106/100000 [00:38<00:42, 1174.61it/s]Episode 50200/100000, Avg Reward: -25.4390, Epsilon: 0.100
+ 50%|█████     | 50257/100000 [00:38<00:39, 1264.98it/s]Episode 50300/100000, Avg Reward: -1.8790, Epsilon: 0.100
+ 50%|█████     | 50399/100000 [00:38<00:37, 1307.98it/s]Episode 50400/100000, Avg Reward: 26.7740, Epsilon: 0.100
+Episode 50500/100000, Avg Reward: 19.6680, Epsilon: 0.100
+ 51%|█████     | 50532/100000 [00:38<00:37, 1303.11it/s]Episode 50600/100000, Avg Reward: 37.6890, Epsilon: 0.100
+ 51%|█████     | 50691/100000 [00:38<00:35, 1384.02it/s]Episode 50700/100000, Avg Reward: 19.7530, Epsilon: 0.100
+Episode 50800/100000, Avg Reward: -22.6770, Epsilon: 0.100
+ 51%|█████     | 50831/100000 [00:39<00:37, 1316.08it/s]Episode 50900/100000, Avg Reward: 14.2620, Epsilon: 0.100
+ 51%|█████     | 50980/100000 [00:39<00:35, 1364.89it/s]Episode 51000/100000, Avg Reward: 23.7930, Epsilon: 0.100
+Episode 51100/100000, Avg Reward: 24.8300, Epsilon: 0.100
+ 51%|█████     | 51118/100000 [00:39<00:36, 1338.63it/s]Episode 51200/100000, Avg Reward: 24.5680, Epsilon: 0.100
+ 51%|█████▏    | 51263/100000 [00:39<00:35, 1369.11it/s]Episode 51300/100000, Avg Reward: -25.6130, Epsilon: 0.100
+Episode 51400/100000, Avg Reward: 18.5260, Epsilon: 0.100
+ 51%|█████▏    | 51401/100000 [00:39<00:36, 1336.39it/s]Episode 51500/100000, Avg Reward: 26.7110, Epsilon: 0.100
+ 52%|█████▏    | 51558/100000 [00:39<00:34, 1403.15it/s]Episode 51600/100000, Avg Reward: 16.7260, Epsilon: 0.100
+Episode 51700/100000, Avg Reward: -20.2330, Epsilon: 0.100
+ 52%|█████▏    | 51700/100000 [00:39<00:35, 1362.58it/s]Episode 51800/100000, Avg Reward: 8.0000, Epsilon: 0.100
+ 52%|█████▏    | 51837/100000 [00:39<00:35, 1355.16it/s]Episode 51900/100000, Avg Reward: -18.9830, Epsilon: 0.100
+ 52%|█████▏    | 51973/100000 [00:39<00:35, 1346.60it/s]Episode 52000/100000, Avg Reward: 38.9020, Epsilon: 0.100
+Episode 52100/100000, Avg Reward: -32.9880, Epsilon: 0.100
+ 52%|█████▏    | 52108/100000 [00:39<00:36, 1297.51it/s]Episode 52200/100000, Avg Reward: -9.9310, Epsilon: 0.100
+ 52%|█████▏    | 52243/100000 [00:40<00:36, 1311.34it/s]Episode 52300/100000, Avg Reward: 22.8590, Epsilon: 0.100
+ 52%|█████▏    | 52395/100000 [00:40<00:34, 1369.74it/s]Episode 52400/100000, Avg Reward: -26.1210, Epsilon: 0.100
+Episode 52500/100000, Avg Reward: -58.1480, Epsilon: 0.100
+ 53%|█████▎    | 52533/100000 [00:40<00:36, 1306.38it/s]Episode 52600/100000, Avg Reward: 13.9280, Epsilon: 0.100
+ 53%|█████▎    | 52696/100000 [00:40<00:33, 1398.34it/s]Episode 52700/100000, Avg Reward: 40.4450, Epsilon: 0.100
+Episode 52800/100000, Avg Reward: -1.1280, Epsilon: 0.100
+ 53%|█████▎    | 52837/100000 [00:40<00:35, 1346.79it/s]Episode 52900/100000, Avg Reward: -27.0030, Epsilon: 0.100
+ 53%|█████▎    | 52996/100000 [00:40<00:33, 1415.02it/s]Episode 53000/100000, Avg Reward: 21.1630, Epsilon: 0.100
+Episode 53100/100000, Avg Reward: 11.0760, Epsilon: 0.100
+ 53%|█████▎    | 53139/100000 [00:40<00:34, 1345.57it/s]Episode 53200/100000, Avg Reward: 29.5330, Epsilon: 0.100
+ 53%|█████▎    | 53285/100000 [00:40<00:33, 1376.53it/s]Episode 53300/100000, Avg Reward: 15.3570, Epsilon: 0.100
+Episode 53400/100000, Avg Reward: 3.2550, Epsilon: 0.100
+ 53%|█████▎    | 53424/100000 [00:40<00:36, 1291.88it/s]Episode 53500/100000, Avg Reward: -16.8910, Epsilon: 0.100
+ 54%|█████▎    | 53567/100000 [00:41<00:34, 1329.85it/s]Episode 53600/100000, Avg Reward: -29.2870, Epsilon: 0.100
+Episode 53700/100000, Avg Reward: 53.7830, Epsilon: 0.100
+ 54%|█████▎    | 53702/100000 [00:41<00:35, 1306.33it/s]Episode 53800/100000, Avg Reward: -40.1400, Epsilon: 0.100
+ 54%|█████▍    | 53846/100000 [00:41<00:34, 1343.54it/s]Episode 53900/100000, Avg Reward: -1.3880, Epsilon: 0.100
+ 54%|█████▍    | 53985/100000 [00:41<00:33, 1356.27it/s]Episode 54000/100000, Avg Reward: 7.1860, Epsilon: 0.100
+Episode 54100/100000, Avg Reward: 36.7080, Epsilon: 0.100
+ 54%|█████▍    | 54122/100000 [00:41<00:33, 1349.84it/s]Episode 54200/100000, Avg Reward: 16.6960, Epsilon: 0.100
+ 54%|█████▍    | 54266/100000 [00:41<00:33, 1372.30it/s]Episode 54300/100000, Avg Reward: -21.1450, Epsilon: 0.100
+Episode 54400/100000, Avg Reward: 24.6350, Epsilon: 0.100
+ 54%|█████▍    | 54404/100000 [00:41<00:35, 1293.25it/s]Episode 54500/100000, Avg Reward: -4.2810, Epsilon: 0.100
+ 55%|█████▍    | 54535/100000 [00:41<00:35, 1269.02it/s]Episode 54600/100000, Avg Reward: 4.8630, Epsilon: 0.100
+ 55%|█████▍    | 54667/100000 [00:41<00:35, 1280.94it/s]Episode 54700/100000, Avg Reward: 2.4400, Epsilon: 0.100
+Episode 54800/100000, Avg Reward: 16.8810, Epsilon: 0.100
+ 55%|█████▍    | 54800/100000 [00:42<00:36, 1249.09it/s]Episode 54900/100000, Avg Reward: 11.1060, Epsilon: 0.100
+ 55%|█████▍    | 54928/100000 [00:42<00:35, 1252.84it/s]Episode 55000/100000, Avg Reward: -4.1180, Epsilon: 0.100
+ 55%|█████▌    | 55054/100000 [00:42<00:37, 1205.48it/s]Episode 55100/100000, Avg Reward: 3.9370, Epsilon: 0.100
+ 55%|█████▌    | 55183/100000 [00:42<00:36, 1228.34it/s]Episode 55200/100000, Avg Reward: 26.5150, Epsilon: 0.100
+Episode 55300/100000, Avg Reward: 9.2410, Epsilon: 0.100
+ 55%|█████▌    | 55307/100000 [00:42<00:37, 1202.43it/s]Episode 55400/100000, Avg Reward: 22.3500, Epsilon: 0.100
+ 55%|█████▌    | 55443/100000 [00:42<00:35, 1247.45it/s]Episode 55500/100000, Avg Reward: -26.6020, Epsilon: 0.100
+ 56%|█████▌    | 55576/100000 [00:42<00:34, 1270.56it/s]Episode 55600/100000, Avg Reward: -9.6000, Epsilon: 0.100
+Episode 55700/100000, Avg Reward: 74.9090, Epsilon: 0.100
+ 56%|█████▌    | 55704/100000 [00:42<00:34, 1271.65it/s]Episode 55800/100000, Avg Reward: 1.2940, Epsilon: 0.100
+ 56%|█████▌    | 55832/100000 [00:42<00:34, 1265.60it/s]Episode 55900/100000, Avg Reward: -23.0020, Epsilon: 0.100
+ 56%|█████▌    | 55980/100000 [00:42<00:33, 1328.67it/s]Episode 56000/100000, Avg Reward: 27.9920, Epsilon: 0.100
+Episode 56100/100000, Avg Reward: 15.8480, Epsilon: 0.100
+ 56%|█████▌    | 56114/100000 [00:43<00:38, 1138.46it/s]Episode 56200/100000, Avg Reward: -26.8530, Epsilon: 0.100
+ 56%|█████▋    | 56266/100000 [00:43<00:35, 1237.61it/s]Episode 56300/100000, Avg Reward: 1.4200, Epsilon: 0.100
+Episode 56400/100000, Avg Reward: 2.4920, Epsilon: 0.100
+ 56%|█████▋    | 56400/100000 [00:43<00:34, 1245.86it/s]Episode 56500/100000, Avg Reward: 20.7840, Epsilon: 0.100
+ 57%|█████▋    | 56558/100000 [00:43<00:32, 1337.59it/s]Episode 56600/100000, Avg Reward: -15.8940, Epsilon: 0.100
+Episode 56700/100000, Avg Reward: -13.8010, Epsilon: 0.100
+ 57%|█████▋    | 56700/100000 [00:43<00:32, 1316.96it/s]Episode 56800/100000, Avg Reward: -17.7380, Epsilon: 0.100
+ 57%|█████▋    | 56850/100000 [00:43<00:31, 1367.71it/s]Episode 56900/100000, Avg Reward: 20.5030, Epsilon: 0.100
+ 57%|█████▋    | 56994/100000 [00:43<00:30, 1387.81it/s]Episode 57000/100000, Avg Reward: 4.9970, Epsilon: 0.100
+Episode 57100/100000, Avg Reward: 17.9600, Epsilon: 0.100
+ 57%|█████▋    | 57135/100000 [00:43<00:31, 1355.50it/s]Episode 57200/100000, Avg Reward: 3.9510, Epsilon: 0.100
+ 57%|█████▋    | 57275/100000 [00:43<00:31, 1363.13it/s]Episode 57300/100000, Avg Reward: 29.4140, Epsilon: 0.100
+Episode 57400/100000, Avg Reward: -21.3720, Epsilon: 0.100
+ 57%|█████▋    | 57413/100000 [00:44<00:32, 1314.18it/s]Episode 57500/100000, Avg Reward: 14.4320, Epsilon: 0.100
+ 58%|█████▊    | 57546/100000 [00:44<00:32, 1300.05it/s]Episode 57600/100000, Avg Reward: -8.6940, Epsilon: 0.100
+ 58%|█████▊    | 57691/100000 [00:44<00:31, 1340.94it/s]Episode 57700/100000, Avg Reward: -11.5470, Epsilon: 0.100
+Episode 57800/100000, Avg Reward: 28.0780, Epsilon: 0.100
+ 58%|█████▊    | 57826/100000 [00:44<00:33, 1264.76it/s]Episode 57900/100000, Avg Reward: -20.8480, Epsilon: 0.100
+ 58%|█████▊    | 57958/100000 [00:44<00:32, 1277.93it/s]Episode 58000/100000, Avg Reward: 4.1670, Epsilon: 0.100
+ 58%|█████▊    | 58099/100000 [00:44<00:31, 1313.73it/s]Episode 58100/100000, Avg Reward: 8.7140, Epsilon: 0.100
+Episode 58200/100000, Avg Reward: -5.6680, Epsilon: 0.100
+ 58%|█████▊    | 58232/100000 [00:44<00:31, 1308.90it/s]Episode 58300/100000, Avg Reward: -27.1000, Epsilon: 0.100
+ 58%|█████▊    | 58369/100000 [00:44<00:31, 1325.88it/s]Episode 58400/100000, Avg Reward: -6.3600, Epsilon: 0.100
+Episode 58500/100000, Avg Reward: 12.8970, Epsilon: 0.100
+ 59%|█████▊    | 58503/100000 [00:44<00:32, 1268.56it/s]Episode 58600/100000, Avg Reward: -2.0220, Epsilon: 0.100
+ 59%|█████▊    | 58643/100000 [00:44<00:31, 1304.33it/s]Episode 58700/100000, Avg Reward: -1.6680, Epsilon: 0.100
+ 59%|█████▉    | 58785/100000 [00:45<00:30, 1336.97it/s]Episode 58800/100000, Avg Reward: 13.1680, Epsilon: 0.100
+Episode 58900/100000, Avg Reward: 35.3320, Epsilon: 0.100
+ 59%|█████▉    | 58920/100000 [00:45<00:32, 1283.43it/s]Episode 59000/100000, Avg Reward: 4.6390, Epsilon: 0.100
+ 59%|█████▉    | 59079/100000 [00:45<00:29, 1368.61it/s]Episode 59100/100000, Avg Reward: 32.9940, Epsilon: 0.100
+Episode 59200/100000, Avg Reward: -19.5050, Epsilon: 0.100
+ 59%|█████▉    | 59217/100000 [00:45<00:31, 1315.04it/s]Episode 59300/100000, Avg Reward: 55.6970, Epsilon: 0.100
+ 59%|█████▉    | 59371/100000 [00:45<00:29, 1376.92it/s]Episode 59400/100000, Avg Reward: -13.6920, Epsilon: 0.100
+Episode 59500/100000, Avg Reward: -11.6150, Epsilon: 0.100
+ 60%|█████▉    | 59510/100000 [00:45<00:30, 1310.51it/s]Episode 59600/100000, Avg Reward: 6.8240, Epsilon: 0.100
+ 60%|█████▉    | 59650/100000 [00:45<00:30, 1333.84it/s]Episode 59700/100000, Avg Reward: 7.6010, Epsilon: 0.100
+ 60%|█████▉    | 59795/100000 [00:45<00:29, 1363.80it/s]Episode 59800/100000, Avg Reward: -20.3610, Epsilon: 0.100
+Episode 59900/100000, Avg Reward: 6.4570, Epsilon: 0.100
+ 60%|█████▉    | 59933/100000 [00:45<00:30, 1327.02it/s]Episode 60000/100000, Avg Reward: -0.6980, Epsilon: 0.100
+ 60%|██████    | 60067/100000 [00:46<00:30, 1328.58it/s]Episode 60100/100000, Avg Reward: 24.0670, Epsilon: 0.100
+Episode 60200/100000, Avg Reward: -21.5160, Epsilon: 0.100
+ 60%|██████    | 60201/100000 [00:46<00:31, 1276.37it/s]Episode 60300/100000, Avg Reward: 2.8270, Epsilon: 0.100
+ 60%|██████    | 60332/100000 [00:46<00:30, 1282.99it/s]Episode 60400/100000, Avg Reward: 3.3320, Epsilon: 0.100
+ 60%|██████    | 60470/100000 [00:46<00:30, 1309.03it/s]Episode 60500/100000, Avg Reward: -47.2430, Epsilon: 0.100
+Episode 60600/100000, Avg Reward: -1.4960, Epsilon: 0.100
+ 61%|██████    | 60602/100000 [00:46<00:31, 1263.05it/s]Episode 60700/100000, Avg Reward: 7.6860, Epsilon: 0.100
+ 61%|██████    | 60752/100000 [00:46<00:29, 1328.15it/s]Episode 60800/100000, Avg Reward: -9.7240, Epsilon: 0.100
+Episode 60900/100000, Avg Reward: -9.4930, Epsilon: 0.100
+ 61%|██████    | 60900/100000 [00:46<00:29, 1318.22it/s]Episode 61000/100000, Avg Reward: 18.5060, Epsilon: 0.100
+ 61%|██████    | 61056/100000 [00:46<00:28, 1386.92it/s]Episode 61100/100000, Avg Reward: -16.6200, Epsilon: 0.100
+Episode 61200/100000, Avg Reward: -47.8840, Epsilon: 0.100
+ 61%|██████    | 61200/100000 [00:46<00:29, 1328.98it/s]Episode 61300/100000, Avg Reward: 8.1050, Epsilon: 0.100
+ 61%|██████▏   | 61336/100000 [00:47<00:28, 1337.42it/s]Episode 61400/100000, Avg Reward: 10.4380, Epsilon: 0.100
+ 61%|██████▏   | 61495/100000 [00:47<00:27, 1408.53it/s]Episode 61500/100000, Avg Reward: 29.2380, Epsilon: 0.100
+Episode 61600/100000, Avg Reward: -6.6570, Epsilon: 0.100
+ 62%|██████▏   | 61637/100000 [00:47<00:28, 1359.29it/s]Episode 61700/100000, Avg Reward: 2.2650, Epsilon: 0.100
+ 62%|██████▏   | 61782/100000 [00:47<00:27, 1384.02it/s]Episode 61800/100000, Avg Reward: 6.5080, Epsilon: 0.100
+Episode 61900/100000, Avg Reward: -32.8060, Epsilon: 0.100
+ 62%|██████▏   | 61922/100000 [00:47<00:28, 1331.06it/s]Episode 62000/100000, Avg Reward: -8.3640, Epsilon: 0.100
+ 62%|██████▏   | 62058/100000 [00:47<00:28, 1338.26it/s]Episode 62100/100000, Avg Reward: -21.7190, Epsilon: 0.100
+Episode 62200/100000, Avg Reward: -1.4220, Epsilon: 0.100
+ 62%|██████▏   | 62200/100000 [00:47<00:28, 1330.17it/s]Episode 62300/100000, Avg Reward: 84.1280, Epsilon: 0.100
+ 62%|██████▏   | 62369/100000 [00:47<00:26, 1431.49it/s]Episode 62400/100000, Avg Reward: -32.2190, Epsilon: 0.100
+Episode 62500/100000, Avg Reward: 32.8530, Epsilon: 0.100
+ 63%|██████▎   | 62513/100000 [00:47<00:27, 1368.00it/s]Episode 62600/100000, Avg Reward: 13.1350, Epsilon: 0.100
+ 63%|██████▎   | 62656/100000 [00:47<00:26, 1383.40it/s]Episode 62700/100000, Avg Reward: -12.8960, Epsilon: 0.100
+ 63%|██████▎   | 62796/100000 [00:48<00:26, 1379.64it/s]Episode 62800/100000, Avg Reward: 28.1740, Epsilon: 0.100
+Episode 62900/100000, Avg Reward: -41.3800, Epsilon: 0.100
+ 63%|██████▎   | 62935/100000 [00:48<00:28, 1316.02it/s]Episode 63000/100000, Avg Reward: -37.4690, Epsilon: 0.100
+ 63%|██████▎   | 63073/100000 [00:48<00:27, 1331.89it/s]Episode 63100/100000, Avg Reward: -26.7270, Epsilon: 0.100
+Episode 63200/100000, Avg Reward: 18.9370, Epsilon: 0.100
+ 63%|██████▎   | 63207/100000 [00:48<00:28, 1281.10it/s]Episode 63300/100000, Avg Reward: 2.5470, Epsilon: 0.100
+ 63%|██████▎   | 63364/100000 [00:48<00:26, 1360.65it/s]Episode 63400/100000, Avg Reward: 26.0840, Epsilon: 0.100
+Episode 63500/100000, Avg Reward: 48.4540, Epsilon: 0.100
+ 64%|██████▎   | 63502/100000 [00:48<00:26, 1357.65it/s]Episode 63600/100000, Avg Reward: 0.2610, Epsilon: 0.100
+ 64%|██████▎   | 63657/100000 [00:48<00:25, 1410.48it/s]Episode 63700/100000, Avg Reward: 24.4600, Epsilon: 0.100
+Episode 63800/100000, Avg Reward: 38.3570, Epsilon: 0.100
+ 64%|██████▍   | 63800/100000 [00:48<00:26, 1375.90it/s]Episode 63900/100000, Avg Reward: 35.3340, Epsilon: 0.100
+ 64%|██████▍   | 63946/100000 [00:48<00:25, 1397.80it/s]Episode 64000/100000, Avg Reward: -3.7450, Epsilon: 0.100
+ 64%|██████▍   | 64087/100000 [00:49<00:26, 1372.87it/s]Episode 64100/100000, Avg Reward: -0.3610, Epsilon: 0.100
+Episode 64200/100000, Avg Reward: 13.4900, Epsilon: 0.100
+ 64%|██████▍   | 64225/100000 [00:49<00:27, 1317.42it/s]Episode 64300/100000, Avg Reward: 12.4640, Epsilon: 0.100
+ 64%|██████▍   | 64373/100000 [00:49<00:26, 1361.60it/s]Episode 64400/100000, Avg Reward: 24.9520, Epsilon: 0.100
+Episode 64500/100000, Avg Reward: 1.7180, Epsilon: 0.100
+ 65%|██████▍   | 64510/100000 [00:49<00:26, 1317.33it/s]Episode 64600/100000, Avg Reward: 26.9700, Epsilon: 0.100
+ 65%|██████▍   | 64659/100000 [00:49<00:25, 1366.13it/s]Episode 64700/100000, Avg Reward: -17.8800, Epsilon: 0.100
+ 65%|██████▍   | 64797/100000 [00:49<00:26, 1349.60it/s]Episode 64800/100000, Avg Reward: 7.2880, Epsilon: 0.100
+Episode 64900/100000, Avg Reward: 2.7590, Epsilon: 0.100
+ 65%|██████▍   | 64933/100000 [00:49<00:27, 1292.13it/s]Episode 65000/100000, Avg Reward: 16.7630, Epsilon: 0.100
+ 65%|██████▌   | 65083/100000 [00:49<00:25, 1349.79it/s]Episode 65100/100000, Avg Reward: 15.7560, Epsilon: 0.100
+Episode 65200/100000, Avg Reward: 30.9770, Epsilon: 0.100
+ 65%|██████▌   | 65219/100000 [00:49<00:26, 1317.96it/s]Episode 65300/100000, Avg Reward: 12.7850, Epsilon: 0.100
+ 65%|██████▌   | 65368/100000 [00:49<00:25, 1366.10it/s]Episode 65400/100000, Avg Reward: 12.6980, Epsilon: 0.100
+Episode 65500/100000, Avg Reward: -21.8860, Epsilon: 0.100
+ 66%|██████▌   | 65506/100000 [00:50<00:26, 1303.94it/s]Episode 65600/100000, Avg Reward: -0.6560, Epsilon: 0.100
+ 66%|██████▌   | 65640/100000 [00:50<00:26, 1313.68it/s]Episode 65700/100000, Avg Reward: 12.8260, Epsilon: 0.100
+ 66%|██████▌   | 65780/100000 [00:50<00:25, 1337.62it/s]Episode 65800/100000, Avg Reward: 3.0400, Epsilon: 0.100
+Episode 65900/100000, Avg Reward: 3.5980, Epsilon: 0.100
+ 66%|██████▌   | 65915/100000 [00:50<00:26, 1299.13it/s]Episode 66000/100000, Avg Reward: 7.1870, Epsilon: 0.100
+ 66%|██████▌   | 66071/100000 [00:50<00:24, 1372.60it/s]Episode 66100/100000, Avg Reward: 34.4060, Epsilon: 0.100
+Episode 66200/100000, Avg Reward: -2.2380, Epsilon: 0.100
+ 66%|██████▌   | 66209/100000 [00:50<00:25, 1331.93it/s]Episode 66300/100000, Avg Reward: -31.9590, Epsilon: 0.100
+ 66%|██████▋   | 66343/100000 [00:50<00:25, 1317.79it/s]Episode 66400/100000, Avg Reward: 46.5610, Epsilon: 0.100
+ 66%|██████▋   | 66498/100000 [00:50<00:24, 1382.69it/s]Episode 66500/100000, Avg Reward: 22.9400, Epsilon: 0.100
+Episode 66600/100000, Avg Reward: 44.1200, Epsilon: 0.100
+ 67%|██████▋   | 66637/100000 [00:50<00:24, 1375.67it/s]Episode 66700/100000, Avg Reward: -4.4550, Epsilon: 0.100
+ 67%|██████▋   | 66790/100000 [00:51<00:23, 1415.12it/s]Episode 66800/100000, Avg Reward: -13.3590, Epsilon: 0.100
+Episode 66900/100000, Avg Reward: -34.2820, Epsilon: 0.100
+ 67%|██████▋   | 66932/100000 [00:51<00:24, 1344.91it/s]Episode 67000/100000, Avg Reward: -2.0690, Epsilon: 0.100
+ 67%|██████▋   | 67074/100000 [00:51<00:24, 1364.71it/s]Episode 67100/100000, Avg Reward: -2.5220, Epsilon: 0.100
+Episode 67200/100000, Avg Reward: -24.9460, Epsilon: 0.100
+ 67%|██████▋   | 67212/100000 [00:51<00:25, 1298.60it/s]Episode 67300/100000, Avg Reward: 11.4350, Epsilon: 0.100
+ 67%|██████▋   | 67353/100000 [00:51<00:24, 1329.26it/s]Episode 67400/100000, Avg Reward: -19.5370, Epsilon: 0.100
+ 67%|██████▋   | 67498/100000 [00:51<00:23, 1362.65it/s]Episode 67500/100000, Avg Reward: -18.4770, Epsilon: 0.100
+Episode 67600/100000, Avg Reward: 1.7950, Epsilon: 0.100
+ 68%|██████▊   | 67636/100000 [00:51<00:24, 1335.24it/s]Episode 67700/100000, Avg Reward: 11.1530, Epsilon: 0.100
+ 68%|██████▊   | 67771/100000 [00:51<00:24, 1331.05it/s]Episode 67800/100000, Avg Reward: 6.5410, Epsilon: 0.100
+Episode 67900/100000, Avg Reward: -2.9860, Epsilon: 0.100
+ 68%|██████▊   | 67905/100000 [00:51<00:25, 1276.32it/s]Episode 68000/100000, Avg Reward: 18.8960, Epsilon: 0.100
+ 68%|██████▊   | 68044/100000 [00:51<00:24, 1308.36it/s]Episode 68100/100000, Avg Reward: -17.3740, Epsilon: 0.100
+ 68%|██████▊   | 68199/100000 [00:52<00:23, 1377.41it/s]Episode 68200/100000, Avg Reward: -2.9670, Epsilon: 0.100
+Episode 68300/100000, Avg Reward: 4.9890, Epsilon: 0.100
+ 68%|██████▊   | 68338/100000 [00:52<00:23, 1328.05it/s]Episode 68400/100000, Avg Reward: -27.9490, Epsilon: 0.100
+ 68%|██████▊   | 68475/100000 [00:52<00:23, 1338.63it/s]Episode 68500/100000, Avg Reward: 18.6220, Epsilon: 0.100
+Episode 68600/100000, Avg Reward: 65.6010, Epsilon: 0.100
+ 69%|██████▊   | 68610/100000 [00:52<00:24, 1292.09it/s]Episode 68700/100000, Avg Reward: 29.7320, Epsilon: 0.100
+ 69%|██████▉   | 68767/100000 [00:52<00:22, 1370.57it/s]Episode 68800/100000, Avg Reward: 20.7390, Epsilon: 0.100
+Episode 68900/100000, Avg Reward: -32.2350, Epsilon: 0.100
+ 69%|██████▉   | 68905/100000 [00:52<00:23, 1313.80it/s]Episode 69000/100000, Avg Reward: -6.8960, Epsilon: 0.100
+ 69%|██████▉   | 69051/100000 [00:52<00:22, 1352.74it/s]Episode 69100/100000, Avg Reward: 1.8250, Epsilon: 0.100
+Episode 69200/100000, Avg Reward: -0.1420, Epsilon: 0.100
+ 69%|██████▉   | 69200/100000 [00:52<00:23, 1336.76it/s]Episode 69300/100000, Avg Reward: 7.0620, Epsilon: 0.100
+ 69%|██████▉   | 69349/100000 [00:52<00:22, 1379.69it/s]Episode 69400/100000, Avg Reward: 20.0800, Epsilon: 0.100
+ 69%|██████▉   | 69499/100000 [00:53<00:21, 1412.21it/s]Episode 69500/100000, Avg Reward: -15.8440, Epsilon: 0.100
+Episode 69600/100000, Avg Reward: -7.8550, Epsilon: 0.100
+ 70%|██████▉   | 69641/100000 [00:53<00:26, 1166.98it/s]Episode 69700/100000, Avg Reward: -8.1110, Epsilon: 0.100
+ 70%|██████▉   | 69790/100000 [00:53<00:24, 1248.57it/s]Episode 69800/100000, Avg Reward: 11.3420, Epsilon: 0.100
+Episode 69900/100000, Avg Reward: -11.1350, Epsilon: 0.100
+ 70%|██████▉   | 69922/100000 [00:53<00:24, 1220.66it/s]Episode 70000/100000, Avg Reward: -26.9190, Epsilon: 0.100
+ 70%|███████   | 70062/100000 [00:53<00:23, 1268.78it/s]Episode 70100/100000, Avg Reward: 11.0520, Epsilon: 0.100
+ 70%|███████   | 70193/100000 [00:53<00:23, 1277.39it/s]Episode 70200/100000, Avg Reward: -43.2480, Epsilon: 0.100
+Episode 70300/100000, Avg Reward: -11.5560, Epsilon: 0.100
+ 70%|███████   | 70324/100000 [00:53<00:23, 1258.34it/s]Episode 70400/100000, Avg Reward: -13.5730, Epsilon: 0.100
+ 70%|███████   | 70468/100000 [00:53<00:22, 1309.44it/s]Episode 70500/100000, Avg Reward: 4.1170, Epsilon: 0.100
+Episode 70600/100000, Avg Reward: -3.6980, Epsilon: 0.100
+ 71%|███████   | 70601/100000 [00:53<00:22, 1281.41it/s]Episode 70700/100000, Avg Reward: -13.4610, Epsilon: 0.100
+ 71%|███████   | 70740/100000 [00:54<00:22, 1310.82it/s]Episode 70800/100000, Avg Reward: 2.1650, Epsilon: 0.100
+ 71%|███████   | 70896/100000 [00:54<00:21, 1380.35it/s]Episode 70900/100000, Avg Reward: 25.6160, Epsilon: 0.100
+Episode 71000/100000, Avg Reward: -41.2940, Epsilon: 0.100
+ 71%|███████   | 71035/100000 [00:54<00:21, 1325.49it/s]Episode 71100/100000, Avg Reward: 46.8390, Epsilon: 0.100
+ 71%|███████   | 71187/100000 [00:54<00:20, 1379.88it/s]Episode 71200/100000, Avg Reward: 27.4060, Epsilon: 0.100
+Episode 71300/100000, Avg Reward: 27.7700, Epsilon: 0.100
+ 71%|███████▏  | 71326/100000 [00:54<00:21, 1352.70it/s]Episode 71400/100000, Avg Reward: 9.5070, Epsilon: 0.100
+ 71%|███████▏  | 71480/100000 [00:54<00:20, 1405.88it/s]Episode 71500/100000, Avg Reward: 30.6380, Epsilon: 0.100
+Episode 71600/100000, Avg Reward: 19.8320, Epsilon: 0.100
+ 72%|███████▏  | 71622/100000 [00:54<00:20, 1355.65it/s]Episode 71700/100000, Avg Reward: 23.3680, Epsilon: 0.100
+ 72%|███████▏  | 71766/100000 [00:54<00:20, 1377.76it/s]Episode 71800/100000, Avg Reward: 9.4560, Epsilon: 0.100
+Episode 71900/100000, Avg Reward: 15.6110, Epsilon: 0.100
+ 72%|███████▏  | 71905/100000 [00:54<00:21, 1312.70it/s]Episode 72000/100000, Avg Reward: 9.0710, Epsilon: 0.100
+ 72%|███████▏  | 72038/100000 [00:55<00:21, 1317.13it/s]Episode 72100/100000, Avg Reward: 10.9760, Epsilon: 0.100
+ 72%|███████▏  | 72179/100000 [00:55<00:20, 1342.76it/s]Episode 72200/100000, Avg Reward: -28.9620, Epsilon: 0.100
+Episode 72300/100000, Avg Reward: 30.9290, Epsilon: 0.100
+ 72%|███████▏  | 72314/100000 [00:55<00:20, 1325.29it/s]Episode 72400/100000, Avg Reward: -12.9280, Epsilon: 0.100
+ 72%|███████▏  | 72447/100000 [00:55<00:20, 1317.05it/s]Episode 72500/100000, Avg Reward: -24.5340, Epsilon: 0.100
+ 73%|███████▎  | 72589/100000 [00:55<00:20, 1345.29it/s]Episode 72600/100000, Avg Reward: -2.8740, Epsilon: 0.100
+Episode 72700/100000, Avg Reward: 22.4580, Epsilon: 0.100
+ 73%|███████▎  | 72724/100000 [00:55<00:20, 1312.92it/s]Episode 72800/100000, Avg Reward: 13.7740, Epsilon: 0.100
+ 73%|███████▎  | 72883/100000 [00:55<00:19, 1391.72it/s]Episode 72900/100000, Avg Reward: 43.6730, Epsilon: 0.100
+Episode 73000/100000, Avg Reward: 4.2770, Epsilon: 0.100
+ 73%|███████▎  | 73023/100000 [00:55<00:20, 1339.20it/s]Episode 73100/100000, Avg Reward: 27.0640, Epsilon: 0.100
+ 73%|███████▎  | 73171/100000 [00:55<00:19, 1377.56it/s]Episode 73200/100000, Avg Reward: -22.4200, Epsilon: 0.100
+Episode 73300/100000, Avg Reward: 31.8960, Epsilon: 0.100
+ 73%|███████▎  | 73310/100000 [00:56<00:23, 1139.71it/s]Episode 73400/100000, Avg Reward: 9.4300, Epsilon: 0.100
+ 73%|███████▎  | 73473/100000 [00:56<00:20, 1263.97it/s]Episode 73500/100000, Avg Reward: -10.8640, Epsilon: 0.100
+Episode 73600/100000, Avg Reward: -11.9520, Epsilon: 0.100
+ 74%|███████▎  | 73607/100000 [00:56<00:21, 1247.50it/s]Episode 73700/100000, Avg Reward: 20.2130, Epsilon: 0.100
+ 74%|███████▎  | 73740/100000 [00:56<00:20, 1268.80it/s]Episode 73800/100000, Avg Reward: 13.4240, Epsilon: 0.100
+ 74%|███████▍  | 73875/100000 [00:56<00:20, 1289.30it/s]Episode 73900/100000, Avg Reward: 28.5310, Epsilon: 0.100
+Episode 74000/100000, Avg Reward: -6.0450, Epsilon: 0.100
+ 74%|███████▍  | 74007/100000 [00:56<00:20, 1268.43it/s]Episode 74100/100000, Avg Reward: 18.6160, Epsilon: 0.100
+ 74%|███████▍  | 74162/100000 [00:56<00:19, 1347.13it/s]Episode 74200/100000, Avg Reward: 33.8190, Epsilon: 0.100
+Episode 74300/100000, Avg Reward: -10.8760, Epsilon: 0.100
+ 74%|███████▍  | 74300/100000 [00:56<00:19, 1310.23it/s]Episode 74400/100000, Avg Reward: 14.5680, Epsilon: 0.100
+ 74%|███████▍  | 74455/100000 [00:56<00:18, 1378.06it/s]Episode 74500/100000, Avg Reward: -0.3270, Epsilon: 0.100
+Episode 74600/100000, Avg Reward: -16.7130, Epsilon: 0.100
+ 75%|███████▍  | 74600/100000 [00:56<00:19, 1336.69it/s]Episode 74700/100000, Avg Reward: 35.2390, Epsilon: 0.100
+ 75%|███████▍  | 74754/100000 [00:57<00:18, 1394.00it/s]Episode 74800/100000, Avg Reward: -27.4010, Epsilon: 0.100
+ 75%|███████▍  | 74898/100000 [00:57<00:17, 1404.66it/s]Episode 74900/100000, Avg Reward: -24.9910, Epsilon: 0.100
+Episode 75000/100000, Avg Reward: 10.8300, Epsilon: 0.100
+ 75%|███████▌  | 75040/100000 [00:57<00:18, 1352.80it/s]Episode 75100/100000, Avg Reward: 4.7050, Epsilon: 0.100
+ 75%|███████▌  | 75177/100000 [00:57<00:18, 1349.49it/s]Episode 75200/100000, Avg Reward: 22.8470, Epsilon: 0.100
+Episode 75300/100000, Avg Reward: -30.5150, Epsilon: 0.100
+ 75%|███████▌  | 75313/100000 [00:57<00:19, 1263.23it/s]Episode 75400/100000, Avg Reward: -44.4450, Epsilon: 0.100
+ 75%|███████▌  | 75441/100000 [00:57<00:19, 1242.38it/s]Episode 75500/100000, Avg Reward: 23.3970, Epsilon: 0.100
+ 76%|███████▌  | 75573/100000 [00:57<00:19, 1263.42it/s]Episode 75600/100000, Avg Reward: 13.7390, Epsilon: 0.100
+Episode 75700/100000, Avg Reward: -7.2270, Epsilon: 0.100
+ 76%|███████▌  | 75701/100000 [00:57<00:19, 1239.23it/s]Episode 75800/100000, Avg Reward: -26.6000, Epsilon: 0.100
+ 76%|███████▌  | 75852/100000 [00:57<00:18, 1315.98it/s]Episode 75900/100000, Avg Reward: 16.3490, Epsilon: 0.100
+ 76%|███████▌  | 75992/100000 [00:58<00:17, 1340.16it/s]Episode 76000/100000, Avg Reward: -6.0340, Epsilon: 0.100
+Episode 76100/100000, Avg Reward: -22.0670, Epsilon: 0.100
+ 76%|███████▌  | 76127/100000 [00:58<00:18, 1314.12it/s]Episode 76200/100000, Avg Reward: -1.5960, Epsilon: 0.100
+ 76%|███████▋  | 76270/100000 [00:58<00:17, 1346.59it/s]Episode 76300/100000, Avg Reward: -26.8730, Epsilon: 0.100
+Episode 76400/100000, Avg Reward: 23.0470, Epsilon: 0.100
+ 76%|███████▋  | 76406/100000 [00:58<00:17, 1328.29it/s]Episode 76500/100000, Avg Reward: -19.8450, Epsilon: 0.100
+Episode 76600/100000, Avg Reward: 0.9720, Epsilon: 0.100
+ 77%|███████▋  | 76674/100000 [00:58<00:13, 1722.16it/s]Episode 76700/100000, Avg Reward: 2.0060, Epsilon: 0.100
+Episode 76800/100000, Avg Reward: -26.0910, Epsilon: 0.100
+ 77%|███████▋  | 76848/100000 [00:58<00:14, 1556.73it/s]Episode 76900/100000, Avg Reward: -17.9650, Epsilon: 0.100
+Episode 77000/100000, Avg Reward: 18.2130, Epsilon: 0.100
+ 77%|███████▋  | 77008/100000 [00:58<00:15, 1497.74it/s]Episode 77100/100000, Avg Reward: 6.0480, Epsilon: 0.100
+ 77%|███████▋  | 77161/100000 [00:58<00:15, 1469.81it/s]Episode 77200/100000, Avg Reward: 19.8900, Epsilon: 0.100
+Episode 77300/100000, Avg Reward: 40.7660, Epsilon: 0.100
+ 77%|███████▋  | 77310/100000 [00:58<00:15, 1453.42it/s]Episode 77400/100000, Avg Reward: 8.1700, Epsilon: 0.100
+ 77%|███████▋  | 77457/100000 [00:59<00:16, 1393.63it/s]Episode 77500/100000, Avg Reward: 10.5590, Epsilon: 0.100
+Episode 77600/100000, Avg Reward: 11.2900, Epsilon: 0.100
+ 78%|███████▊  | 77600/100000 [00:59<00:16, 1376.17it/s]Episode 77700/100000, Avg Reward: -37.0460, Epsilon: 0.100
+ 78%|███████▊  | 77748/100000 [00:59<00:15, 1403.77it/s]Episode 77800/100000, Avg Reward: -35.8020, Epsilon: 0.100
+ 78%|███████▊  | 77890/100000 [00:59<00:16, 1376.95it/s]Episode 77900/100000, Avg Reward: -17.4520, Epsilon: 0.100
+Episode 78000/100000, Avg Reward: -19.3240, Epsilon: 0.100
+ 78%|███████▊  | 78029/100000 [00:59<00:16, 1310.12it/s]Episode 78100/100000, Avg Reward: 13.2580, Epsilon: 0.100
+ 78%|███████▊  | 78183/100000 [00:59<00:15, 1373.92it/s]Episode 78200/100000, Avg Reward: 21.2160, Epsilon: 0.100
+Episode 78300/100000, Avg Reward: 14.7870, Epsilon: 0.100
+ 78%|███████▊  | 78322/100000 [00:59<00:16, 1342.89it/s]Episode 78400/100000, Avg Reward: -19.8290, Epsilon: 0.100
+ 78%|███████▊  | 78468/100000 [00:59<00:15, 1375.34it/s]Episode 78500/100000, Avg Reward: 9.9910, Epsilon: 0.100
+Episode 78600/100000, Avg Reward: 31.3640, Epsilon: 0.100
+ 79%|███████▊  | 78607/100000 [00:59<00:15, 1344.80it/s]Episode 78700/100000, Avg Reward: 23.0450, Epsilon: 0.100
+ 79%|███████▊  | 78748/100000 [00:59<00:15, 1362.42it/s]Episode 78800/100000, Avg Reward: 15.5000, Epsilon: 0.100
+ 79%|███████▉  | 78886/100000 [01:00<00:15, 1364.77it/s]Episode 78900/100000, Avg Reward: 2.8220, Epsilon: 0.100
+Episode 79000/100000, Avg Reward: 2.3840, Epsilon: 0.100
+ 79%|███████▉  | 79023/100000 [01:00<00:15, 1316.45it/s]Episode 79100/100000, Avg Reward: -9.2360, Epsilon: 0.100
+ 79%|███████▉  | 79168/100000 [01:00<00:15, 1352.73it/s]Episode 79200/100000, Avg Reward: 12.1990, Epsilon: 0.100
+Episode 79300/100000, Avg Reward: -2.0170, Epsilon: 0.100
+ 79%|███████▉  | 79304/100000 [01:00<00:16, 1273.73it/s]Episode 79400/100000, Avg Reward: -11.7800, Epsilon: 0.100
+ 79%|███████▉  | 79435/100000 [01:00<00:16, 1282.42it/s]Episode 79500/100000, Avg Reward: -9.7040, Epsilon: 0.100
+ 80%|███████▉  | 79579/100000 [01:00<00:15, 1326.00it/s]Episode 79600/100000, Avg Reward: 4.9630, Epsilon: 0.100
+Episode 79700/100000, Avg Reward: 42.9000, Epsilon: 0.100
+ 80%|███████▉  | 79713/100000 [01:00<00:15, 1280.68it/s]Episode 79800/100000, Avg Reward: -13.0960, Epsilon: 0.100
+ 80%|███████▉  | 79860/100000 [01:00<00:15, 1333.50it/s]Episode 79900/100000, Avg Reward: 20.3810, Epsilon: 0.100
+ 80%|███████▉  | 79998/100000 [01:00<00:14, 1346.85it/s]Episode 80000/100000, Avg Reward: 3.7140, Epsilon: 0.100
+Episode 80100/100000, Avg Reward: 25.4100, Epsilon: 0.100
+ 80%|████████  | 80134/100000 [01:01<00:14, 1334.01it/s]Episode 80200/100000, Avg Reward: 48.9810, Epsilon: 0.100
+ 80%|████████  | 80296/100000 [01:01<00:13, 1416.97it/s]Episode 80300/100000, Avg Reward: 2.0790, Epsilon: 0.100
+Episode 80400/100000, Avg Reward: 3.6080, Epsilon: 0.100
+ 80%|████████  | 80439/100000 [01:01<00:14, 1362.72it/s]Episode 80500/100000, Avg Reward: 14.6230, Epsilon: 0.100
+ 81%|████████  | 80586/100000 [01:01<00:13, 1393.37it/s]Episode 80600/100000, Avg Reward: -36.1340, Epsilon: 0.100
+Episode 80700/100000, Avg Reward: 6.7900, Epsilon: 0.100
+ 81%|████████  | 80727/100000 [01:01<00:14, 1292.79it/s]Episode 80800/100000, Avg Reward: -22.8970, Epsilon: 0.100
+ 81%|████████  | 80859/100000 [01:01<00:14, 1279.95it/s]Episode 80900/100000, Avg Reward: 6.1260, Epsilon: 0.100
+ 81%|████████  | 80989/100000 [01:01<00:14, 1283.52it/s]Episode 81000/100000, Avg Reward: 0.3740, Epsilon: 0.100
+Episode 81100/100000, Avg Reward: -33.3260, Epsilon: 0.100
+ 81%|████████  | 81119/100000 [01:01<00:15, 1258.64it/s]Episode 81200/100000, Avg Reward: 19.0960, Epsilon: 0.100
+ 81%|████████▏ | 81279/100000 [01:01<00:13, 1355.23it/s]Episode 81300/100000, Avg Reward: 26.8920, Epsilon: 0.100
+Episode 81400/100000, Avg Reward: -11.0310, Epsilon: 0.100
+ 81%|████████▏ | 81416/100000 [01:02<00:14, 1311.18it/s]Episode 81500/100000, Avg Reward: 27.2280, Epsilon: 0.100
+ 82%|████████▏ | 81570/100000 [01:02<00:13, 1375.53it/s]Episode 81600/100000, Avg Reward: -13.2830, Epsilon: 0.100
+Episode 81700/100000, Avg Reward: -3.4810, Epsilon: 0.100
+ 82%|████████▏ | 81709/100000 [01:02<00:13, 1329.55it/s]Episode 81800/100000, Avg Reward: 0.1350, Epsilon: 0.100
+ 82%|████████▏ | 81853/100000 [01:02<00:13, 1360.70it/s]Episode 81900/100000, Avg Reward: -19.4610, Epsilon: 0.100
+ 82%|████████▏ | 81990/100000 [01:02<00:13, 1355.62it/s]Episode 82000/100000, Avg Reward: -34.8230, Epsilon: 0.100
+Episode 82100/100000, Avg Reward: -10.9800, Epsilon: 0.100
+ 82%|████████▏ | 82127/100000 [01:02<00:13, 1283.78it/s]Episode 82200/100000, Avg Reward: -5.8200, Epsilon: 0.100
+ 82%|████████▏ | 82260/100000 [01:02<00:13, 1294.67it/s]Episode 82300/100000, Avg Reward: -40.5360, Epsilon: 0.100
+Episode 82400/100000, Avg Reward: 19.6630, Epsilon: 0.100
+ 82%|████████▏ | 82400/100000 [01:02<00:13, 1269.60it/s]Episode 82500/100000, Avg Reward: -51.3690, Epsilon: 0.100
+ 83%|████████▎ | 82539/100000 [01:02<00:13, 1303.53it/s]Episode 82600/100000, Avg Reward: 14.6130, Epsilon: 0.100
+ 83%|████████▎ | 82691/100000 [01:02<00:12, 1364.77it/s]Episode 82700/100000, Avg Reward: -5.5650, Epsilon: 0.100
+Episode 82800/100000, Avg Reward: -8.2120, Epsilon: 0.100
+ 83%|████████▎ | 82829/100000 [01:03<00:13, 1307.38it/s]Episode 82900/100000, Avg Reward: -12.7540, Epsilon: 0.100
+ 83%|████████▎ | 82961/100000 [01:03<00:13, 1308.92it/s]Episode 83000/100000, Avg Reward: -57.6020, Epsilon: 0.100
+Episode 83100/100000, Avg Reward: 23.5200, Epsilon: 0.100
+ 83%|████████▎ | 83100/100000 [01:03<00:13, 1282.50it/s]Episode 83200/100000, Avg Reward: 12.7740, Epsilon: 0.100
+ 83%|████████▎ | 83241/100000 [01:03<00:12, 1318.30it/s]Episode 83300/100000, Avg Reward: -12.5940, Epsilon: 0.100
+ 83%|████████▎ | 83375/100000 [01:03<00:12, 1324.08it/s]Episode 83400/100000, Avg Reward: 28.5630, Epsilon: 0.100
+Episode 83500/100000, Avg Reward: 27.2870, Epsilon: 0.100
+ 84%|████████▎ | 83508/100000 [01:03<00:12, 1285.88it/s]Episode 83600/100000, Avg Reward: -5.6520, Epsilon: 0.100
+ 84%|████████▎ | 83648/100000 [01:03<00:12, 1318.73it/s]Episode 83700/100000, Avg Reward: -6.5270, Epsilon: 0.100
+Episode 83800/100000, Avg Reward: 8.2770, Epsilon: 0.100
+ 84%|████████▍ | 83800/100000 [01:03<00:12, 1304.82it/s]Episode 83900/100000, Avg Reward: 23.5030, Epsilon: 0.100
+ 84%|████████▍ | 83931/100000 [01:03<00:13, 1217.83it/s]Episode 84000/100000, Avg Reward: 27.6020, Epsilon: 0.100
+ 84%|████████▍ | 84054/100000 [01:04<00:13, 1159.33it/s]Episode 84100/100000, Avg Reward: 19.2820, Epsilon: 0.100
+ 84%|████████▍ | 84171/100000 [01:04<00:14, 1125.33it/s]Episode 84200/100000, Avg Reward: -8.9300, Epsilon: 0.100
+ 84%|████████▍ | 84285/100000 [01:04<00:14, 1079.90it/s]Episode 84300/100000, Avg Reward: -53.0280, Epsilon: 0.100
+ 84%|████████▍ | 84394/100000 [01:04<00:14, 1044.98it/s]Episode 84400/100000, Avg Reward: -20.9340, Epsilon: 0.100
+Episode 84500/100000, Avg Reward: 30.8990, Epsilon: 0.100
+ 84%|████████▍ | 84500/100000 [01:04<00:15, 1010.16it/s]Episode 84600/100000, Avg Reward: -12.8610, Epsilon: 0.100
+ 85%|████████▍ | 84602/100000 [01:04<00:15, 989.16it/s] Episode 84700/100000, Avg Reward: -25.2090, Epsilon: 0.100
+ 85%|████████▍ | 84715/100000 [01:04<00:14, 1027.53it/s]Episode 84800/100000, Avg Reward: -56.2190, Epsilon: 0.100
+ 85%|████████▍ | 84858/100000 [01:04<00:13, 1139.70it/s]Episode 84900/100000, Avg Reward: 17.5960, Epsilon: 0.100
+ 85%|████████▍ | 84993/100000 [01:04<00:12, 1198.90it/s]Episode 85000/100000, Avg Reward: 4.2590, Epsilon: 0.100
+Episode 85100/100000, Avg Reward: -1.2550, Epsilon: 0.100
+ 85%|████████▌ | 85114/100000 [01:05<00:12, 1198.92it/s]Episode 85200/100000, Avg Reward: -20.7870, Epsilon: 0.100
+ 85%|████████▌ | 85259/100000 [01:05<00:11, 1268.82it/s]Episode 85300/100000, Avg Reward: -46.7150, Epsilon: 0.100
+ 85%|████████▌ | 85397/100000 [01:05<00:11, 1298.16it/s]Episode 85400/100000, Avg Reward: 11.1180, Epsilon: 0.100
+Episode 85500/100000, Avg Reward: 16.9540, Epsilon: 0.100
+ 86%|████████▌ | 85528/100000 [01:05<00:11, 1228.00it/s]Episode 85600/100000, Avg Reward: 19.3310, Epsilon: 0.100
+ 86%|████████▌ | 85652/100000 [01:05<00:11, 1218.88it/s]Episode 85700/100000, Avg Reward: 17.1050, Epsilon: 0.100
+ 86%|████████▌ | 85775/100000 [01:05<00:15, 900.83it/s] Episode 85800/100000, Avg Reward: -0.9350, Epsilon: 0.100
+Episode 85900/100000, Avg Reward: 28.9330, Epsilon: 0.100
+ 86%|████████▌ | 85900/100000 [01:05<00:14, 948.17it/s]Episode 86000/100000, Avg Reward: -41.1420, Epsilon: 0.100
+ 86%|████████▌ | 86041/100000 [01:05<00:13, 1058.83it/s]Episode 86100/100000, Avg Reward: -32.0080, Epsilon: 0.100
+ 86%|████████▌ | 86184/100000 [01:05<00:11, 1154.12it/s]Episode 86200/100000, Avg Reward: -11.3130, Epsilon: 0.100
+Episode 86300/100000, Avg Reward: -10.2950, Epsilon: 0.100
+ 86%|████████▋ | 86308/100000 [01:06<00:11, 1158.18it/s]Episode 86400/100000, Avg Reward: -16.5300, Epsilon: 0.100
+ 86%|████████▋ | 86457/100000 [01:06<00:10, 1248.97it/s]Episode 86500/100000, Avg Reward: -20.4030, Epsilon: 0.100
+ 87%|████████▋ | 86587/100000 [01:06<00:10, 1239.93it/s]Episode 86600/100000, Avg Reward: -22.9870, Epsilon: 0.100
+Episode 86700/100000, Avg Reward: 1.6780, Epsilon: 0.100
+ 87%|████████▋ | 86715/100000 [01:06<00:10, 1240.34it/s]Episode 86800/100000, Avg Reward: -18.6890, Epsilon: 0.100
+ 87%|████████▋ | 86847/100000 [01:06<00:10, 1260.32it/s]Episode 86900/100000, Avg Reward: 1.1090, Epsilon: 0.100
+ 87%|████████▋ | 86993/100000 [01:06<00:09, 1317.06it/s]Episode 87000/100000, Avg Reward: 46.5960, Epsilon: 0.100
+Episode 87100/100000, Avg Reward: 34.1800, Epsilon: 0.100
+ 87%|████████▋ | 87127/100000 [01:06<00:10, 1276.59it/s]Episode 87200/100000, Avg Reward: 16.9210, Epsilon: 0.100
+ 87%|████████▋ | 87264/100000 [01:06<00:09, 1302.61it/s]Episode 87300/100000, Avg Reward: -14.1380, Epsilon: 0.100
+Episode 87400/100000, Avg Reward: -36.6730, Epsilon: 0.100
+ 87%|████████▋ | 87400/100000 [01:06<00:09, 1262.25it/s]Episode 87500/100000, Avg Reward: 1.6940, Epsilon: 0.100
+ 88%|████████▊ | 87534/100000 [01:07<00:09, 1283.36it/s]Episode 87600/100000, Avg Reward: 20.9350, Epsilon: 0.100
+ 88%|████████▊ | 87688/100000 [01:07<00:09, 1356.15it/s]Episode 87700/100000, Avg Reward: -35.5100, Epsilon: 0.100
+Episode 87800/100000, Avg Reward: 1.6920, Epsilon: 0.100
+ 88%|████████▊ | 87825/100000 [01:07<00:09, 1332.11it/s]Episode 87900/100000, Avg Reward: 10.7560, Epsilon: 0.100
+ 88%|████████▊ | 87986/100000 [01:07<00:08, 1411.22it/s]Episode 88000/100000, Avg Reward: 19.0260, Epsilon: 0.100
+Episode 88100/100000, Avg Reward: 42.0100, Epsilon: 0.100
+ 88%|████████▊ | 88128/100000 [01:07<00:08, 1339.06it/s]Episode 88200/100000, Avg Reward: 2.9040, Epsilon: 0.100
+ 88%|████████▊ | 88275/100000 [01:07<00:08, 1376.14it/s]Episode 88300/100000, Avg Reward: 16.9230, Epsilon: 0.100
+Episode 88400/100000, Avg Reward: -2.3000, Epsilon: 0.100
+ 88%|████████▊ | 88414/100000 [01:07<00:08, 1318.68it/s]Episode 88500/100000, Avg Reward: 6.2600, Epsilon: 0.100
+ 89%|████████▊ | 88560/100000 [01:07<00:08, 1357.32it/s]Episode 88600/100000, Avg Reward: -36.6680, Epsilon: 0.100
+Episode 88700/100000, Avg Reward: 12.0850, Epsilon: 0.100
+ 89%|████████▊ | 88700/100000 [01:07<00:08, 1317.87it/s]Episode 88800/100000, Avg Reward: 0.5980, Epsilon: 0.100
+ 89%|████████▉ | 88849/100000 [01:08<00:08, 1365.85it/s]Episode 88900/100000, Avg Reward: -41.1040, Epsilon: 0.100
+ 89%|████████▉ | 88995/100000 [01:08<00:07, 1390.11it/s]Episode 89000/100000, Avg Reward: 0.1090, Epsilon: 0.100
+Episode 89100/100000, Avg Reward: -21.3560, Epsilon: 0.100
+ 89%|████████▉ | 89135/100000 [01:08<00:07, 1361.64it/s]Episode 89200/100000, Avg Reward: 8.1700, Epsilon: 0.100
+ 89%|████████▉ | 89280/100000 [01:08<00:07, 1385.43it/s]Episode 89300/100000, Avg Reward: -12.0890, Epsilon: 0.100
+Episode 89400/100000, Avg Reward: -9.4330, Epsilon: 0.100
+ 89%|████████▉ | 89420/100000 [01:08<00:08, 1318.28it/s]Episode 89500/100000, Avg Reward: 16.0790, Epsilon: 0.100
+ 90%|████████▉ | 89562/100000 [01:08<00:07, 1346.38it/s]Episode 89600/100000, Avg Reward: 0.0320, Epsilon: 0.100
+Episode 89700/100000, Avg Reward: 2.6370, Epsilon: 0.100
+ 90%|████████▉ | 89700/100000 [01:08<00:07, 1300.72it/s]Episode 89800/100000, Avg Reward: -33.2850, Epsilon: 0.100
+ 90%|████████▉ | 89831/100000 [01:08<00:07, 1301.52it/s]Episode 89900/100000, Avg Reward: -13.1840, Epsilon: 0.100
+ 90%|████████▉ | 89970/100000 [01:08<00:07, 1324.90it/s]Episode 90000/100000, Avg Reward: 29.6850, Epsilon: 0.100
+Episode 90100/100000, Avg Reward: 15.7810, Epsilon: 0.100
+ 90%|█████████ | 90103/100000 [01:08<00:07, 1275.93it/s]Episode 90200/100000, Avg Reward: 6.5310, Epsilon: 0.100
+ 90%|█████████ | 90235/100000 [01:09<00:07, 1285.78it/s]Episode 90300/100000, Avg Reward: -39.9490, Epsilon: 0.100
+ 90%|█████████ | 90365/100000 [01:09<00:07, 1285.36it/s]Episode 90400/100000, Avg Reward: 1.3810, Epsilon: 0.100
+Episode 90500/100000, Avg Reward: 6.1940, Epsilon: 0.100
+ 90%|█████████ | 90500/100000 [01:09<00:07, 1253.80it/s]Episode 90600/100000, Avg Reward: -7.9660, Epsilon: 0.100
+ 91%|█████████ | 90641/100000 [01:09<00:07, 1298.41it/s]Episode 90700/100000, Avg Reward: 1.2590, Epsilon: 0.100
+ 91%|█████████ | 90779/100000 [01:09<00:06, 1321.56it/s]Episode 90800/100000, Avg Reward: -2.3550, Epsilon: 0.100
+Episode 90900/100000, Avg Reward: 7.1600, Epsilon: 0.100
+ 91%|█████████ | 90912/100000 [01:09<00:07, 1284.75it/s]Episode 91000/100000, Avg Reward: -15.1550, Epsilon: 0.100
+ 91%|█████████ | 91041/100000 [01:09<00:07, 1247.29it/s]Episode 91100/100000, Avg Reward: 25.5950, Epsilon: 0.100
+ 91%|█████████ | 91192/100000 [01:09<00:06, 1321.51it/s]Episode 91200/100000, Avg Reward: -6.2760, Epsilon: 0.100
+Episode 91300/100000, Avg Reward: 20.2000, Epsilon: 0.100
+ 91%|█████████▏| 91325/100000 [01:09<00:06, 1282.94it/s]Episode 91400/100000, Avg Reward: 0.6380, Epsilon: 0.100
+ 91%|█████████▏| 91473/100000 [01:10<00:06, 1338.16it/s]Episode 91500/100000, Avg Reward: -10.9840, Epsilon: 0.100
+Episode 91600/100000, Avg Reward: -10.2190, Epsilon: 0.100
+ 92%|█████████▏| 91608/100000 [01:10<00:06, 1289.66it/s]Episode 91700/100000, Avg Reward: 13.3120, Epsilon: 0.100
+ 92%|█████████▏| 91751/100000 [01:10<00:06, 1328.22it/s]Episode 91800/100000, Avg Reward: -17.6910, Epsilon: 0.100
+ 92%|█████████▏| 91897/100000 [01:10<00:05, 1364.76it/s]Episode 91900/100000, Avg Reward: -15.4370, Epsilon: 0.100
+Episode 92000/100000, Avg Reward: -33.3290, Epsilon: 0.100
+ 92%|█████████▏| 92035/100000 [01:10<00:05, 1341.72it/s]Episode 92100/100000, Avg Reward: 18.6590, Epsilon: 0.100
+ 92%|█████████▏| 92192/100000 [01:10<00:05, 1407.36it/s]Episode 92200/100000, Avg Reward: -21.6640, Epsilon: 0.100
+Episode 92300/100000, Avg Reward: -47.1980, Epsilon: 0.100
+ 92%|█████████▏| 92334/100000 [01:10<00:05, 1342.61it/s]Episode 92400/100000, Avg Reward: -42.5590, Epsilon: 0.100
+ 92%|█████████▏| 92473/100000 [01:10<00:05, 1355.88it/s]Episode 92500/100000, Avg Reward: -33.6150, Epsilon: 0.100
+Episode 92600/100000, Avg Reward: -15.2150, Epsilon: 0.100
+ 93%|█████████▎| 92610/100000 [01:10<00:05, 1296.42it/s]Episode 92700/100000, Avg Reward: 33.8490, Epsilon: 0.100
+ 93%|█████████▎| 92749/100000 [01:10<00:05, 1321.43it/s]Episode 92800/100000, Avg Reward: 22.2220, Epsilon: 0.100
+ 93%|█████████▎| 92899/100000 [01:11<00:05, 1369.58it/s]Episode 92900/100000, Avg Reward: -26.9130, Epsilon: 0.100
+Episode 93000/100000, Avg Reward: -5.6580, Epsilon: 0.100
+ 93%|█████████▎| 93037/100000 [01:11<00:05, 1318.85it/s]Episode 93100/100000, Avg Reward: -19.9510, Epsilon: 0.100
+ 93%|█████████▎| 93181/100000 [01:11<00:05, 1350.30it/s]Episode 93200/100000, Avg Reward: -36.4380, Epsilon: 0.100
+Episode 93300/100000, Avg Reward: -6.0760, Epsilon: 0.100
+ 93%|█████████▎| 93317/100000 [01:11<00:05, 1305.19it/s]Episode 93400/100000, Avg Reward: 12.9610, Epsilon: 0.100
+ 93%|█████████▎| 93465/100000 [01:11<00:04, 1354.48it/s]Episode 93500/100000, Avg Reward: -42.2350, Epsilon: 0.100
+Episode 93600/100000, Avg Reward: -36.6750, Epsilon: 0.100
+ 94%|█████████▎| 93602/100000 [01:11<00:04, 1293.15it/s]Episode 93700/100000, Avg Reward: -18.0090, Epsilon: 0.100
+ 94%|█████████▎| 93736/100000 [01:11<00:04, 1305.93it/s]Episode 93800/100000, Avg Reward: 5.7270, Epsilon: 0.100
+ 94%|█████████▍| 93875/100000 [01:11<00:04, 1329.38it/s]Episode 93900/100000, Avg Reward: -39.1180, Epsilon: 0.100
+Episode 94000/100000, Avg Reward: -25.7190, Epsilon: 0.100
+ 94%|█████████▍| 94009/100000 [01:11<00:04, 1237.67it/s]Episode 94100/100000, Avg Reward: 31.1190, Epsilon: 0.100
+ 94%|█████████▍| 94162/100000 [01:12<00:04, 1317.54it/s]Episode 94200/100000, Avg Reward: -12.6340, Epsilon: 0.100
+Episode 94300/100000, Avg Reward: 5.9110, Epsilon: 0.100
+ 94%|█████████▍| 94300/100000 [01:12<00:04, 1282.04it/s]Episode 94400/100000, Avg Reward: 8.7940, Epsilon: 0.100
+ 94%|█████████▍| 94444/100000 [01:12<00:04, 1325.62it/s]Episode 94500/100000, Avg Reward: -3.2270, Epsilon: 0.100
+ 95%|█████████▍| 94589/100000 [01:12<00:03, 1361.17it/s]Episode 94600/100000, Avg Reward: -19.5620, Epsilon: 0.100
+Episode 94700/100000, Avg Reward: 7.3410, Epsilon: 0.100
+ 95%|█████████▍| 94727/100000 [01:12<00:04, 1309.24it/s]Episode 94800/100000, Avg Reward: -3.2730, Epsilon: 0.100
+ 95%|█████████▍| 94859/100000 [01:12<00:04, 1216.35it/s]Episode 94900/100000, Avg Reward: 26.9140, Epsilon: 0.100
+ 95%|█████████▍| 94992/100000 [01:12<00:04, 1247.24it/s]Episode 95000/100000, Avg Reward: 2.5220, Epsilon: 0.100
+Episode 95100/100000, Avg Reward: 17.0600, Epsilon: 0.100
+ 95%|█████████▌| 95119/100000 [01:12<00:03, 1222.90it/s]Episode 95200/100000, Avg Reward: 25.5600, Epsilon: 0.100
+ 95%|█████████▌| 95249/100000 [01:12<00:03, 1243.87it/s]Episode 95300/100000, Avg Reward: -17.2670, Epsilon: 0.100
+ 95%|█████████▌| 95384/100000 [01:13<00:03, 1273.92it/s]Episode 95400/100000, Avg Reward: 25.2130, Epsilon: 0.100
+Episode 95500/100000, Avg Reward: 27.2410, Epsilon: 0.100
+ 96%|█████████▌| 95513/100000 [01:13<00:03, 1231.75it/s]Episode 95600/100000, Avg Reward: 19.2590, Epsilon: 0.100
+ 96%|█████████▌| 95664/100000 [01:13<00:03, 1310.62it/s]Episode 95700/100000, Avg Reward: 9.8470, Epsilon: 0.100
+Episode 95800/100000, Avg Reward: 8.9200, Epsilon: 0.100
+ 96%|█████████▌| 95800/100000 [01:13<00:03, 1283.94it/s]Episode 95900/100000, Avg Reward: 3.1580, Epsilon: 0.100
+ 96%|█████████▌| 95930/100000 [01:13<00:03, 1266.59it/s]Episode 96000/100000, Avg Reward: -27.1900, Epsilon: 0.100
+ 96%|█████████▌| 96058/100000 [01:13<00:03, 1255.43it/s]Episode 96100/100000, Avg Reward: -33.0530, Epsilon: 0.100
+ 96%|█████████▌| 96191/100000 [01:13<00:02, 1276.23it/s]Episode 96200/100000, Avg Reward: 4.1790, Epsilon: 0.100
+Episode 96300/100000, Avg Reward: -3.6960, Epsilon: 0.100
+ 96%|█████████▋| 96319/100000 [01:13<00:03, 1212.74it/s]Episode 96400/100000, Avg Reward: 5.2290, Epsilon: 0.100
+ 96%|█████████▋| 96455/100000 [01:13<00:02, 1254.03it/s]Episode 96500/100000, Avg Reward: 18.4560, Epsilon: 0.100
+ 97%|█████████▋| 96583/100000 [01:13<00:02, 1260.42it/s]Episode 96600/100000, Avg Reward: -24.5890, Epsilon: 0.100
+Episode 96700/100000, Avg Reward: -1.3250, Epsilon: 0.100
+ 97%|█████████▋| 96710/100000 [01:14<00:02, 1214.17it/s]Episode 96800/100000, Avg Reward: -18.2310, Epsilon: 0.100
+ 97%|█████████▋| 96835/100000 [01:14<00:02, 1223.40it/s]Episode 96900/100000, Avg Reward: 13.0740, Epsilon: 0.100
+ 97%|█████████▋| 96974/100000 [01:14<00:02, 1268.70it/s]Episode 97000/100000, Avg Reward: -17.3620, Epsilon: 0.100
+Episode 97100/100000, Avg Reward: -21.5250, Epsilon: 0.100
+ 97%|█████████▋| 97102/100000 [01:14<00:02, 1215.11it/s]Episode 97200/100000, Avg Reward: 19.4900, Epsilon: 0.100
+ 97%|█████████▋| 97262/100000 [01:14<00:02, 1324.12it/s]Episode 97300/100000, Avg Reward: 13.0730, Epsilon: 0.100
+Episode 97400/100000, Avg Reward: -10.2160, Epsilon: 0.100
+ 97%|█████████▋| 97400/100000 [01:14<00:02, 1277.20it/s]Episode 97500/100000, Avg Reward: 10.7890, Epsilon: 0.100
+ 98%|█████████▊| 97551/100000 [01:14<00:01, 1340.03it/s]Episode 97600/100000, Avg Reward: 26.0780, Epsilon: 0.100
+ 98%|█████████▊| 97693/100000 [01:14<00:01, 1362.79it/s]Episode 97700/100000, Avg Reward: 2.6720, Epsilon: 0.100
+Episode 97800/100000, Avg Reward: 8.0090, Epsilon: 0.100
+ 98%|█████████▊| 97831/100000 [01:14<00:01, 1332.33it/s]Episode 97900/100000, Avg Reward: 10.6870, Epsilon: 0.100
+ 98%|█████████▊| 97965/100000 [01:15<00:01, 1331.41it/s]Episode 98000/100000, Avg Reward: -18.4710, Epsilon: 0.100
+Episode 98100/100000, Avg Reward: -26.4700, Epsilon: 0.100
+ 98%|█████████▊| 98100/100000 [01:15<00:01, 1320.20it/s]Episode 98200/100000, Avg Reward: 15.3290, Epsilon: 0.100
+ 98%|█████████▊| 98252/100000 [01:15<00:01, 1377.85it/s]Episode 98300/100000, Avg Reward: -12.3690, Epsilon: 0.100
+ 98%|█████████▊| 98399/100000 [01:15<00:01, 1404.50it/s]Episode 98400/100000, Avg Reward: 2.3900, Epsilon: 0.100
+Episode 98500/100000, Avg Reward: -18.7810, Epsilon: 0.100
+ 99%|█████████▊| 98540/100000 [01:15<00:01, 1370.30it/s]Episode 98600/100000, Avg Reward: 40.5360, Epsilon: 0.100
+ 99%|█████████▊| 98690/100000 [01:15<00:00, 1407.28it/s]Episode 98700/100000, Avg Reward: 15.3220, Epsilon: 0.100
+Episode 98800/100000, Avg Reward: -21.4900, Epsilon: 0.100
+ 99%|█████████▉| 98832/100000 [01:15<00:00, 1376.62it/s]Episode 98900/100000, Avg Reward: -16.8450, Epsilon: 0.100
+ 99%|█████████▉| 98983/100000 [01:15<00:00, 1413.81it/s]Episode 99000/100000, Avg Reward: 17.9610, Epsilon: 0.100
+Episode 99100/100000, Avg Reward: 18.4020, Epsilon: 0.100
+ 99%|█████████▉| 99125/100000 [01:15<00:00, 1381.30it/s]Episode 99200/100000, Avg Reward: -5.2290, Epsilon: 0.100
+ 99%|█████████▉| 99271/100000 [01:15<00:00, 1403.84it/s]Episode 99300/100000, Avg Reward: 9.5160, Epsilon: 0.100
+Episode 99400/100000, Avg Reward: 6.1650, Epsilon: 0.100
+ 99%|█████████▉| 99412/100000 [01:16<00:00, 1135.69it/s]Episode 99500/100000, Avg Reward: -25.6510, Epsilon: 0.100
+100%|█████████▉| 99561/100000 [01:16<00:00, 1224.78it/s]Episode 99600/100000, Avg Reward: 19.6030, Epsilon: 0.100
+Episode 99700/100000, Avg Reward: -10.7450, Epsilon: 0.100
+100%|█████████▉| 99700/100000 [01:16<00:00, 1213.21it/s]Episode 99800/100000, Avg Reward: 28.0570, Epsilon: 0.100
+100%|█████████▉| 99854/100000 [01:16<00:00, 1299.19it/s]Episode 99900/100000, Avg Reward: 8.8400, Epsilon: 0.100
+100%|█████████▉| 99997/100000 [01:16<00:00, 1334.42it/s]Episode 100000/100000, Avg Reward: 31.5090, Epsilon: 0.100
+100%|██████████| 100000/100000 [01:16<00:00, 1306.05it/s]

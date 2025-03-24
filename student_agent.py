@@ -34,14 +34,21 @@ class StateMemory:
     def reset(self):
         self.stations = []
         self.target_station_idx = 0
-        self.last_pos = (0, 0)
+        # self.last_pos = (0, 0)
+        # self.last_last_pos = (0, 0)
+        self.window_size = 2
+        self.last_positions = [(None, None)] * self.window_size
 
         self.pickedup = 0
         self.dropoff = 0
 
     def update(self, taxi_pos, stations, passenger_look, destination_look):
         self.stations = stations
-        self.last_pos = taxi_pos
+        # self.last_last_pos = self.last_pos
+        # self.last_pos = taxi_pos
+        for i in range(self.window_size-1):
+            self.last_positions[i] = self.last_positions[i+1]
+        self.last_positions[-1] = taxi_pos
 
         if taxi_pos == stations[self.target_station_idx]:
             
@@ -76,7 +83,9 @@ def my_get_state(obs, reset_memory=False):
     if reset_memory:
         # A new environment
         state_memory.reset()
-    last_pos = state_memory.last_pos
+    # last_pos = state_memory.last_pos
+    # last_last_pos = state_memory.last_last_pos
+    last_positions = state_memory.last_positions
     state_memory.update(taxi_pos, stations, passenger_look, destination_look)
 
     def get_dir(x):
@@ -96,14 +105,22 @@ def my_get_state(obs, reset_memory=False):
     # print("stations", stations)
     # print("directions", station_directions)
 
-    
+    last_positions_rel = []
+    for pos in last_positions:
+        if pos == (None, None):
+            last_positions_rel.append((0, 0))
+        else:
+            last_positions_rel.append((pos[0]-taxi_pos[0], pos[1]-taxi_pos[1]))
+
     return (    
         *obstacles, 
         *(station_directions[state_memory.target_station_idx]),
         passenger_look, 
         destination_look,
         int(taxi_pos in stations),
-        tuple(np.array(last_pos) - np.array(taxi_pos))
+        # tuple(np.array(last_last_pos) - np.array(taxi_pos)),
+        # tuple(np.array(last_pos) - np.array(taxi_pos))
+        *last_positions_rel
     )
 
 def get_action(obs):
@@ -121,13 +138,13 @@ def get_action(obs):
         # print("Random")
         # Rule-based
         action = random.choice([0, 1, 2, 3])  # Fallback for unseen states
-        stations = sorted(tuple(obs[2+i:2+i+2]) for i in range(0, len(obs[2:10]), 2))
-        taxi_pos = obs[:2]
-        if taxi_pos in stations:
-            if state[-2] and not state[-1]:
-                action = 4
-            elif state[-2] and state[-1]:
-                action = 5
+        # stations = sorted(tuple(obs[2+i:2+i+2]) for i in range(0, len(obs[2:10]), 2))
+        # taxi_pos = obs[:2]
+        # if taxi_pos in stations:
+        #     if state[6] and not state[7]:
+        #         action = 4
+        #     elif state[6] and state[7]:
+        #         action = 5
         # print(f"{action}(r)", end=" ")
     print(action, end=" ")
     

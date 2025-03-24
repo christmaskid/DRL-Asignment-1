@@ -19,11 +19,10 @@ def tabular_q_learning(env, episodes=5000, alpha=0.1, gamma=0.99,
             results_save_path="q_table_new5.pkl"):
     q_table = dict()
 
-    train_count = dict()
-
     rewards_per_episode = []
     epsilon = epsilon_start
     last_positions = []
+    last_actions = []
 
     for episode in tqdm(range(episodes)):
         obs, _ = env.reset()
@@ -58,10 +57,21 @@ def tabular_q_learning(env, episodes=5000, alpha=0.1, gamma=0.99,
                 shaped_reward += np.sum(target_station_direction * DIR_VEC[action]) * 1.5
                 
                 # Prevent the agent from looping
-                window_size = 10
-                for pos in last_positions[-min(len(last_positions), window_size):]:
+                for pos in last_positions[-min(len(last_positions), 10):]:
                     if env.taxi_pos == pos:
                         shaped_reward -= 10
+
+                # def get_opposite_dir(a):
+                #     opp = [1, 0, 3, 2]
+                #     return opp[a]
+                # if len(last_actions)>=2 \
+                #      and (last_actions[-1] == get_opposite_dir(action) or last_actions[-2] == get_opposite_dir(action)):
+                #     shaped_reward -= 10
+                # for window_size in range(2, 30):
+                #     if len(last_actions) < 2*window_size:
+                #         break
+                #     if last_actions[-2*window_size:-window_size] == last_actions[-window_size:]:
+                #         shaped_reward -= 10 # loop detected
 
             elif action == 4:
                 if not old_passenger_picked_up \
@@ -80,13 +90,14 @@ def tabular_q_learning(env, episodes=5000, alpha=0.1, gamma=0.99,
                     shaped_reward -= 100
             # if done:
             #     shaped_reward += 100
-            # if reward == -5: # collision
-            #     shaped_reward -= 100
-            elif reward == -10:
-                shaped_reward -= 200
+            if reward == -5: # collision
+                shaped_reward -= 1000
+            if reward == -10:
+                shaped_reward -= 500
 
 
             last_positions.append(env.taxi_pos)
+            last_actions.append(action)
             
             reward += shaped_reward
             total_reward += reward
@@ -129,7 +140,7 @@ if __name__ == "__main__":
         # ComplexTaxiEnv(grid_size=12, max_num_obstacles=20, fuel_limit=3000),
         # SimpleTaxiEnv(fuel_limit=500), 
         DynamicTaxiEnv(),
-        episodes=30000, decay_rate=0.995, #alpha=0.2
+        episodes=100000, decay_rate=0.999, #alpha=0.2
     )
     plt.plot(rewards)
     plt.xlabel("Episodes")
