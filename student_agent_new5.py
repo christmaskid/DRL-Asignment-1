@@ -36,7 +36,7 @@ class StateMemory:
         self.target_station_idx = 0
         # self.last_pos = (0, 0)
         # self.last_last_pos = (0, 0)
-        self.window_size = 2
+        self.window_size = 3
         self.last_positions = [(None, None)] * self.window_size
 
         self.pickedup = 0
